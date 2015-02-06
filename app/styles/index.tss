@@ -1,0 +1,184 @@
+".container": {
+	backgroundColor: "white",
+	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT],
+	navBarHidden: true,
+	exitOnClose: true
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+},
+"#main":{
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	backgroundColor: "#c4cde0",
+	left: 0,
+	layout: "vertical"
+},
+"#menu":{
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	backgroundColor: "#2c323f",
+	left: 0	
+},
+"#iconBar":{
+	width: Ti.UI.FILL,
+	height: "54dp",
+	border: 1,
+	borderColor: "#42824E",
+	backgroundColor: "#44a755"
+},
+"#topActions":{
+	width:"Ti.UI.FILL",
+	height:"50dp",
+	layout:"horizontal"
+},
+".topActionButton":{
+	 height:"50dp",
+	 width:"50dp"
+},
+
+"#searchbtn":{
+	left: "33%",
+	image: "/053-Search_60@2x.png"	
+},
+
+"#logobtn":{
+	left: "33%",
+	image:"/292-HighFive_60@2x.png" 
+},
+"#menuBar":{
+	bottom: "0",
+	backgroundColor: "#44a755",
+	width: Ti.UI.FILL,
+	height: "15%",
+	layout: "horizontal",
+	position: "fixed",
+},
+"#grayLine":{
+	backgroundColor: "#9b9d9f",
+	width: Ti.UI.FILL,
+	height: "1"	
+},
+"#mainList":{
+	backgroundColor: "#c4cde0",
+	separatorStyle: "NONE"
+},
+"#listRow":{
+	height: "200dp",
+	selectionStyle: "NONE",
+	className:"listRow"
+},
+
+"#rowContainer":{
+	borderColor: "#cacdd8",
+	borderRadius: 3,
+	borderWidth: 1,
+	left: "2dp",
+	right:"2dp",
+	top: "1dp",
+	right: "5dp",
+	height: "120",
+	width: Ti.UI.FILL,
+	backgroundColor: "#eff2f5"
+},
+
+"#profilePic":{
+	 width:"66dp",
+	 height:"66dp",
+	 image: "/104-BusinessPerson_60@2x.png", 
+	 top:"10dp",
+	 left:"10dp"
+},
+"#profileName":{
+	top: "5dp",
+	left: "80dp",
+	color: "black",
+	font: {
+		fontSize : "16dp",
+		fontWeight: "bold"
+	}
+},
+"#timeAgo":{
+	top: "25dp",
+	left: "80dp",
+	color: "#bbbbbb",
+	font: {
+		fontSize : "16dp"
+	}
+},
+"#status":{
+	width: Ti.UI.SIZE,
+	left: "80dp",
+	right: 5,
+	top: "45dp",
+	display: "inline",
+	height: "auto",
+	font: {
+		fontSize : "16dp"
+	}
+	
+},
+"#bottomActions":{
+	bottom: "0",
+	height: "40dp",
+	display: "inline",
+	width: Ti.UI.FILL,
+	left: "76dp",
+	backgroundColor: "#eff2f5",
+	layout: "horizontal"
+},
+".itemActionButton":{
+	width: "25%",
+	height: "50dp"
+},
+"#likeBtn":{
+	width: "20dp",
+	height: "20dp",
+	image: "/292-HighFive_30.png"
+},
+"#donateBtn":{
+	width: "20dp",
+	height: "20dp",
+	image: "/330-Dollar_30.png"
+},
+"#commentBtn":{
+	width: "20dp",
+	height: "20dp",
+	image: "/125-Megaphone_30.png"
+},
+".tbButton":{
+	width: "25%",
+	height: "80%",
+	top: "10%",
+	bottom: "10%"
+},
+
+
+"#homeBtn":{
+	left: "15%",
+	image: "/001-Home_60@2x.png"
+},
+"#exploreBtn":{
+	left: "5%",
+	image: "/141-GlobeAS_60@2x.png"
+},
+"#notificationBtn":{
+	left: "5%",
+	image: "/127-Bell_60@2x.png"
+},
+"#myRosterBtn":{
+	left: "5%",
+	image: "/176-Clipboard_60@2x.png"
+},
+"#menubtn":{
+	left: "5%",
+	width: "10%",
+	top: "5dp",
+	bottom: "5dp",
+	image:"/271-ThreeColumn_60@2x.png"
+},
+"#newsFeed":{
+	height: "78%",
+},
