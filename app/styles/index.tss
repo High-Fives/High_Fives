@@ -134,18 +134,20 @@
 	height: "50dp"
 },
 "#likeBtn":{
-	width: "20dp",
-	height: "20dp",
+	width: "45%",
+	height: "45%",
 	image: "/292-HighFive_30.png"
 },
 "#donateBtn":{
-	width: "20dp",
-	height: "20dp",
+	left: "30%",
+	width: "45%",
+	height: "45%",
 	image: "/330-Dollar_30.png"
 },
 "#commentBtn":{
-	width: "20dp",
-	height: "20dp",
+	left: "55%",
+	width: "45%",
+	height: "45%",
 	image: "/125-Megaphone_30.png"
 },
 ".tbButton":{
