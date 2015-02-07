@@ -14,7 +14,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="testclick">Tom Ryan</Label>
+					<Label id="profileName" onClick="openProfile">Tom Ryan</Label>
 					<Label id="timeAgo">10 minutes ago</Label>
 					<Label id="status">Just volunteered at the local shelter!</Label>
 					<View id="bottomActions">
@@ -74,7 +74,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="testclick">Mark Sullivan</Label>
+					<Label id="profileName" onClick="testclick">Chris Schipper</Label>
 					<Label id="timeAgo">5 hours ago</Label>
 					<Label id="status">I just learned how to make my first program!</Label>
 					<View id="bottomActions">
@@ -126,7 +126,7 @@
 					<ImageView id="notificationBtn" onClick="testclick"></ImageView>
 				</View>
 				<View  class="tbButton">
-					<ImageView id="myRosterBtn" onClick="testclick"></ImageView>
+					<ImageView id="myRosterBtn" onClick="openMyRoster"></ImageView>
 				</View>
 			</View>
 			<View id="grayLine"></View>

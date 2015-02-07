@@ -131,22 +131,6 @@
 	height: "50dp"
 },
 "#likeBtn":{
-<<<<<<< HEAD
-	width: "45%",
-	height: "45%",
-	image: "/292-HighFive_30.png"
-},
-"#donateBtn":{
-	left: "30%",
-	width: "45%",
-	height: "45%",
-	image: "/330-Dollar_30.png"
-},
-"#commentBtn":{
-	left: "55%",
-	width: "45%",
-	height: "45%",
-=======
 	width: "76dp",
 	height: "20dp",
 	image: "/292-HighFive_30.png"
@@ -159,7 +143,6 @@
 "#commentBtn":{
 	width: "76dp",
 	height: "20dp",
->>>>>>> dc435db3d1167f179f013af7d75b6e08754fef1d
 	image: "/125-Megaphone_30.png"
 },
 ".tbButton":{
@@ -193,6 +176,6 @@
 	bottom: "5dp",
 	image:"/271-ThreeColumn_60@2x.png"
 },
-"#newsFeed":{
+"#roster":{
 	height: "78%",
 },
