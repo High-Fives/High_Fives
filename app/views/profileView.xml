@@ -1,0 +1,77 @@
+<Alloy>
+	<Window class="container">
+		<View id="menu" onClick="showhidemenu"></View>
+		<View id="main">
+			<View id="iconBar">
+				<View id="topActions">
+					<ImageView class="topActionButton" id="logobtn" onClick="testclick"></ImageView>
+					<ImageView class="topActionButton" id="searchbtn" onClick="testclick"></ImageView>
+				</View>
+				<ImageView id="menubtn" onClick="showhidemenu"></ImageView>
+			</View>
+			
+		<TableView id="profileTable">
+			<TableViewRow id="rowContainer">
+				<ImageView id="profilePic"></ImageView>
+				<Label id="profileName">Tom Ryan</Label>
+				<Label id="profileDescription">U.S.A. Olympian</Label>
+			</TableViewRow>
+			<TableViewRow id="rowContainer">
+				<View>
+					<ImageView id="charityCube"></ImageView>
+					<Label id="charityName" onClick="testclick">Cincinnati Relief Center</Label>
+					<ImageView id ="donateBtn"></ImageView>
+					<View id="grayLine" bottom="0"></View>
+				</View>
+			</TableViewRow>
+			<TableViewRow id="rowContainer">
+				<View>
+					<ImageView id="charityCube"></ImageView>
+					<Label id="charityName" onClick="testclick">Cincinnati Relief Center</Label>
+					<ImageView id ="donateBtn"></ImageView>
+					<View id="grayLine" bottom="0"></View>
+				</View>
+			</TableViewRow>
+			<TableViewRow id="rowContainer">
+				<View>
+					<ImageView id="charityCube"></ImageView>
+					<Label id="charityName" onClick="testclick">Cincinnati Relief Center</Label>
+					<ImageView id ="donateBtn"></ImageView>
+					<View id="grayLine" bottom="0"></View>
+				</View>
+			</TableViewRow>
+			<TableViewRow id="rowContainer">
+				<View>
+					<ImageView id="charityCube"></ImageView>
+					<Label id="charityName" onClick="testclick">Cincinnati Relief Center</Label>
+					<ImageView id ="donateBtn"></ImageView>
+					<View id="grayLine" bottom="0"></View>
+				</View>
+			</TableViewRow>
+			<TableViewRow id="rowContainer">
+				<View>
+					<ImageView id="charityCube"></ImageView>
+					<Label id="charityName" onClick="testclick">Cincinnati Relief Center</Label>
+					<ImageView id ="donateBtn"></ImageView>
+					<View id="grayLine" bottom="0"></View>
+				</View>
+			</TableViewRow>
+		</TableView>
+			<View id="menuBar">
+				<View class="tbButton">
+					<ImageView id="homeBtn" onClick="openHome"></ImageView>
+				</View>
+				<View  class="tbButton">
+					<ImageView id="exploreBtn" onClick="testclick"></ImageView>
+				</View>
+				<View  class="tbButton">
+					<ImageView id="notificationBtn" onClick="testclick"></ImageView>
+				</View>
+				<View  class="tbButton">
+					<ImageView id="myRosterBtn" onClick="openMyRoster"></ImageView>
+				</View>
+			</View>
+			<View id="grayLine"></View>
+		</View>
+	</Window>
+</Alloy>

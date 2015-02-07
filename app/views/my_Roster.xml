@@ -1,0 +1,67 @@
+<Alloy>
+	<Window class="container">
+		<View id="menu" onClick="showhidemenu"></View>
+		<View id="main">
+			<View id="iconBar">
+				<View id="topActions">
+					<ImageView class="topActionButton" id="logobtn" onClick="testclick"></ImageView>
+					<ImageView class="topActionButton" id="searchbtn" onClick="testclick"></ImageView>
+				</View>
+				<ImageView id="menubtn" onClick="showhidemenu"></ImageView>
+			</View>
+			
+		<TableView id="roster">
+			<TableViewRow id="rowContainer">
+				<View>
+					<ImageView id="profilePic"></ImageView>
+					<Label id="profileName" onClick="testclick">Tom Ryan</Label>
+					<View id="grayLine" bottom="0"></View>
+				</View>
+			</TableViewRow>
+			<TableViewRow id="rowContainer">
+				<View>
+					<ImageView id="profilePic"></ImageView>
+					<Label id="profileName" onClick="testclick">Shannon Web</Label>
+					<View id="grayLine" bottom="0"></View>
+				</View>
+			</TableViewRow>
+			<TableViewRow id="rowContainer">
+				<View>
+					<ImageView id="profilePic"></ImageView>
+					<Label id="profileName" onClick="testclick">Ryan Castro</Label>
+					<View id="grayLine" bottom="0"></View>
+				</View>
+			</TableViewRow>
+			<TableViewRow id="rowContainer">
+				<View>
+					<ImageView id="profilePic"></ImageView>
+					<Label id="profileName" onClick="testclick">Chris Schipper</Label>
+					<View id="grayLine" bottom="0"></View>
+				</View>
+			</TableViewRow>
+			<TableViewRow id="rowContainer">
+				<View>
+					<ImageView id="profilePic"></ImageView>
+					<Label id="profileName" onClick="testclick">Tom Ryan</Label>
+					<View id="grayLine" bottom="0"></View>
+				</View>
+			</TableViewRow>
+		</TableView>
+			<View id="menuBar">
+				<View class="tbButton">
+					<ImageView id="homeBtn" onClick="openHome"></ImageView>
+				</View>
+				<View  class="tbButton">
+					<ImageView id="exploreBtn" onClick="testclick"></ImageView>
+				</View>
+				<View  class="tbButton">
+					<ImageView id="notificationBtn" onClick="testclick"></ImageView>
+				</View>
+				<View  class="tbButton">
+					<ImageView id="myRosterBtn" onClick="testclick"></ImageView>
+				</View>
+			</View>
+			<View id="grayLine"></View>
+		</View>
+	</Window>
+</Alloy>

@@ -33,17 +33,11 @@ function showhidemenu(e){
 		duration:100
 	});
 }
-function openProfile(){
-	var profileView = Alloy.createController('profileView').getView();
-	profileView.open();
+
+function openHome() {
+    var index = Alloy.createController('index').getView();
+    index.open();
 }
-
-function openMyRoster() {
-    var my_Roster = Alloy.createController('my_Roster').getView();
-    my_Roster.open();
-}
-
-
 
 // This bit listens to the orientation change and re-establishes the width 
 // of the "main" view, allowing the layout to survive after orientation changes
@@ -51,4 +45,4 @@ Ti.Gesture.addEventListener('orientationchange', function(e) {
     $.main.width=Ti.Platform.displayCaps.platformWidth;
 });
 
-$.index.open();
+$.my_Roster.open();

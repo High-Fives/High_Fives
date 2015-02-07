@@ -38,12 +38,10 @@
 	 height:"50dp",
 	 width:"50dp"
 },
-
 "#searchbtn":{
 	left: "33%",
 	image: "/053-Search_60@2x.png"	
 },
-
 "#logobtn":{
 	left: "33%",
 	image:"/292-HighFive_60@2x.png" 
@@ -70,7 +68,6 @@
 	selectionStyle: "NONE",
 	className:"listRow"
 },
-
 "#rowContainer":{
 	borderColor: "#cacdd8",
 	borderRadius: 3,
@@ -83,15 +80,42 @@
 	width: Ti.UI.FILL,
 	backgroundColor: "#eff2f5"
 },
-
 "#profilePic":{
+	width:"66dp",
+	height:"66dp",
+	image: "/104-BusinessPerson_60@2x.png", 
+	top:"10dp",
+	left:"10dp"
+	
+},
+
+"#profileName": {
+	top: "5dp",
+	left: "80dp",
+	color: "black",
+	font: {
+		fontSize : "16dp",
+		fontWeight: "bold"
+	}
+},
+"#profileDescription": {
+	width: Ti.UI.SIZE,
+	left: "80dp",
+	right: 5,
+	top: "45dp",
+	display: "inline",
+	font: {
+		fontSize : "16dp"
+	}
+},
+"#charityCube": {
 	 width:"66dp",
 	 height:"66dp",
-	 image: "/104-BusinessPerson_60@2x.png", 
+	 image: "/231-Cube_60@2x.png", 
 	 top:"10dp",
 	 left:"10dp"
 },
-"#profileName":{
+"#charityName":{
 	top: "5dp",
 	left: "80dp",
 	color: "black",
@@ -151,8 +175,6 @@
 	top: "10%",
 	bottom: "10%"
 },
-
-
 "#homeBtn":{
 	left: "15%",
 	image: "/001-Home_60@2x.png"
@@ -176,6 +198,6 @@
 	bottom: "5dp",
 	image:"/271-ThreeColumn_60@2x.png"
 },
-"#newsFeed":{
+"#profileTable":{
 	height: "78%",
 },

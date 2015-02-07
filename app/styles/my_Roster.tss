@@ -176,6 +176,6 @@
 	bottom: "5dp",
 	image:"/271-ThreeColumn_60@2x.png"
 },
-"#newsFeed":{
+"#roster":{
 	height: "78%",
 },
