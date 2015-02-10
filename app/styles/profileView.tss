@@ -87,7 +87,7 @@
 	font: {
 		fontSize : "16dp",
 		fontWeight: "bold"
-	}
+	},
 },
 "#profileDescription": {
 	width: Ti.UI.SIZE,

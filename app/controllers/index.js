@@ -69,6 +69,7 @@ function openProfile() {
     var profile = Alloy.createController('profileView').getView();
     profile.open();
 }
+
 /////////////////////////End Page Open Statements/////////////////////////
 
 

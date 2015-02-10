@@ -12,7 +12,7 @@
 		<TableView id="profileTable">
 			<TableViewRow id="rowContainer">
 				<ImageView id="profilePic"></ImageView>
-				<Label id="profileName">Tom Ryan</Label>
+				<Label id="profileName" text=""></Label>
 				<Label id="profileDescription">U.S.A. Olympian</Label>
 			</TableViewRow>
 			<TableViewRow id="rowContainer">
