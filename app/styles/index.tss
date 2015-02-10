@@ -84,11 +84,10 @@
 },
 
 "#profilePic":{
-	 width:"66dp",
-	 height:"66dp",
+	 width:"20%",
 	 image: "/104-BusinessPerson_60@2x.png", 
-	 top:"10dp",
-	 left:"10dp"
+	 top:"0%",
+	 left:"0%"
 },
 "#profileName":{
 	top: "5dp",
@@ -118,10 +117,9 @@
 	}
 },
 "#bottomActions":{
-	bottom: "0",
+	bottom: "0%",
 	height: "40dp",
 	width: Ti.UI.FILL,
-	left: "76dp",
 	backgroundColor: "#eff2f5"
 },
 ".itemActionButton":{
@@ -129,17 +127,17 @@
 	height: "100%"
 },
 "#likeBtn":{
-	left: "20%",
+	left: "5%",
 	height: "45%",
 	image: "/292-HighFive_30.png"
 },
 "#donateBtn":{
-	left: "15%",
+	left: "35%",
 	height: "45%",
 	image: "/330-Dollar_30.png"
 },
 "#commentBtn":{
-	left: "10%",
+	left: "65%",
 	height: "45%",
 	image: "/125-Megaphone_30.png"
 },
