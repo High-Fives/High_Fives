@@ -47,14 +47,6 @@
 	image: "/053-Search_60@2x.png"	
 },
 
-"#menuBar":{
-	bottom: "0",
-	backgroundColor: "#44a755",
-	width: Ti.UI.FILL,
-	height: "15%",
-	layout: "horizontal",
-	position: "fixed",
-},
 "#grayLine":{
 	backgroundColor: "#9b9d9f",
 	width: Ti.UI.FILL,
@@ -141,29 +133,37 @@
 	height: "45%",
 	image: "/125-Megaphone_30.png"
 },
+"#menuBar":{
+	bottom: "0%",
+	backgroundColor: "#44a755",
+	width: Ti.UI.FILL,
+	height: "7%",
+	layout: "horizontal",
+},
 ".tbButton":{
 	width: "25%",
-	height: "80%",
-	top: "10%",
-	bottom: "10%"
+	height: "100%",
+	//top: "10%",
+	//bottom: "10%"
 },
 "#homeBtn":{
-	left: "25%",
+	height:"100%",
 	image: "/001-Home_60@2x.png"
 },
 "#exploreBtn":{
-	left: "25%",
+	//left: "25%",
+	height:"100%",
 	image: "/141-GlobeAS_60@2x.png"
 },
 "#notificationBtn":{
-	left: "25%",
+	height:"100%",
 	image: "/127-Bell_60@2x.png"
 },
 "#myRosterBtn":{
-	left: "25%",
+	height:"100%",
 	image: "/176-Clipboard_60@2x.png"
 },
 
 "#newsFeed":{
-	height: "78%",
+	height: "86%",
 },
