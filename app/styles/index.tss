@@ -123,40 +123,25 @@
 	height: "40dp",
 	width: Ti.UI.FILL,
 	left: "76dp",
-	backgroundColor: "#eff2f5",
-	layout: "horizontal"
+	backgroundColor: "#eff2f5"
 },
 ".itemActionButton":{
-	width: "25%",
-	height: "50dp"
+	right: "0%",
+	height: "100%"
 },
 "#likeBtn":{
-	width: "45%",
+	left: "20%",
 	height: "45%",
 	image: "/292-HighFive_30.png"
 },
 "#donateBtn":{
-	left: "30%",
-	width: "45%",
+	left: "15%",
 	height: "45%",
 	image: "/330-Dollar_30.png"
 },
 "#commentBtn":{
-	left: "55%",
-	width: "45%",
+	left: "10%",
 	height: "45%",
-	width: "76dp",
-	height: "20dp",
-	image: "/292-HighFive_30.png"
-},
-"#donateBtn":{
-	width: "76dp",
-	height: "20dp",
-	image: "/330-Dollar_30.png"
-},
-"#commentBtn":{
-	width: "76dp",
-	height: "20dp",
 	image: "/125-Megaphone_30.png"
 },
 ".tbButton":{
@@ -165,22 +150,20 @@
 	top: "10%",
 	bottom: "10%"
 },
-
-
 "#homeBtn":{
-	left: "15%",
+	left: "25%",
 	image: "/001-Home_60@2x.png"
 },
 "#exploreBtn":{
-	left: "5%",
+	left: "25%",
 	image: "/141-GlobeAS_60@2x.png"
 },
 "#notificationBtn":{
-	left: "5%",
+	left: "25%",
 	image: "/127-Bell_60@2x.png"
 },
 "#myRosterBtn":{
-	left: "5%",
+	left: "25%",
 	image: "/176-Clipboard_60@2x.png"
 },
 "#menubtn":{
