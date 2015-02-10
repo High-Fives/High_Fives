@@ -22,32 +22,31 @@
 	backgroundColor: "#2c323f",
 	left: 0	
 },
-"#iconBar":{
-	width: Ti.UI.FILL,
-	height: "54dp",
+"#iconBar":{ //top bar
+	width: "100%",
+	height: "7%",
 	border: 1,
 	borderColor: "#42824E",
 	backgroundColor: "#44a755"
 },
 "#topActions":{
-	width:"Ti.UI.FILL",
-	height:"50dp",
-	layout:"horizontal"
+	height:"100%"
 },
 ".topActionButton":{
-	 height:"50dp",
-	 width:"50dp"
+	 height:"100%"
 },
-
+"#menubtn":{
+	left: "5%",
+	image:"/271-ThreeColumn_60@2x.png"
+},
+"#logobtn":{
+	image:"/292-HighFive_60@2x.png" 
+},
 "#searchbtn":{
-	left: "33%",
+	right: "5%",
 	image: "/053-Search_60@2x.png"	
 },
 
-"#logobtn":{
-	left: "33%",
-	image:"/292-HighFive_60@2x.png" 
-},
 "#menuBar":{
 	bottom: "0",
 	backgroundColor: "#44a755",
@@ -183,13 +182,7 @@
 	left: "5%",
 	image: "/176-Clipboard_60@2x.png"
 },
-"#menubtn":{
-	left: "5%",
-	width: "10%",
-	top: "5dp",
-	bottom: "5dp",
-	image:"/271-ThreeColumn_60@2x.png"
-},
+
 "#newsFeed":{
 	height: "78%",
 },
