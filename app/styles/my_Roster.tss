@@ -64,53 +64,33 @@
 	className:"listRow"
 },
 
-"#rowContainer":{
+"#rowContainer":{ 
 	borderColor: "#cacdd8",
 	borderRadius: 3,
 	borderWidth: 1,
-	left: "2dp",
-	right:"2dp",
-	top: "1dp",
-	right: "5dp",
-	height: "120",
+	left: "0%",
+	right:"0%",
+	height: "100dp",  //keep this height hard coded, want same size on all devices
 	width: Ti.UI.FILL,
 	backgroundColor: "#eff2f5"
 },
 
 "#profilePic":{
-	 width:"66dp",
-	 height:"66dp",
+	 height:"100%",
 	 image: "/104-BusinessPerson_60@2x.png", 
-	 top:"10dp",
-	 left:"10dp"
+	 top:"0%",
+	 left:"0%"
 },
 "#profileName":{
-	top: "5dp",
-	left: "80dp",
+	top: "1dp",
+	left: "120dp", //pic will come 100dp's over so this is 20dp's to the right of that
 	color: "black",
 	font: {
-		fontSize : "16dp",
+		fontSize : "15dp",
 		fontWeight: "bold"
 	}
 },
-"#timeAgo":{
-	top: "25dp",
-	left: "80dp",
-	color: "#bbbbbb",
-	font: {
-		fontSize : "16dp"
-	}
-},
-"#status":{
-	width: Ti.UI.SIZE,
-	left: "80dp",
-	right: 5,
-	top: "45dp",
-	display: "inline",
-	font: {
-		fontSize : "16dp"
-	}
-},
+
 "#bottomActions":{
 	bottom: "0",
 	height: "40dp",
