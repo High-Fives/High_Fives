@@ -19,7 +19,10 @@
 				<View>
 					<ImageView id="charityCube"></ImageView>
 					<Label id="charityName" onClick="testclick">Cincinnati Relief Center</Label>
-					<ImageView id ="donateBtn"></ImageView>
+					<View id="charityPageContainerContent">
+						<Label id="charityDonateAmount">22,000</Label>
+						<ImageView id ="charityPageDonateBtn"></ImageView>
+					</View>
 					<View id="grayLine" bottom="0"></View>
 				</View>
 			</TableViewRow>
@@ -27,7 +30,9 @@
 				<View>
 					<ImageView id="charityCube"></ImageView>
 					<Label id="charityName" onClick="testclick">Cincinnati Relief Center</Label>
-					<ImageView id ="donateBtn"></ImageView>
+					<View id="charityPageContainerContent">
+						<ImageView id ="charityPageDonateBtn"></ImageView>
+					</View>
 					<View id="grayLine" bottom="0"></View>
 				</View>
 			</TableViewRow>
@@ -35,7 +40,9 @@
 				<View>
 					<ImageView id="charityCube"></ImageView>
 					<Label id="charityName" onClick="testclick">Cincinnati Relief Center</Label>
-					<ImageView id ="donateBtn"></ImageView>
+					<View id="charityPageContainerContent">
+						<ImageView id ="charityPageDonateBtn"></ImageView>
+					</View>
 					<View id="grayLine" bottom="0"></View>
 				</View>
 			</TableViewRow>
@@ -43,7 +50,9 @@
 				<View>
 					<ImageView id="charityCube"></ImageView>
 					<Label id="charityName" onClick="testclick">Cincinnati Relief Center</Label>
-					<ImageView id ="donateBtn"></ImageView>
+					<View id="charityPageContainerContent">
+						<ImageView id ="charityPageDonateBtn"></ImageView>
+					</View>
 					<View id="grayLine" bottom="0"></View>
 				</View>
 			</TableViewRow>
@@ -51,7 +60,9 @@
 				<View>
 					<ImageView id="charityCube"></ImageView>
 					<Label id="charityName" onClick="testclick">Cincinnati Relief Center</Label>
-					<ImageView id ="donateBtn"></ImageView>
+					<View id="charityPageContainerContent">
+						<ImageView id ="charityPageDonateBtn"></ImageView>
+					</View>
 					<View id="grayLine" bottom="0"></View>
 				</View>
 			</TableViewRow>

@@ -91,12 +91,12 @@
 },
 "#timeAgo":{
 	top: "1dp",
-	right: "5%",
-	color: "#bbbbbb",
-	font: {
-		fontSize : "15dp"
+	right:"5%",
+	color:"#bbbbbb",
+	font:{
+		fontsize:"15dp"
 	}
-},
+}
 "#status":{
 	left: "120dp", //pic will come 100dp's over so this is 20dp's to the right of that
 	right: "5%",
