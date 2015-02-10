@@ -41,7 +41,7 @@ function showhidemenu(e){
  * Opens My_Roster Page
  */
 function openMyRoster(){
-	var my_roster = Alloy.createController('my_Roster').getView();
+	var my_Roster = Alloy.createController('my_Roster').getView();
 	my_Roster.open();
 }
 
@@ -58,8 +58,8 @@ function openHome() {
  *  
  */
 function openNotifications() {
-    var notifications = Alloy.createController('Notifications').getView();
-    Notifications.open();
+    var notifications = Alloy.createController('notifications').getView();
+    notifications.open();
 }
 
 /**
