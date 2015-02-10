@@ -6,8 +6,8 @@
 				<View id="topActions">
 					<ImageView class="topActionButton" id="logobtn" onClick="testclick"></ImageView>
 					<ImageView class="topActionButton" id="searchbtn" onClick="testclick"></ImageView>
+					<ImageView class="topActionButton" id="menubtn" onClick="showhidemenu"></ImageView>
 				</View>
-				<ImageView id="menubtn" onClick="showhidemenu"></ImageView>
 			</View>
 			
 		<TableView id="roster">
