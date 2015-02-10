@@ -80,38 +80,36 @@
 	 left:"0%"
 },
 
-"#profileName": {
-	top: "5dp",
-	left: "80dp",
+"#profileName":{
+	top: "1dp",
+	left: "120dp", //pic will come 100dp's over so this is 20dp's to the right of that
 	color: "black",
 	font: {
-		fontSize : "16dp",
+		fontSize : "15dp",
 		fontWeight: "bold"
 	},
 },
 "#profileDescription": {
-	width: Ti.UI.SIZE,
-	left: "80dp",
-	right: 5,
-	top: "45dp",
+	left: "120dp", //pic will come 100dp's over so this is 20dp's to the right of that
+	right: "5%",
+	top: "20dp",
 	display: "inline",
 	font: {
-		fontSize : "16dp"
+		fontSize : "15dp"
 	}
 },
 "#charityCube": {
-	 width:"66dp",
-	 height:"66dp",
-	 image: "/231-Cube_60@2x.png", 
-	 top:"10dp",
-	 left:"10dp"
+	 height:"100%",
+	 top:"0%",
+	 left:"0%",
+	 image: "/231-Cube_60@2x.png"
 },
 "#charityName":{
-	top: "5dp",
-	left: "80dp",
+	top: "1dp",
+	left: "120dp", //pic will come 100dp's over so this is 20dp's to the right of that
 	color: "black",
 	font: {
-		fontSize : "16dp",
+		fontSize : "15dp",
 		fontWeight: "bold"
 	}
 },
@@ -145,22 +143,34 @@
 	width: "25%",
 	height: "50dp"
 },
-"#likeBtn":{
-	width: "76dp",
-	height: "20dp",
-	image: "/292-HighFive_30.png"
-},
-"#donateBtn":{
-	width: "76dp",
-	height: "20dp",
+"#charityPageDonateBtn":{
+	left: "120dp",
+	top: "50%",
+	height: "40%",
 	image: "/330-Dollar_30.png"
 },
-"#commentBtn":{
-	width: "76dp",
-	height: "20dp",
-	image: "/125-Megaphone_30.png"
+"#charityPageDonateBtn":{
+	left: "0%",
+	height: "100%",
+	image: "/330-Dollar_30.png"
 },
-////////////////////////////////////////bottom buttons
+"#charityDonateAmount":{
+	lwidth: Ti.UI.SIZE,
+	left: "55dp",
+	height: "100%",
+	display: "inline",
+	font: {
+		fontSize : "40dp"
+	}
+},
+"#charityPageContainerContent":{
+	left:"120dp",
+	bottom: "10%",
+	height: "50%",
+	width: Ti.UI.FILL,
+	backgroundColor: "#eff2f5"
+},
+/////////////////////////////////////bottom buttons
 "#menuBar":{
 	bottom: "0%",
 	backgroundColor: "#44a755",

@@ -91,12 +91,12 @@
 },
 "#timeAgo":{
 	top: "1dp",
-	right: "5%",
-	color: "#bbbbbb",
-	font: {
-		fontSize : "15dp"
+	right:"5%",
+	color:"#bbbbbb",
+	font:{
+		fontsize:"15dp"
 	}
-},
+}
 "#status":{
 	left: "120dp", //pic will come 100dp's over so this is 20dp's to the right of that
 	right: "5%",
@@ -117,31 +117,31 @@
 	height: "100%"
 },
 "#likeBtn":{
-	left: "5%",
+	right: "92%",
 	height: "70%",
 	image: "/292-HighFive_30.png"
 },
 "#donateBtn":{
-	left: "35%",
+	right: "62%",
 	height: "80%",
 	image: "/330-Dollar_30.png"
 },
 "#commentBtn":{
-	left: "65%",
+	right: "32%",
 	height: "70%",
 	image: "/125-Megaphone_30.png"
 },
 "#likeAmount":{
-	left: "12%", 			//will mess up on different screen, with of button hard coded(as it should be) but..
+	left: "9%", 			//will mess up on different screen, with of button hard coded(as it should be) but..
 							//position from the left is a percent(as it should be) making amounts farther right on larger screens...
 							//left needs to equal 5% + 24dp(width of button). but can't do.
 },							//So far tests with just percent on tablet and web look good, verify for your phone
 "#donateAmount":{	
-	left: "42%",
+	left: "39%",
 	//height: "80%",
 },
 "#replyAmount":{
-	left: "72%",			
+	left: "69%",			
 	//height: "80%",
 
 },
