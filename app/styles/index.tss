@@ -117,17 +117,17 @@
 },
 "#likeBtn":{
 	left: "5%",
-	height: "80%",
+	height: "70%",
 	image: "/292-HighFive_30.png"
 },
 "#donateBtn":{
 	left: "35%",
-	height: "100%",
+	height: "80%",
 	image: "/330-Dollar_30.png"
 },
 "#commentBtn":{
 	left: "65%",
-	height: "80%",
+	height: "70%",
 	image: "/125-Megaphone_30.png"
 },
 "#likeAmount":{
