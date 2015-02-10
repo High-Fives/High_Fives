@@ -34,10 +34,40 @@ function showhidemenu(e){
 	});
 }
 
+/////////////////////////Begin Page Open Statements/////////////////////////
+/**
+ * Opens My_Roster Page
+ */
+function openMyRoster(){
+	var my_roster = Alloy.createController('my_Roster').getView();
+	my_Roster.open();
+}
+
+/**
+ * Opens index (home) page
+ */
 function openHome() {
     var index = Alloy.createController('index').getView();
     index.open();
 }
+
+/**
+ *Opens Notifications Page
+ *  
+ */
+function openNotifications() {
+    var notifications = Alloy.createController('Notifications').getView();
+    Notifications.open();
+}
+
+/**
+ *Opens Profile Page 
+ */
+function openProfile() {
+    var profile = Alloy.createController('profileView').getView();
+    profile.open();
+}
+/////////////////////////End Page Open Statements/////////////////////////
 
 // This bit listens to the orientation change and re-establishes the width 
 // of the "main" view, allowing the layout to survive after orientation changes

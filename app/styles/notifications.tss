@@ -22,7 +22,6 @@
 	backgroundColor: "#2c323f",
 	left: 0	
 },
-///////////////////////////////////// top bar
 "#iconBar":{ //top bar
 	width: "100%",
 	height: "7%",
@@ -47,7 +46,7 @@
 	right: "5%",
 	image: "/053-Search_60@2x.png"	
 },
-//////////////////////////////////
+
 "#grayLine":{
 	backgroundColor: "#9b9d9f",
 	width: Ti.UI.FILL,
@@ -145,7 +144,7 @@
 	//height: "80%",
 
 },
-////////////////////////////////////////bottom buttons
+
 "#menuBar":{
 	bottom: "0%",
 	backgroundColor: "#44a755",
@@ -176,7 +175,7 @@
 	height:"100%",
 	image: "/176-Clipboard_60@2x.png"
 },
-//////////////////////////////////////////
+
 "#newsFeed":{
 	height: "84%",
 }

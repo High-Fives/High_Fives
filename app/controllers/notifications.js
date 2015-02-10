@@ -58,8 +58,8 @@ function openHome() {
  *  
  */
 function openNotifications() {
-    var notifications = Alloy.createController('Notifications').getView();
-    Notifications.open();
+    var notifications = Alloy.createController('notifications').getView();
+    notifications.open();
 }
 
 /**
@@ -80,4 +80,4 @@ Ti.Gesture.addEventListener('orientationchange', function(e) {
     $.main.width=Ti.Platform.displayCaps.platformWidth;
 });
 
-$.index.open();
+$.notifications.open();
