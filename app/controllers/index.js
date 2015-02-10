@@ -7,9 +7,9 @@ function testclick(e){
 function likeunlike(e){
 	// change like/unlike image, based on the current image
 	if (e.source.image==="/330-Dollar_30.png"){
-		e.source.image="/Green-Dollar-Sign.png"
+		e.source.image="/Green-Dollar-Sign.png";
 	}else{
-		e.source.image="/330-Dollar_30.png"
+		e.source.image="/330-Dollar_30.png";
 	}
 }
 
