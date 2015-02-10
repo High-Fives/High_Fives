@@ -35,7 +35,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Shannon Web</Label>
+					<Label id="profileName" onClick="testclick">Shannon Web</Label>
 					<Label id="timeAgo">25 minutes ago</Label>
 					<Label id="status">Just saw Tom Ryan at the shelter!</Label>
 					<View id="bottomActions">
@@ -55,7 +55,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Ryan Castro</Label>
+					<Label id="profileName" onClick="testclick">Ryan Castro</Label>
 					<Label id="timeAgo">1 hour ago</Label>
 					<Label id="status">Got a new puppy!</Label>
 					<View id="bottomActions">
@@ -75,7 +75,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Chris Schipper</Label>
+					<Label id="profileName" onClick="testclick">Chris Schipper</Label>
 					<Label id="timeAgo">5 hours ago</Label>
 					<Label id="status">I just learned how to make my first program!</Label>
 					<View id="bottomActions">
@@ -95,7 +95,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Tom Ryan</Label>
+					<Label id="profileName" onClick="testclick">Tom Ryan</Label>
 					<Label id="timeAgo">10 hours ago</Label>
 					<Label id="status">Make today the best day you can! I believe in you!</Label>
 					<View id="bottomActions">
@@ -118,7 +118,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Mark Sullivan</Label>
+					<Label id="profileName" onClick="testclick">Mark Sullivan</Label>
 					<Label id="timeAgo">12 hours ago</Label>
 					<Label id="status">Making good progress on the development of High Fives.</Label>
 					<View id="bottomActions">
@@ -139,13 +139,13 @@
 		
 			<View id="menuBar">
 				<View class="tbButton">
-					<ImageView id="homeBtn" onClick="openHome"></ImageView>
+					<ImageView id="homeBtn" onClick="testclick"></ImageView>
 				</View>
 				<View  class="tbButton">
 					<ImageView id="exploreBtn" onClick="testclick"></ImageView>
 				</View>
 				<View  class="tbButton">
-					<ImageView id="notificationBtn" onClick="openNotifications"></ImageView>
+					<ImageView id="notificationBtn" onClick="testclick"></ImageView>
 				</View>
 				<View  class="tbButton">
 					<ImageView id="myRosterBtn" onClick="openMyRoster"></ImageView>

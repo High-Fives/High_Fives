@@ -65,7 +65,7 @@
 					<ImageView id="exploreBtn" onClick="testclick"></ImageView>
 				</View>
 				<View  class="tbButton">
-					<ImageView id="notificationBtn" onClick="testclick"></ImageView>
+					<ImageView id="notificationBtn" onClick="openNotifications"></ImageView>
 				</View>
 				<View  class="tbButton">
 					<ImageView id="myRosterBtn" onClick="openMyRoster"></ImageView>
