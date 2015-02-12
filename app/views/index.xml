@@ -2,17 +2,19 @@
 	<Window id="index"  backgroundColor="#49b049">
 		 <ImageView id="hand" image="/292-HighFive_60@2x.png" top="4%" height="15%"/>
          <ImageView id="HighFivesWords" image="/HighFivesWords.png" top="22%" height="10%"/>
-         <Label id="lblEmail" color="white" text="email:" top="50%" width="55%" height="3%"/>
-		 <TextField id="email" backgroundColor="White" 
-		 	clearOnEdit="true" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_ROUNDED"
-		 	color="#336699" top="53%" width="55%" height="5%" />
-		 <Label id="lblPassword" color="white" text="password:" top="58%" width="55%" height="3%"/>
-		 <TextField id="password" passwordMask=true backgroundColor="White" clearOnEdit="true" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_ROUNDED" 
-		 	color="#336699" top="61%" width="55%" height="5%" />
-		 <Button id="button"  onClick="LoginClicked" title="Login" color="blue"
-            top="69%" width="55%" height="5%" />
+         <View id="loginInfo">
+         	<Label id="lblEmail" color="white" text="email:" top="0dp" width="55%" height="20dp"/>
+		 	<TextField class="textFieldInfo" id="email"/>
+		 	
+		 	<Label id="lblPassword" color="white" text="password:" top="56dp" width="55%" height="20dp"/>
+		 	<TextField class="textFieldInfo" id="password"/>
+		 	
+		 	<Button id="button"  onClick="LoginClicked" title="Login" color="blue"
+           	 top="118dp" width="55%" height="35dp" />
+        </View>
          <Button id="SignUp"  onClick="SignUpClicked" title="Sign Up" color="blue"
-            top="94%" width="20%" height="5%" />
+           	top="94%" width="20%" height="35dp" />
+           
           <!--<Label id="SignUp" onClick="SignUpClicked" color="white" text="Sign Up For High Fives" top="95%" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"
           	 width="Ti.UI.SIZE" height="Ti.UI.SIZE" />-->
           	 

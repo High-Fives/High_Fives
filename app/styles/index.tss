@@ -1,15 +1,34 @@
 ".container": {
-	backgroundColor:"white"
-}
-
+	backgroundColor: "white",
+	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT],
+	navBarHidden: true,
+	exitOnClose: true
+},
 "Label": {
 	width: Ti.UI.SIZE,
 	height: Ti.UI.SIZE,
 	color: "#000"
-}
-
-"#label": {
+},
+"#loginInfo":{
+	height:"40%",
+	width: Titanium.UI.FILL,
+	top: "50%"
+},
+".textFieldInfo":{
+	width:"55%",
+	height: "30dp",
+	backgroundColor:"White",
+	borderStyle:"Titanium.UI.INPUT_BORDERSTYLE_ROUNDED",
+	clearOnEdit:true,
+	color:"#336699",
 	font: {
-		fontSize: 12
+		fontSize : "12dp"
 	}
+},
+"#email":{
+	top:"22dp"	
+},
+"#password":{
+	 passwordMask:true,
+	 top:"78dp"
 }
