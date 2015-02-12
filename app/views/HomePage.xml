@@ -172,7 +172,7 @@
 					<ImageView id="homeBtn" onClick="openHome"></ImageView>
 				</View>
 				<View  class="tbButton">
-					<ImageView id="exploreBtn" onClick="testclick"></ImageView>
+					<ImageView id="exploreBtn" onClick="openExplore"></ImageView>
 				</View>
 				<View  class="tbButton">
 					<ImageView id="notificationBtn" onClick="openNotifications"></ImageView>

@@ -63,6 +63,11 @@ function openNotifications() {
     notifications.open();
 }
 
+function openExplore() {
+	var explore = Alloy.createController('explore').getView();
+	explore.open();
+}
+
 /**
  *Opens Profile Page 
  */
