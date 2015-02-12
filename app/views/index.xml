@@ -4,12 +4,11 @@
          <ImageView id="HighFivesWords" image="/HighFivesWords.png" top="22%" height="10%"/>
          <View id="loginInfo">
          	<Label id="lblEmail" color="white" text="email:" top="0dp" width="55%" height="20dp"/>
-		 	<TextField id="email" backgroundColor="White" 
-		 		clearOnEdit="true" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_ROUNDED"
-		 		color="#336699" top="22dp" width="55%" height="30dp" />
+		 	<TextField class="textFieldInfo" id="email"/>
+		 	
 		 	<Label id="lblPassword" color="white" text="password:" top="56dp" width="55%" height="20dp"/>
-		 	<TextField id="password" passwordMask=true backgroundColor="White" clearOnEdit="true" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_ROUNDED" 
-		 		color="#336699" top="78dp" width="55%" height="30dp" />
+		 	<TextField class="textFieldInfo" id="password"/>
+		 	
 		 	<Button id="button"  onClick="LoginClicked" title="Login" color="blue"
            	 top="118dp" width="55%" height="35dp" />
         </View>
