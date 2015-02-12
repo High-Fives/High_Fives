@@ -69,7 +69,7 @@
 	borderWidth: 1,
 	left: "0%",
 	right:"0%",
-	height: "100dp",  //keep this height hard coded, want same size on all devices
+	height: "90dp",  //keep this height hard coded, want same size on all devices
 	width: Ti.UI.FILL,
 	backgroundColor: "#eff2f5"
 },
@@ -80,12 +80,13 @@
 	 top:"0%",
 	 left:"0%"
 },
+
 "#profileName":{
 	top: "1dp",
 	left: "120dp", //pic will come 100dp's over so this is 20dp's to the right of that
 	color: "black",
 	font: {
-		fontSize : "15dp",
+		fontSize : "14dp",
 		fontWeight: "bold"
 	}
 },
@@ -94,7 +95,7 @@
 	right:"5%",
 	color:"#bbbbbb",
 	font:{
-		fontsize:"15dp"
+		fontsize:"12dp"
 	}
 }
 "#status":{
@@ -103,7 +104,7 @@
 	top: "20dp",
 	display: "inline",
 	font: {
-		fontSize : "15dp"
+		fontSize : "12dp"
 	}
 },
 "#bottomActions":{
@@ -179,4 +180,37 @@
 //////////////////////////////////////////
 "#newsFeed":{
 	height: "84%",
+},
+
+
+////////////////////////////////Hard Coded Profile Pictures////////////////////////////////
+"#chrisPic":{
+	height:"100%",					//This is hardcoded. Eventually, we need to create javascript to load
+	 image: "/Chris_Pic.png", 		//the picture based on the user id
+	 top:"0%",
+	 left:"0%"
+},
+"#mikePic":{
+	height:"100%",					//This is hardcoded. Eventually, we need to create javascript to load
+	 image: "/Mike_Stahr_Pic.jpg", 		//the picture based on the user id
+	 top:"0%",
+	 left:"0%"
+},
+"#irinaPic":{
+	height:"100%",					//This is hardcoded. Eventually, we need to create javascript to load
+	 image: "/Irina_Pic.jpg", 		//the picture based on the user id
+	 top:"0%",
+	 left:"0%"
+},
+"#thomasPic":{
+	height:"100%",					//This is hardcoded. Eventually, we need to create javascript to load
+	 image: "/Thomas_Pic.jpg", 		//the picture based on the user id
+	 top:"0%",
+	 left:"0%"
+},
+"#natePic":{
+	height:"100%",					//This is hardcoded. Eventually, we need to create javascript to load
+	 image: "/Nate_Pic.jpg", 		//the picture based on the user id
+	 top:"0%",
+	 left:"0%"
 }

@@ -13,8 +13,8 @@
 		<TableView id="newsFeed">
 			<TableViewRow id="rowContainer">
 				<View>
-					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Tom Ryan</Label>
+					<ImageView id="natePic"></ImageView>
+					<Label id="profileName" onClick="openProfile">Nate Jones</Label>
 					<Label id="timeAgo">10 minutes ago</Label>
 					<Label id="status">Just volunteered at the local shelter!</Label>
 					<View id="bottomActions">
@@ -33,10 +33,10 @@
 			</TableViewRow>
 			<TableViewRow id="rowContainer">
 				<View>
-					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Shannon Web</Label>
+					<ImageView id="mikePic"></ImageView>
+					<Label id="profileName" onClick="openProfile">Mike Stahr</Label>
 					<Label id="timeAgo">25 minutes ago</Label>
-					<Label id="status">Just saw Tom Ryan at the shelter!</Label>
+					<Label id="status">Just saw Nate Jones at the shelter!</Label>
 					<View id="bottomActions">
 						<View class="itemActionButton">
 							<ImageView id="likeBtn"onClick="testclick"></ImageView>
@@ -53,8 +53,8 @@
 			</TableViewRow>
 			<TableViewRow id="rowContainer">
 				<View>
-					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Ryan Castro</Label>
+					<ImageView id="irinaPic"></ImageView>
+					<Label id="profileName" onClick="openProfile">Irina Rakhlenko</Label>
 					<Label id="timeAgo">1 hour ago</Label>
 					<Label id="status">Got a new puppy!</Label>
 					<View id="bottomActions">
@@ -73,7 +73,7 @@
 			</TableViewRow>
 			<TableViewRow id="rowContainer">
 				<View>
-					<ImageView id="profilePic"></ImageView>
+					<ImageView id="chrisPic"></ImageView>
 					<Label id="profileName" onClick="openProfile">Chris Schipper</Label>
 					<Label id="timeAgo">5 hours ago</Label>
 					<Label id="status">I just learned how to make my first program!</Label>
@@ -93,8 +93,8 @@
 			</TableViewRow>
 			<TableViewRow id="rowContainer">
 				<View>
-					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Tom Ryan</Label>
+					<ImageView id="thomasPic"></ImageView>
+					<Label id="profileName" onClick="openProfile">Thomas Kojs</Label>
 					<Label id="timeAgo">10 hours ago</Label>
 					<Label id="status">Make today the best day you can! I believe in you!</Label>
 					<View id="bottomActions">
