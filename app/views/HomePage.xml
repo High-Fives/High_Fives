@@ -15,7 +15,7 @@
 				<View>
 					<ImageView id="natePic"></ImageView>
 					<Label id="profileName" onClick="openProfile">Nate Jones</Label>
-					<Label id="timeAgo">10 minutes ago</Label>
+					<Label id="timeAgo">10m</Label>
 					<Label id="status">Just volunteered at the local shelter!</Label>
 					<View id="bottomActions">
 						<View class="itemActionButton">
@@ -35,7 +35,7 @@
 				<View>
 					<ImageView id="mikePic"></ImageView>
 					<Label id="profileName" onClick="openProfile">Mike Stahr</Label>
-					<Label id="timeAgo">25 minutes ago</Label>
+					<Label id="timeAgo">25m</Label>
 					<Label id="status">Just saw Nate Jones at the shelter!</Label>
 					<View id="bottomActions">
 						<View class="itemActionButton">
@@ -55,7 +55,7 @@
 				<View>
 					<ImageView id="irinaPic"></ImageView>
 					<Label id="profileName" onClick="openProfile">Irina Rakhlenko</Label>
-					<Label id="timeAgo">1 hour ago</Label>
+					<Label id="timeAgo">1h</Label>
 					<Label id="status">Got a new puppy!</Label>
 					<View id="bottomActions">
 						<View class="itemActionButton">
@@ -75,7 +75,7 @@
 				<View>
 					<ImageView id="chrisPic"></ImageView>
 					<Label id="profileName" onClick="openProfile">Chris Schipper</Label>
-					<Label id="timeAgo">5 hours ago</Label>
+					<Label id="timeAgo">5h</Label>
 					<Label id="status">I just learned how to make my first program!</Label>
 					<View id="bottomActions">
 						<View class="itemActionButton">
@@ -95,7 +95,7 @@
 				<View>
 					<ImageView id="thomasPic"></ImageView>
 					<Label id="profileName" onClick="openProfile">Thomas Kojs</Label>
-					<Label id="timeAgo">10 hours ago</Label>
+					<Label id="timeAgo">10h</Label>
 					<Label id="status">Make today the best day you can! I believe in you!</Label>
 					<View id="bottomActions">
 						<View class="itemActionButton">
@@ -118,7 +118,7 @@
 				<View>
 					<ImageView id="markPic"></ImageView>
 					<Label id="profileName" onClick="openProfile">Mark Sullivan</Label>
-					<Label id="timeAgo">12 hours ago</Label>
+					<Label id="timeAgo">12h</Label>
 					<Label id="status">Making good progress on the development of High Fives.</Label>
 					<View id="bottomActions">
 						<View class="itemActionButton">
