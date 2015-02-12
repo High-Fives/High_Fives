@@ -1,6 +1,37 @@
 <Alloy>
 	<Window class="container">
-		<View id="menu" onClick="showhidemenu"></View>
+		<View id="menu" onClick="showhidemenu">
+			<TableView id="slideOutMenu">
+			<TableViewRow id="menuProfPic">
+				<View>
+					<ImageView id="slideMenuPic"></ImageView>
+					<Label id="slideMenuName" onClick="openProfile">Tom Ryan</Label>	
+					<View id="whiteLine" bottom="0"></View>				
+				</View>				
+			</TableViewRow>
+			<TableViewRow id="menuContainer">
+				<View>
+					<Label id="accountSettings" onClick="testclick">Account Settings</Label>
+					<View id="whiteLine" bottom="0"></View>
+				</View>				
+			</TableViewRow>	
+			<TableViewRow id="menuContainer">
+				<View>
+					<Label id="signOut" onClick="testclick">Sign Out</Label>
+					<View id="whiteLine" bottom="0"></View>
+				</View>				
+			</TableViewRow>	
+			<TableViewRow id="menuContainer">
+				<View>
+					<Label id="Help" onClick="testclick">Help</Label>
+					<View id="whiteLine" bottom="0"></View>
+				</View>				
+			</TableViewRow>	
+
+							
+		</TableView>
+			
+		</View>
 		<View id="main">
 			<View id="iconBar">
 				<View id="topActions">
@@ -60,7 +91,7 @@
 					<ImageView id="homeBtn" onClick="openHome"></ImageView>
 				</View>
 				<View  class="tbButton">
-					<ImageView id="exploreBtn" onClick="testclick"></ImageView>
+					<ImageView id="exploreBtn" onClick="openExplore"></ImageView>
 				</View>
 				<View  class="tbButton">
 					<ImageView id="notificationBtn" onClick="openNotifications"></ImageView>

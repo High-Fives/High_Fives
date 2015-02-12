@@ -7,9 +7,9 @@ function testclick(e){
 function likeunlike(e){
 	// change like/unlike image, based on the current image
 	if (e.source.image==="/330-Dollar_30.png"){
-		e.source.image="/Green-Dollar-Sign.png"
+		e.source.image="/Green-Dollar-Sign.png";
 	}else{
-		e.source.image="/330-Dollar_30.png"
+		e.source.image="/330-Dollar_30.png";
 	}
 }
 
@@ -34,6 +34,8 @@ function showhidemenu(e){
 	});
 }
 
+
+
 /////////////////////////Begin Page Open Statements/////////////////////////
 /**
  * Opens My_Roster Page
@@ -47,9 +49,10 @@ function openMyRoster(){
  * Opens index (home) page
  */
 function openHome() {
-    var HomePage = Alloy.createController('HomePage').getView();
-    HomePage.open();
+    var index = Alloy.createController('index').getView();
+    index.open();
 }
+
 /**
  *Opens Notifications Page
  *  
@@ -66,6 +69,7 @@ function openProfile() {
     var profile = Alloy.createController('profileView').getView();
     profile.open();
 }
+
 /**
  *Opens Explore Page 
  */
@@ -75,10 +79,13 @@ function openExplore(){
 }
 /////////////////////////End Page Open Statements/////////////////////////
 
+
+
+
 // This bit listens to the orientation change and re-establishes the width 
 // of the "main" view, allowing the layout to survive after orientation changes
 Ti.Gesture.addEventListener('orientationchange', function(e) {
     $.main.width=Ti.Platform.displayCaps.platformWidth;
 });
 
-$.my_Roster.open();
+$.notifications.open();

@@ -19,9 +19,10 @@
 "#menu":{
 	height: Ti.UI.FILL,
 	width: Ti.UI.FILL,
-	backgroundColor: "#66b266",
+	backgroundColor: "#2c323f",
 	left: 0	
 },
+///////////////////////////////////// top bar
 "#iconBar":{ //top bar
 	width: "100%",
 	height: "7%",
@@ -48,90 +49,73 @@
 },
 
 
-//////////////slide out menu///////////////////
+/////Filter
+"#filterOptions":{
+	height: "8%",
+	backgroundColor: '#267431',
+},
 
-"#menuProfPic":{
-	borderColor: "#66b266",
-	borderRadius: 3,
-	borderWidth: 2,
-	left: "0dp",
-	right:"2dp",
-	top: "2dp",
-	right: "5dp",
-	height: "76dp",
-	width: Ti.UI.FILL,
-	backgroundColor: "#66b266"
-	
+
+"#sort":{
+	height: "100%",
+	width: "50%",
+	left: "0%",
 },
-"#slideMenuName":{
-	top: "20%",
-	left: "4%",
-	color: "white",
-	font: {
-		fontSize : "28dp",
-		fontWeight: "bold"
-	}
-	
+"#sortRight":{
+	top: 0,
+	height: "100%",
+	width: "50%",
+	left: "51%",
 },
-"#slideMenuPic":{
-	 width:"66dp",
-	 height:"66dp",
-	 image: "/104-BusinessPerson_60@2x.png", 
-	 top:"10dp",
-	 left:"10dp"
-	
-},
-"#menuContainer":{
-	borderColor: "#66b266", //change to light green
-	borderRadius: 3,
-	borderWidth: 2,
-	left: "0dp",
-	right:"2dp",
-	top: "2dp",
-	right: "5dp",
-	height: "60",
-	width: Ti.UI.FILL,
-	backgroundColor: "#66b266" //change to lighter green
-	
-	
-},
-"#accountSettings":{
-	top: "20%",
-	left: "3%",
-	color: "white",
-	font: {
-		fontSize : "25dp",
-		fontWeight: "normal"
-	}
-},
-"#signOut":{
-	top: "20%",
-	left: "3%",
-	color: "white",
-	font: {
-		fontSize : "25dp",
-		fontWeight: "normal"
-	}
-},
-"#Help":{
-	top: "20%",
-	left: "3%",
-	color: "white",
-	font: {
-		fontSize : "25dp",
-		fontWeight: "normal"
-	}
-},
+
 "#whiteLine":{
-	color: "white",
-	//backgroundColor: "#eff2f5",
-	width: Ti.UI.FILL,
-	height: "1"		
+	top: 0,
+	height: Titanium.UI.FILL,
+	width: "1dp",
+	left: "50%",
+	backgroundColor: 'white'
 },
 
-//////////////////////////////////////////////////
+"#filterBar":{
+	top: 0,
+	backgroundColor: '#267431',
+	height: '50%',
+	left: "0%",
+	width: "100%"
+},
 
+"#filterBar2":{
+	top: "50%",
+	backgroundColor: '#267431',
+	height: '50%',
+	left: "0%",
+	width: "100%"
+},
 
+"#sportsSelector":{
+	backgroundColor: "#44a755",
+	display: "none",
+},
+
+////////////This is the popup
+
+"#popup":{
+	top: "0%",
+	left: "0%",
+	height: "0%",
+	width: "0%",
+	opacity: 0.5,
+	backgroundColor: 'white',
+},
+
+"#popupSpace":{
+	top: "0%",
+	left: "0%",
+	height: "0%",
+	width: "0%",
+}
+
+//////////////////////////////////
 "#grayLine":{
 	backgroundColor: "#9b9d9f",
 	width: Ti.UI.FILL,
@@ -141,10 +125,8 @@
 	backgroundColor: "#c4cde0",
 	separatorStyle: "NONE"
 },
-"#listRow":{
-	height: "200dp",
-	selectionStyle: "NONE",
-	className:"listRow"
+"#exploreFeed":{
+	height: "76%",
 },
 
 "#rowContainer":{ 
@@ -169,7 +151,7 @@
 	left: "120dp", //pic will come 100dp's over so this is 20dp's to the right of that
 	color: "black",
 	font: {
-		fontSize : "14dp",
+		fontSize : "15dp",
 		fontWeight: "bold"
 	}
 },
@@ -178,7 +160,7 @@
 	right:"5%",
 	color:"#bbbbbb",
 	font:{
-		fontsize:"12dp"
+		fontsize:"15dp"
 	}
 }
 "#status":{
@@ -187,7 +169,7 @@
 	top: "20dp",
 	display: "inline",
 	font: {
-		fontSize : "12dp"
+		fontSize : "15dp"
 	}
 },
 "#bottomActions":{
@@ -201,35 +183,35 @@
 	height: "100%"
 },
 "#likeBtn":{
-	left: "5%",
+	right: "92%",
 	height: "70%",
 	image: "/292-HighFive_30.png"
 },
 "#donateBtn":{
-	left: "35%",
+	right: "62%",
 	height: "80%",
 	image: "/330-Dollar_30.png"
 },
 "#commentBtn":{
-	left: "65%",
+	right: "32%",
 	height: "70%",
 	image: "/125-Megaphone_30.png"
 },
 "#likeAmount":{
-	left: "12%", 			//will mess up on different screen, with of button hard coded(as it should be) but..
+	left: "9%", 			//will mess up on different screen, with of button hard coded(as it should be) but..
 							//position from the left is a percent(as it should be) making amounts farther right on larger screens...
 							//left needs to equal 5% + 24dp(width of button). but can't do.
 },							//So far tests with just percent on tablet and web look good, verify for your phone
 "#donateAmount":{	
-	left: "42%",
+	left: "39%",
 	//height: "80%",
 },
 "#replyAmount":{
-	left: "72%",			
+	left: "69%",			
 	//height: "80%",
 
 },
-
+////////////////////////////////////////bottom buttons
 "#menuBar":{
 	bottom: "0%",
 	backgroundColor: "#44a755",
@@ -260,45 +242,4 @@
 	height:"100%",
 	image: "/176-Clipboard_60@2x.png"
 },
-
-"#newsFeed":{
-	height: "84%",
-},
-
-////////////////////////////////Hard Coded Profile Pictures////////////////////////////////
-"#chrisPic":{
-	height:"90%",					//This is hardcoded. Eventually, we need to create javascript to load
-	 image: "/Chris_Pic.png", 		//the picture based on the user id
-	 top:"5%",
-	 left:"1%"
-},
-"#mikePic":{
-	height:"90%",					//This is hardcoded. Eventually, we need to create javascript to load
-	 image: "/Mike_Stahr_Pic.jpg", 		//the picture based on the user id
-	 top:"5%",
-	 left:"1%"
-},
-"#markPic":{
-	height:"90%",					//This is hardcoded. Eventually, we need to create javascript to load
-	 image: "/Mark_Pic.png", 		//the picture based on the user id
-	 top:"5%",
-	 left:"1%"
-},
-"#irinaPic":{
-	height:"90%",					//This is hardcoded. Eventually, we need to create javascript to load
-	 image: "/Irina_Pic.jpg", 		//the picture based on the user id
-	 top:"5%",
-	 left:"1%"
-},
-"#thomasPic":{
-	height:"90%",					//This is hardcoded. Eventually, we need to create javascript to load
-	 image: "/Thomas_Pic.jpg", 		//the picture based on the user id
-	 top:"5%",
-	 left:"1%"
-},
-"#natePic":{
-	height:"90%",					//This is hardcoded. Eventually, we need to create javascript to load
-	 image: "/Nate_Pic.jpg", 		//the picture based on the user id
-	 top:"5%",
-	 left:"1%"
-}
+//////////////////////////////////////////
