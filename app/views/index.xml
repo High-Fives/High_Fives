@@ -1,155 +1,18 @@
 <Alloy>
-	<Window class="container">
-		<View id="menu" onClick="showhidemenu"></View>
-		<View id="main">
-			<View id="iconBar">
-				<View id="topActions">
-					<ImageView class="topActionButton" id="logobtn" onClick="testclick"></ImageView>
-					<ImageView class="topActionButton" id="searchbtn" onClick="testclick"></ImageView>
-					<ImageView class="topActionButton" id="menubtn" onClick="showhidemenu"></ImageView>
-				</View>	
-			</View>
-		<TableView id="newsFeed">
-			<TableViewRow id="rowContainer">
-				<View>
-					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Tom Ryan</Label>
-					<Label id="timeAgo">10 minutes ago</Label>
-					<Label id="status">Just volunteered at the local shelter!</Label>
-					<View id="bottomActions">
-						<View class="itemActionButton">
-							<ImageView id="likeBtn" onClick="testclick"></ImageView>
-						</View>
-						<View class="itemActionButton">
-							<ImageView id="donateBtn" onClick="likeunlike"></ImageView>
-						</View>
-						<View class="itemActionButton">
-							<ImageView id="commentBtn" onClick="testclick"></ImageView>
-						</View>
-					</View>
-					<View id="grayLine" bottom="0"></View>
-				</View>
-			</TableViewRow>
-			<TableViewRow id="rowContainer">
-				<View>
-					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Shannon Web</Label>
-					<Label id="timeAgo">25 minutes ago</Label>
-					<Label id="status">Just saw Tom Ryan at the shelter!</Label>
-					<View id="bottomActions">
-						<View class="itemActionButton">
-							<ImageView id="likeBtn"onClick="testclick"></ImageView>
-						</View>
-						<View class="itemActionButton">
-							<ImageView id="donateBtn" onClick="testclick"></ImageView>
-						</View>
-						<View class="itemActionButton">
-							<ImageView id="commentBtn" onClick="testclick"></ImageView>
-						</View>
-					</View>
-					<View id="grayLine" bottom="0"></View>
-				</View>
-			</TableViewRow>
-			<TableViewRow id="rowContainer">
-				<View>
-					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Ryan Castro</Label>
-					<Label id="timeAgo">1 hour ago</Label>
-					<Label id="status">Got a new puppy!</Label>
-					<View id="bottomActions">
-						<View class="itemActionButton">
-							<ImageView id="likeBtn" onClick="testclick"></ImageView>
-						</View>
-						<View class="itemActionButton">
-							<ImageView id="donateBtn" onClick="testclick"></ImageView>
-						</View>
-						<View class="itemActionButton">
-							<ImageView id="commentBtn" onClick="testclick"></ImageView>
-						</View>
-					</View>
-					<View id="grayLine" bottom="0"></View>
-				</View>
-			</TableViewRow>
-			<TableViewRow id="rowContainer">
-				<View>
-					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Chris Schipper</Label>
-					<Label id="timeAgo">5 hours ago</Label>
-					<Label id="status">I just learned how to make my first program!</Label>
-					<View id="bottomActions">
-						<View class="itemActionButton">
-							<ImageView id="likeBtn" onClick="testclick"></ImageView>
-						</View>
-						<View class="itemActionButton">
-							<ImageView id="donateBtn" onClick="testclick"></ImageView>
-						</View>
-						<View class="itemActionButton">
-							<ImageView id="commentBtn" onClick="testclick"></ImageView>
-						</View>
-					</View>
-					<View id="grayLine" bottom="0"></View>
-				</View>
-			</TableViewRow>
-			<TableViewRow id="rowContainer">
-				<View>
-					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Tom Ryan</Label>
-					<Label id="timeAgo">10 hours ago</Label>
-					<Label id="status">Make today the best day you can! I believe in you!</Label>
-					<View id="bottomActions">
-						<View class="itemActionButton">
-							<ImageView id="likeBtn" onClick="testclick"></ImageView>
-							<Label id="likeAmount">1000</Label>
-						</View>
-						<View class="itemActionButton">
-							<ImageView id="donateBtn" onClick="testclick"></ImageView>
-							<Label id="donateAmount">$15,000</Label>
-						</View>
-						<View class="itemActionButton">
-							<ImageView id="commentBtn" onClick="testclick"></ImageView>
-							<Label id="replyAmount">8 replies</Label>
-						</View>
-					</View>
-					<View id="grayLine" bottom="0"></View>
-				</View>
-			</TableViewRow>
-			<TableViewRow id="rowContainer">
-				<View>
-					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Mark Sullivan</Label>
-					<Label id="timeAgo">12 hours ago</Label>
-					<Label id="status">Making good progress on the development of High Fives.</Label>
-					<View id="bottomActions">
-						<View class="itemActionButton">
-							<ImageView id="likeBtn" onClick="testclick"></ImageView>
-						</View>
-						<View class="itemActionButton">
-							<ImageView id="donateBtn" onClick="testclick"></ImageView>
-						</View>
-						<View class="itemActionButton">
-							<ImageView id="commentBtn" onClick="testclick"></ImageView>
-						</View>
-					</View>
-					<View id="grayLine" bottom="0"></View>
-				</View>
-			</TableViewRow>
-		</TableView>
-		
-			<View id="menuBar">
-				<View class="tbButton">
-					<ImageView id="homeBtn" onClick="openHome"></ImageView>
-				</View>
-				<View  class="tbButton">
-					<ImageView id="exploreBtn" onClick="openExplore"></ImageView>
-				</View>
-				<View  class="tbButton">
-					<ImageView id="notificationBtn" onClick="openNotifications"></ImageView>
-				</View>
-				<View  class="tbButton">
-					<ImageView id="myRosterBtn" onClick="openMyRoster"></ImageView>
-				</View>
-			</View>
-			<View id="grayLine"></View>
-		</View>
-	</Window>
+<Window id="index" backgroundColor="#49b049">
+<ImageView id="hand" image="/292-HighFive_60@2x.png" top="4%" height="15%"/>
+<ImageView id="HighFivesWords" image="/HighFivesWords.png" top="22%" height="10%"/>
+<View id="loginInfo">
+<Label id="lblEmail" color="white" text="email:" top="0dp" width="55%" height="20dp"/>
+<TextField class="textFieldInfo" id="email"/>
+<Label id="lblPassword" color="white" text="password:" top="56dp" width="55%" height="20dp"/>
+<TextField class="textFieldInfo" id="password"/>
+<Button id="button" onClick="LoginClicked" title="Login" color="blue"
+top="118dp" width="55%" height="35dp" />
+</View>
+<Button id="SignUp" onClick="SignUpClicked" title="Sign Up" color="blue"
+top="94%" width="20%" height="35dp" />
+<!--<Label id="SignUp" onClick="SignUpClicked" color="white" text="Sign Up For High Fives" top="95%" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"
+width="Ti.UI.SIZE" height="Ti.UI.SIZE" />-->
+</Window>
 </Alloy>
