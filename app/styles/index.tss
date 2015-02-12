@@ -14,3 +14,21 @@
 	width: Titanium.UI.FILL,
 	top: "50%"
 },
+".textFieldInfo":{
+	width:"55%",
+	height: "30dp",
+	backgroundColor:"White",
+	borderStyle:"Titanium.UI.INPUT_BORDERSTYLE_ROUNDED",
+	clearOnEdit:true,
+	color:"#336699",
+	font: {
+		fontSize : "12dp"
+	}
+},
+"#email":{
+	top:"22dp"	
+},
+"#password":{
+	 passwordMask:true,
+	 top:"78dp"
+}
