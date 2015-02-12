@@ -12,7 +12,7 @@ function likeunlike(e){
 	}else{
 		e.source.image="/330-Dollar_30.png"
 	}
-}
+};
 
 // shows or hide the menu
 var menuOpen = false;
@@ -44,6 +44,8 @@ function openMyRoster(){
 	my_Roster.open();
 }
 
+
+
 /**
  * Opens index (home) page
  */
@@ -51,6 +53,7 @@ function openHome() {
     var index = Alloy.createController('index').getView();
     index.open();
 }
+
 
 /**
  *Opens Notifications Page
@@ -67,6 +70,14 @@ function openNotifications() {
 function openProfile() {
     var profile = Alloy.createController('profileView').getView();
     profile.open();
+}
+
+/**
+ *Opens Explore Page 
+ */
+function openExplore(){
+	var explore = Alloy.createController('explore').getView();
+	explore.open();
 }
 /////////////////////////End Page Open Statements/////////////////////////
 

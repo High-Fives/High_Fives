@@ -45,6 +45,12 @@ function openMyRoster(){
 	my_Roster.open();
 }
 
+function openExplore() {
+    var explore = Alloy.createController('explore').getView();
+    explore.open();
+}
+
+
 /**
  * Opens index (home) page
  */
@@ -69,6 +75,11 @@ function openProfile() {
     var profile = Alloy.createController('profileView').getView();
     profile.open();
 }
+
+/**
+ *Opens Explore Page 
+ */
+
 /////////////////////////End Page Open Statements/////////////////////////
 
 

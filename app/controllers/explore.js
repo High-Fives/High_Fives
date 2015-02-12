@@ -1,3 +1,5 @@
+popIsUp = 0;
+
 // dummy click event.  Add your own!
 function testclick(e){
 	alert('Clicked ' + '\'' + e.source.id + '\'');
@@ -12,6 +14,7 @@ function likeunlike(e){
 		e.source.image="/330-Dollar_30.png"
 	}
 }
+
 
 // shows or hide the menu
 var menuOpen = false;
@@ -67,14 +70,44 @@ function openProfile() {
     var profile = Alloy.createController('profileView').getView();
     profile.open();
 }
-/**
- *Opens Explore Page 
- */
+
 function openExplore(){
 	var explore = Alloy.createController('explore').getView();
 	explore.open();
 }
 /////////////////////////End Page Open Statements/////////////////////////
+
+
+/**
+ *Operate the Sports Filter 
+ */
+
+function sportsFilter(){
+	if(popIsUp == 0){
+		$.popup.top = '5%';
+		$.popup.left = '15%';
+		$.popup.height = '60%';
+		$.popup.width = '70%';
+		$.popupSpace.top = '5%';
+		$.popupSpace.left = '15%';
+		$.popupSpace.height = '100%';
+		$.popupSpace.width = '70%';
+		popIsUp = 1;
+	}
+	else if(popIsUp == 1){
+		$.popup.top = '0%';
+		$.popup.left = '0%';
+		$.popup.height = '0%';
+		$.popup.width = '0%';
+		$.popupSpace.top = '0%';
+		$.popupSpace.left = '0%';
+		$.popupSpace.height = '0%';
+		$.popupSpace.width = '0%';
+		popIsUp = 0;
+	}
+};
+
+
 
 // This bit listens to the orientation change and re-establishes the width 
 // of the "main" view, allowing the layout to survive after orientation changes
@@ -82,4 +115,4 @@ Ti.Gesture.addEventListener('orientationchange', function(e) {
     $.main.width=Ti.Platform.displayCaps.platformWidth;
 });
 
-$.my_Roster.open();
+$.explore.open();
