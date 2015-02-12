@@ -19,7 +19,7 @@
 "#menu":{
 	height: Ti.UI.FILL,
 	width: Ti.UI.FILL,
-	backgroundColor: "#2c323f",
+	backgroundColor: "#66b266",
 	left: 0	
 },
 ///////////////////////////////////// top bar
@@ -243,6 +243,89 @@
 	image: "/176-Clipboard_60@2x.png"
 },
 //////////////////////////////////////////
+
+///////////slide out menu////////////
+"#menuProfPic":{
+	borderColor: "#66b266",
+	borderRadius: 3,
+	borderWidth: 2,
+	left: "0dp",
+	right:"2dp",
+	top: "2dp",
+	right: "5dp",
+	height: "76dp",
+	width: Ti.UI.FILL,
+	backgroundColor: "#66b266"
+	
+},
+"#slideMenuName":{
+	top: "20%",
+	left: "4%",
+	color: "white",
+	font: {
+		fontSize : "28dp",
+		fontWeight: "bold"
+	}
+	
+},
+"#slideMenuPic":{
+	 width:"66dp",
+	 height:"66dp",
+	 image: "/104-BusinessPerson_60@2x.png", 
+	 top:"10dp",
+	 left:"10dp"
+	
+},
+"#menuContainer":{
+	borderColor: "#66b266", //change to light green
+	borderRadius: 3,
+	borderWidth: 2,
+	left: "0dp",
+	right:"2dp",
+	top: "2dp",
+	right: "5dp",
+	height: "60",
+	width: Ti.UI.FILL,
+	backgroundColor: "#66b266" //change to lighter green
+	
+	
+},
+"#accountSettings":{
+	top: "20%",
+	left: "3%",
+	color: "white",
+	font: {
+		fontSize : "25dp",
+		fontWeight: "normal"
+	}
+},
+"#signOut":{
+	top: "20%",
+	left: "3%",
+	color: "white",
+	font: {
+		fontSize : "25dp",
+		fontWeight: "normal"
+	}
+},
+"#Help":{
+	top: "20%",
+	left: "3%",
+	color: "white",
+	font: {
+		fontSize : "25dp",
+		fontWeight: "normal"
+	}
+},
+"#whiteLine":{
+	color: "white",
+	//backgroundColor: "#eff2f5",
+	width: Ti.UI.FILL,
+	height: "1"		
+},
+
+
+////////slide out menu//////////////
 
 ////////////////////////////////Hard Coded Profile Pictures////////////////////////////////
 "#chrisPic":{
