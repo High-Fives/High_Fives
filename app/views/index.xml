@@ -1,4 +1,4 @@
-Alloy>
+<Alloy>
 <Window id="index" backgroundColor="#49b049">
 	<ImageView id="hand" image="/292-HighFive_60@2x.png" top="4%" height="15%"/>
 	<ImageView id="HighFivesWords" image="/HighFivesWords.png" top="22%" height="10%"/>
