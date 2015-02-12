@@ -44,36 +44,44 @@
 		<TableView id="roster">
 			<TableViewRow id="rowContainer">
 				<View>
-					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Tom Ryan</Label>
-					<View id="grayLine" bottom="0"></View>
-				</View>
-			</TableViewRow>
-			<TableViewRow id="rowContainer">
-				<View>
-					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Shannon Web</Label>
-					<View id="grayLine" bottom="0"></View>
-				</View>
-			</TableViewRow>
-			<TableViewRow id="rowContainer">
-				<View>
-					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Ryan Castro</Label>
-					<View id="grayLine" bottom="0"></View>
-				</View>
-			</TableViewRow>
-			<TableViewRow id="rowContainer">
-				<View>
-					<ImageView id="profilePic"></ImageView>
+					<ImageView id="chrisPic"></ImageView>
 					<Label id="profileName" onClick="openProfile">Chris Schipper</Label>
 					<View id="grayLine" bottom="0"></View>
 				</View>
 			</TableViewRow>
 			<TableViewRow id="rowContainer">
 				<View>
-					<ImageView id="profilePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Tom Ryan</Label>
+					<ImageView id="irinaPic"></ImageView>
+					<Label id="profileName" onClick="openProfile">Irina Rakhlenko</Label>
+					<View id="grayLine" bottom="0"></View>
+				</View>
+			</TableViewRow>
+			<TableViewRow id="rowContainer">
+				<View>
+					<ImageView id="markPic"></ImageView>
+					<Label id="profileName" onClick="openProfile">Mark Sullivan</Label>
+					<View id="grayLine" bottom="0"></View>
+				</View>
+			</TableViewRow>
+			<TableViewRow id="rowContainer">
+				<View>
+					<ImageView id="mikePic"></ImageView>
+					<Label id="profileName" onClick="openProfile">Mike Stahr</Label>
+					<View id="grayLine" bottom="0"></View>
+				</View>
+			</TableViewRow>
+			<TableViewRow id="rowContainer">
+				<View>
+					<ImageView id="natePic"></ImageView>
+					<Label id="profileName" onClick="openProfile">Nate Jones</Label>
+					<View id="grayLine" bottom="0"></View>
+				</View>
+			</TableViewRow>
+			
+			<TableViewRow id="rowContainer">
+				<View>
+					<ImageView id="thomasPic"></ImageView>
+					<Label id="profileName" onClick="openProfile">Thomas Kojs</Label>
 					<View id="grayLine" bottom="0"></View>
 				</View>
 			</TableViewRow>

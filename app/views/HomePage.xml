@@ -147,7 +147,7 @@
 			</TableViewRow>
 			<TableViewRow id="rowContainer">
 				<View>
-					<ImageView id="profilePic"></ImageView>
+					<ImageView id="markPic"></ImageView>
 					<Label id="profileName" onClick="openProfile">Mark Sullivan</Label>
 					<Label id="timeAgo">12 hours ago</Label>
 					<Label id="status">Making good progress on the development of High Fives.</Label>
