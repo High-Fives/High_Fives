@@ -49,8 +49,8 @@ function openMyRoster(){
  * Opens index (home) page
  */
 function openHome() {
-    var index = Alloy.createController('index').getView();
-    index.open();
+    var HomePage = Alloy.createController('HomePage').getView();
+    HomePage.open();
 }
 
 /**
