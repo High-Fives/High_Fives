@@ -5,6 +5,11 @@ function testclick(e){
 	alert('Clicked ' + '\'' + e.source.id + '\'');
 }
 
+function signOut() {
+    var index = Alloy.createController('index').getView();
+    index.open();
+}
+
 // handles the "Like button"
 function likeunlike(e){
 	// change like/unlike image, based on the current image

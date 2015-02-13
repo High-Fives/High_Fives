@@ -17,7 +17,7 @@
 			</TableViewRow>	
 			<TableViewRow id="menuContainer">
 				<View>
-					<Label id="signOut" onClick="testclick">Sign Out</Label>
+					<Label id="signOut" onClick="signOut">Sign Out</Label>
 					<View id="whiteLine" bottom="0"></View>
 				</View>				
 			</TableViewRow>	

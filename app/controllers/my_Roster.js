@@ -43,6 +43,10 @@ function openMyRoster(){
 	my_Roster.open();
 }
 
+function signOut() {
+    var index = Alloy.createController('index').getView();
+    index.open();
+}
 /**
  * Opens index (home) page
  */
