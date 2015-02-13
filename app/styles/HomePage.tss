@@ -134,15 +134,29 @@
 },
 "#likeAmount":{
 	left: "9%", 			//will mess up on different screen, with of button hard coded(as it should be) but..
-							//position from the left is a percent(as it should be) making amounts farther right on larger screens...
+	color:"#999966",
+	font: {
+		fontSize : "12dp",
+		fontWeight: "normal"
+	}						//position from the left is a percent(as it should be) making amounts farther right on larger screens...
 							//left needs to equal 5% + 24dp(width of button). but can't do.
 },							//So far tests with just percent on tablet and web look good, verify for your phone
 "#donateAmount":{	
 	left: "39%",
+	color:"#999966",
+	font: {
+		fontSize : "12dp",
+		fontWeight: "normal"
+	}
 	//height: "80%",
 },
 "#replyAmount":{
-	left: "69%",			
+	left: "69%",	
+	color:"#999966",	
+	font: {
+		fontSize : "12dp",
+		fontWeight: "normal"
+	}	
 	//height: "80%",
 
 },

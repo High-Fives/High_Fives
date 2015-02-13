@@ -51,12 +51,15 @@
 					<View id="bottomActions">
 						<View class="itemActionButton">
 							<ImageView id="likeBtn" onClick="testclick"></ImageView>
+							<Label id="likeAmount">3.2k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="donateBtn" onClick="likeunlike"></ImageView>
+							<Label id="donateAmount">10k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							<Label id="replyAmount">604</Label>
 						</View>
 					</View>
 					<View id="grayLine" bottom="0"></View>
@@ -71,12 +74,15 @@
 					<View id="bottomActions">
 						<View class="itemActionButton">
 							<ImageView id="likeBtn"onClick="testclick"></ImageView>
+							<Label id="likeAmount">22k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="donateBtn" onClick="testclick"></ImageView>
+							<Label id="donateAmount">105k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							<Label id="replyAmount">8k</Label>
 						</View>
 					</View>
 					<View id="grayLine" bottom="0"></View>
@@ -91,12 +97,15 @@
 					<View id="bottomActions">
 						<View class="itemActionButton">
 							<ImageView id="likeBtn" onClick="testclick"></ImageView>
+							<Label id="likeAmount">5.2k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="donateBtn" onClick="testclick"></ImageView>
+							<Label id="donateAmount">0.4k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							<Label id="replyAmount">74</Label>
 						</View>
 					</View>
 					<View id="grayLine" bottom="0"></View>
@@ -111,12 +120,15 @@
 					<View id="bottomActions">
 						<View class="itemActionButton">
 							<ImageView id="likeBtn" onClick="testclick"></ImageView>
+							<Label id="likeAmount">336</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="donateBtn" onClick="testclick"></ImageView>
+							<Label id="donateAmount">23k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							<Label id="replyAmount">50</Label>
 						</View>
 					</View>
 					<View id="grayLine" bottom="0"></View>
@@ -131,15 +143,15 @@
 					<View id="bottomActions">
 						<View class="itemActionButton">
 							<ImageView id="likeBtn" onClick="testclick"></ImageView>
-							<Label id="likeAmount">1000</Label>
+							<Label id="likeAmount">1.2k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="donateBtn" onClick="testclick"></ImageView>
-							<Label id="donateAmount">$15,000</Label>
+							<Label id="donateAmount">15k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="commentBtn" onClick="testclick"></ImageView>
-							<Label id="replyAmount">8 replies</Label>
+							<Label id="replyAmount">8</Label>
 						</View>
 					</View>
 					<View id="grayLine" bottom="0"></View>
@@ -154,12 +166,15 @@
 					<View id="bottomActions">
 						<View class="itemActionButton">
 							<ImageView id="likeBtn" onClick="testclick"></ImageView>
+							<Label id="likeAmount">2.5k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="donateBtn" onClick="testclick"></ImageView>
+							<Label id="donateAmount">1k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							<Label id="replyAmount">96</Label>
 						</View>
 					</View>
 					<View id="grayLine" bottom="0"></View>
