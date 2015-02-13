@@ -25,7 +25,7 @@ function likeunlike(e){
 var menuOpen = false;
 function showhidemenu(e){
 	if (!menuOpen){
-		moveTo="300dp";
+		moveTo="60%";
 		menuOpen=true;
 	}else{
 		moveTo="0";
