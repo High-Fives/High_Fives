@@ -1,5 +1,14 @@
 
 // dummy click event.  Add your own!
+var mainWin = Titanium.UI.currentWindow;
+
+mainWin.addEventListener('open', setName());
+
+
+function setName() {
+	$.profileName.text = Titanium.App.Properties.getString('name');
+}
+
 function testclick(e){
 	alert('Clicked ' + '\'' + e.source.id + '\'');
 }
@@ -12,9 +21,9 @@ function signOut() {
 function likeunlike(e){
 	// change like/unlike image, based on the current image
 	if (e.source.image==="/330-Dollar_30.png"){
-		e.source.image="/Green-Dollar-Sign.png"
+		e.source.image="/Green-Dollar-Sign.png";
 	}else{
-		e.source.image="/330-Dollar_30.png"
+		e.source.image="/330-Dollar_30.png";
 	}
 };
 
