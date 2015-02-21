@@ -36,7 +36,10 @@
 			<View id="iconBar">
 				<View id="topActions">
 					<ImageView class="topActionButton" id="logobtn" onClick="testclick"></ImageView>
-					<ImageView class="topActionButton" id="searchbtn" onClick="testclick"></ImageView>
+					<ImageView class="topActionButton" id="searchbtn" onClick="searchBar"></ImageView>
+					
+					 <SearchBar class = "topActionButton" id="searchbar" barColor="#000" showCancel="true" height="43" top="0" />
+					
 					<ImageView class="topActionButton" id="menubtn" onClick="showhidemenu"></ImageView>
 				</View>	
 			</View>

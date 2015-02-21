@@ -19,7 +19,7 @@
 "#menu":{
 	height: Ti.UI.FILL,
 	width: Ti.UI.FILL,
-	backgroundColor: "#66b266",
+	backgroundColor: "#686868",
 	left: 0	
 },
 ///////////////////////////////////// top bar
@@ -52,7 +52,7 @@
 /////////////slide out menu//////////////
 
 "#menuProfPic":{
-	borderColor: "#66b266",
+	borderColor: "#686868",
 	borderRadius: 3,
 	borderWidth: 2,
 	left: "0dp",
@@ -61,7 +61,7 @@
 	right: "5dp",
 	height: "76dp",
 	width: Ti.UI.FILL,
-	backgroundColor: "#66b266"
+	backgroundColor: "#686868"
 	
 },
 "#slideMenuName":{
@@ -83,7 +83,7 @@
 	
 },
 "#menuContainer":{
-	borderColor: "#66b266", //change to light green
+	borderColor: "#686868", //change to grey
 	borderRadius: 3,
 	borderWidth: 2,
 	left: "0dp",
@@ -92,7 +92,8 @@
 	right: "5dp",
 	height: "60",
 	width: Ti.UI.FILL,
-	backgroundColor: "#66b266" //change to lighter green
+	backgroundColor: "#686868" //change to grey
+	
 	
 	
 },
@@ -183,12 +184,38 @@
 		fontSize : "15dp"
 	}
 },
-"#charityCube": {
+"#charityStJude": {
 	 height:"100%",
 	 top:"0%",
 	 left:"0%",
-	 image: "/231-Cube_60@2x.png"
+	 image: "/stjude.jpg"
 },
+"#charitySalvation": {
+	 height:"100%",
+	 top:"0%",
+	 left:"0%",
+	 image: "/SalvationArmy.jpg"
+},
+"#charityFeeding": {
+	 height:"100%",
+	 top:"0%",
+	 left:"0%",
+	 image: "/feedingAmerica.jpg"
+},
+"#charityUnited": {
+	 height:"100%",
+	 top:"0%",
+	 left:"0%",
+	 image: "/unitedWay.jpg"
+},
+"#charityGive": {
+	 height:"100%",
+	 top:"0%",
+	 left:"0%",
+	 image: "/givedirectly.png"
+},
+
+
 "#charityName":{
 	top: "1dp",
 	left: "120dp", //pic will come 100dp's over so this is 20dp's to the right of that

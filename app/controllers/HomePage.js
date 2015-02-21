@@ -1,4 +1,5 @@
 
+
 // dummy click event.  Add your own!
 function testclick(e){
 	alert('Clicked ' + '\'' + e.source.id + '\'');
@@ -14,7 +15,8 @@ function likeunlike(e){
 	}
 }
 
-// shows or hide the menu
+
+	 // shows or hide the menu
 var menuOpen = false;
 function showhidemenu(e){
 	if (!menuOpen){
@@ -35,6 +37,19 @@ function showhidemenu(e){
 	});
 }
 
+
+
+
+
+function searchBar(e){
+	
+	$.searchbtn.visible=false;
+	
+	
+	$.searchbar.visible = true;
+	
+	
+}
 
 
 /////////////////////////Begin Page Open Statements/////////////////////////

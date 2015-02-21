@@ -19,7 +19,7 @@
 "#menu":{
 	height: Ti.UI.FILL,
 	width: Ti.UI.FILL,
-	backgroundColor: "#66b266", //makes slide out menu green
+	backgroundColor: "#686868", //makes slide out menu green
 	left: 0	
 },
 ///////////////////////////////////// top bar
@@ -46,6 +46,12 @@
 "#searchbtn":{
 	right: "5%",
 	image: "/053-Search_60@2x.png"	
+},
+
+"#searchbar": {
+	right: "5%",
+	color: "#000"	
+	
 },
 //////////////////////////////////
 "#grayLine":{
@@ -182,9 +188,10 @@
 	height: "84%",
 },
 
-///////////slide out menu////////////
+///////////slide out menu///////////////////////////////////////////
+
 "#menuProfPic":{
-	borderColor: "#66b266",
+	borderColor: "#686868",
 	borderRadius: 3,
 	borderWidth: 2,
 	left: "0dp",
@@ -192,13 +199,13 @@
 	top: "2dp",
 	right: "5dp",
 	height: "76dp",
-	width: Ti.UI.FILL,
-	backgroundColor: "#66b266"
+	width: "16%",
+	backgroundColor: "#686868"
 	
 },
 "#slideMenuName":{
 	top: "20%",
-	left: "4%",
+	right: "5%",
 	color: "white",
 	font: {
 		fontSize : "28dp",
@@ -215,7 +222,7 @@
 	
 },
 "#menuContainer":{
-	borderColor: "#66b266", //change to light green
+	borderColor: "#686868", //change to grey
 	borderRadius: 3,
 	borderWidth: 2,
 	left: "0dp",
@@ -224,7 +231,7 @@
 	right: "5dp",
 	height: "60",
 	width: Ti.UI.FILL,
-	backgroundColor: "#66b266" //change to lighter green
+	backgroundColor: "#686868" //change to grey
 	
 	
 },
@@ -263,7 +270,7 @@
 },
 
 
-////////slide out menu//////////////
+////////end slide out menu//////////////
 
 ////////////////////////////////Hard Coded Profile Pictures////////////////////////////////
 "#chrisPic":{
