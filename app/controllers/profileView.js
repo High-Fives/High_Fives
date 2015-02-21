@@ -1,8 +1,5 @@
 
 // dummy click event.  Add your own!
-var mainWin = Titanium.UI.currentWindow;
-
-mainWin.addEventListener('open', setName());
 
 
 function setName() {
