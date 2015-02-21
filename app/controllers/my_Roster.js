@@ -27,7 +27,7 @@ function showhidemenu(e){
 	// have to set the current width of the "main" view before moving it so it doesn't get squeezed
 	// try commenting out the following line and setting the "newLeft" to 200 instead of 
 	// 300 to see what I mean
-	$.main.width=Ti.Platform.displayCaps.platformWidth;
+	$.main.width=Ti.UI.FILL;
 	$.main.animate({
 		left:moveTo,
 		duration:100
