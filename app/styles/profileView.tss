@@ -161,7 +161,7 @@
 "#profilePic":{
 	 height:"90%",
 	 image: "/104-BusinessPerson_60@2x.png", 
-	 top:"5%%",
+	 top:"5%",
 	 left:"1%"
 },
 

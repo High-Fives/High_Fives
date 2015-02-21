@@ -2,9 +2,10 @@
 // dummy click event.  Add your own!
 if(Titanium.Platform.osname=='mobileweb'){
 var mainWin = Titanium.UI.currentWindow;
-
-
-mainWin.addEventListener('open', setName());
+mainWin.addEventListener('open', function() {
+	setName();
+	setPictre();
+});
 }
 
 function setName() {
@@ -12,12 +13,15 @@ function setName() {
 }
 
 function setPicture() {
-	$.profilePic.image = Titanium.App.Properties.getString('profilePictureID') + ".png";
+	$.profilePic.image = "/" + Titanium.App.Properties.getString('profilePictureID') + ".png";
+	$.profilePic.height = "90%";
+	$.profilePic.top = "5%";
+	$.profilePic.left - "1%";
+
 }
 
 function testclick(e){
-	//alert('Clicked ' + '\'' + e.source.id + '\'');
-	alert('platform: ' + Titanium.Platform.osname);
+	alert('Clicked ' + '\'' + e.source.id + '\'');
 }
 
 function signOut() {

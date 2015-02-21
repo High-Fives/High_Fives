@@ -91,7 +91,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="irinaPic"></ImageView>
-					<Label class="profileName" id = "MrinaRakhlenko" onClick="openProfile" text="Irina Rakhlenko"></Label>
+					<Label class="profileName" id = "IrinaRakhlenko" onClick="openProfile" text="Irina Rakhlenko"></Label>
 					<Label id="timeAgo">1h</Label>
 					<Label id="status">Got a new puppy!</Label>
 					<View id="bottomActions">

@@ -42,7 +42,7 @@
 			</View>
 		<TableView id="profileTable">
 			<TableViewRow id="rowContainer">
-				<ImageView id="profilePic" onPostLayout="setPicture" ></ImageView>
+				<ImageView id="profilePic" onPostlayout="setPicture" ></ImageView>
 				<Label id="profileName" onPostlayout="setName" text=""></Label>
 				<Label id="profileDescription">U.S.A. Olympian</Label>
 			</TableViewRow>
