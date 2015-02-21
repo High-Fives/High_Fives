@@ -5,13 +5,13 @@
 	<View id="loginInfo">
 		<Label id="lblEmail" color="white" text="email:" top="0dp" width="55%" height="20dp"/>
 		<TextField class="textFieldInfo" id="email"/>
-		<Label id="lblPassword" color="white" text="password:" top="56dp" width="55%" height="20dp"/>
+		<Label id="lblPassword" color="white" text="password:" top="66dp" width="55%" height="20dp"/>
 		<TextField class="textFieldInfo" id="password"/>
-		<Button id="button" onClick="LoginClicked" title="Login" color="blue"
-		top="118dp" width="55%" height="35dp" />
+		<Button id="Login" onClick="LoginClicked" title="Login" color="blue"
+		top="138dp" width="55%" height="45dp" />
 	</View>
 	<Button id="SignUp" onClick="SignUpClicked" title="Sign Up" color="blue"
-	top="94%" width="20%" height="35dp" />
+	top="94%" width="20%" height="45dp" />
 
 </Window>
 </Alloy>
