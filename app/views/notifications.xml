@@ -45,7 +45,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="mikePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Mike Stahr</Label>
+					<Label class="profileName" id = "MikeStahr" onClick="openProfile" text="Mike Stahr"></Label>
 					<Label id="timeAgo">10m</Label>
 					<Label id="status">Mike Stahr just updated his status.</Label>
 					<View id="grayLine" bottom="0"></View>
@@ -54,7 +54,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="irinaPic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Irina Rakhlenko</Label>
+					<Label class="profileName" id = "IrinaRakhlenko" onClick="openProfile" text="Irina Rakhlenko"></Label>
 					<Label id="timeAgo">25m</Label>
 					<Label id="status">Irina Rakhlenko has added a new charity to her profile!</Label>
 					<View id="grayLine" bottom="0"></View>
@@ -63,7 +63,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="natePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Nate Jones</Label>
+					<Label class="profileName" id = "NateJones" onClick="openProfile" text="Nate Jones"></Label>
 					<Label id="timeAgo">1h</Label>
 					<Label id="status">Nate Jones has begun a join effort with Chris Schipper to raise money for his charity! Click for more details</Label>
 					<View id="grayLine" bottom="0"></View>
@@ -72,7 +72,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="markPic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Mark Sullivan</Label>
+					<Label class="profileName" id = "MarkSullivan" onClick="openProfile" text="Mark Sullivan"></Label>
 					<Label id="timeAgo">5h</Label>
 					<Label id="status">Mark Sullivan has replied to your comment!</Label>
 					<View id="grayLine" bottom="0"></View>
@@ -81,7 +81,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="chrisPic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Chris Schipper</Label>
+					<Label class="profileName" id = "ChrisSchipper" onClick="openProfile" text="Chris Schipper"></Label>
 					<Label id="timeAgo">10h</Label>
 					<Label id="status">Chris Schipper added a new charity to his profile!</Label>
 					<View id="grayLine" bottom="0"></View>
@@ -90,7 +90,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="thomasPic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Thomas Kojs</Label>
+					<Label class="profileName" id = "ThomasKojs" onClick="openProfile" text="Thomas Kojs"></Label>
 					<Label id="timeAgo">12h</Label>
 					<Label id="status">Thomas Kojs has just joined High Fives! Take a minute and check out his profile!</Label>
 					<View id="grayLine" bottom="0"></View>

@@ -1,6 +1,11 @@
 
 // dummy click event.  Add your own!
+if(Titanium.Platform.osname=='mobileweb'){
+var mainWin = Titanium.UI.currentWindow;
 
+
+mainWin.addEventListener('open', setName());
+}
 
 function setName() {
 	$.profileName.text = Titanium.App.Properties.getString('name');
@@ -11,7 +16,8 @@ function setPicture() {
 }
 
 function testclick(e){
-	alert('Clicked ' + '\'' + e.source.id + '\'');
+	//alert('Clicked ' + '\'' + e.source.id + '\'');
+	alert('platform: ' + Titanium.Platform.osname);
 }
 
 function signOut() {
@@ -81,7 +87,8 @@ function openNotifications() {
 /**
  *Opens Profile Page 
  */
-function openProfile() {
+function openProfile(e) {
+	Titanium.App.Properties.setString('name', e.source.text);
     var profile = Alloy.createController('profileView').getView();
     profile.open();
 }

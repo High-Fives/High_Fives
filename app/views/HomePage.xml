@@ -68,7 +68,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="mikePic"></ImageView>
-					<Label class="profileName" id = "mikeStahr" onClick="openProfile"text="Mike Stahr"></Label>
+					<Label class="profileName" id = "MikeStahr" onClick="openProfile"text="Mike Stahr"></Label>
 					<Label id="timeAgo">25m</Label>
 					<Label id="status">Just saw Nate Jones at the shelter!</Label>
 					<View id="bottomActions">
@@ -91,7 +91,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="irinaPic"></ImageView>
-					<Label class="profileName" id = "irinaRakhlenko" onClick="openProfile" text="Irina Rakhlenko"></Label>
+					<Label class="profileName" id = "MrinaRakhlenko" onClick="openProfile" text="Irina Rakhlenko"></Label>
 					<Label id="timeAgo">1h</Label>
 					<Label id="status">Got a new puppy!</Label>
 					<View id="bottomActions">
@@ -114,7 +114,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="chrisPic"></ImageView>
-					<Label class="profileName" id = "chrisSchipper" onClick="openProfile" text="Chris Schipper"></Label>
+					<Label class="profileName" id = "ChrisSchipper" onClick="openProfile" text="Chris Schipper"></Label>
 					<Label id="timeAgo">5h</Label>
 					<Label id="status">I just learned how to make my first program!</Label>
 					<View id="bottomActions">
@@ -137,7 +137,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="thomasPic"></ImageView>
-					<Label class="profileName" id = "thomasKojs" onClick="openProfile" text="Thomas Kojs"></Label>
+					<Label class="profileName" id = "ThomasKojs" onClick="openProfile" text="Thomas Kojs"></Label>
 					<Label id="timeAgo">10h</Label>
 					<Label id="status">Make today the best day you can! I believe in you!</Label>
 					<View id="bottomActions">
@@ -160,7 +160,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="markPic"></ImageView>
-					<Label class="profileName" id = "markSullivan" onClick="openProfile" text="Mark Sullivan"></Label>
+					<Label class="profileName" id = "MarkSullivan" onClick="openProfile" text="Mark Sullivan"></Label>
 					<Label id="timeAgo">12h</Label>
 					<Label id="status">Making good progress on the development of High Fives.</Label>
 					<View id="bottomActions">

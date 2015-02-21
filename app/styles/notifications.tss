@@ -164,7 +164,7 @@
 	 top:"0%",
 	 left:"0%"
 },
-"#profileName":{
+".profileName":{
 	top: "1dp",
 	left: "120dp", //pic will come 100dp's over so this is 20dp's to the right of that
 	color: "black",
