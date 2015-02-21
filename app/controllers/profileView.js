@@ -1,13 +1,19 @@
 
 // dummy click event.  Add your own!
+if(Titanium.Platform.osname=='mobileweb'){
+var mainWin = Titanium.UI.currentWindow;
 
+
+mainWin.addEventListener('open', setName());
+}
 
 function setName() {
 	$.profileName.text = Titanium.App.Properties.getString('name');
 }
 
 function testclick(e){
-	alert('Clicked ' + '\'' + e.source.id + '\'');
+	//alert('Clicked ' + '\'' + e.source.id + '\'');
+	alert('platform: ' + Titanium.Platform.osname);
 }
 
 function signOut() {
