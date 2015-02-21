@@ -159,10 +159,10 @@
 	backgroundColor: "#eff2f5"
 },
 "#profilePic":{
-	 height:"100%",
+	 height:"90%",
 	 image: "/104-BusinessPerson_60@2x.png", 
-	 top:"0%",
-	 left:"0%"
+	 top:"5%%",
+	 left:"1%"
 },
 
 "#profileName":{

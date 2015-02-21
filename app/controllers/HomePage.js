@@ -80,7 +80,9 @@ function openExplore() {
 function openProfile(e) {
     
     //alert($.nateJones.text);
+    Titanium.App.Properties.setString('profilePictureID', "" + e.source.id);
     Titanium.App.Properties.setString('name', e.source.text);
+    alert(e.source.id);
     var profile = Alloy.createController('profileView').getView();
     profile.open();
 }

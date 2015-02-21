@@ -6,6 +6,10 @@ function setName() {
 	$.profileName.text = Titanium.App.Properties.getString('name');
 }
 
+function setPicture() {
+	$.profilePic.image = Titanium.App.Properties.getString('profilePictureID') + ".png";
+}
+
 function testclick(e){
 	alert('Clicked ' + '\'' + e.source.id + '\'');
 }

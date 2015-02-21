@@ -45,7 +45,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="natePic"></ImageView>
-					<Label class="profileName" id = "nateJones" onClick="openProfile" text="Nate Jones"></Label>
+					<Label class="profileName" id = "NateJones" onClick="openProfile" text="Nate Jones"></Label>
 					<Label id="timeAgo">10m</Label>
 					<Label id="status">Just volunteered at the local shelter!</Label>
 					<View id="bottomActions">
