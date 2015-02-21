@@ -45,35 +45,35 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="chrisPic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Chris Schipper</Label>
+					<Label class="profileName" id = "ChrisSchipper" onClick="openProfile" text="Chris Schipper"></Label>
 					<View id="grayLine" bottom="0"></View>
 				</View>
 			</TableViewRow>
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="irinaPic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Irina Rakhlenko</Label>
+					<Label class="profileName" id = "IrinaRakhlenko" onClick="openProfile" text="Irina Rakhlenko"></Label>
 					<View id="grayLine" bottom="0"></View>
 				</View>
 			</TableViewRow>
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="markPic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Mark Sullivan</Label>
+					<Label class="profileName" id = "MarkSullivan" onClick="openProfile" text="Mark Sullivan"></Label>
 					<View id="grayLine" bottom="0"></View>
 				</View>
 			</TableViewRow>
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="mikePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Mike Stahr</Label>
+					<Label class="profileName" id = "MikeStahr" onClick="openProfile" text="Mike Stahr"></Label>
 					<View id="grayLine" bottom="0"></View>
 				</View>
 			</TableViewRow>
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="natePic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Nate Jones</Label>
+					<Label class="profileName" id = "NateJones" onClick="openProfile" text="Nate Jones"></Label>
 					<View id="grayLine" bottom="0"></View>
 				</View>
 			</TableViewRow>
@@ -81,7 +81,7 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="thomasPic"></ImageView>
-					<Label id="profileName" onClick="openProfile">Thomas Kojs</Label>
+					<Label class="profileName" id = "ThomasKojs" onClick="openProfile" text="Thomas Kojs"></Label>
 					<View id="grayLine" bottom="0"></View>
 				</View>
 			</TableViewRow>

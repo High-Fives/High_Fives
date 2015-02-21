@@ -83,7 +83,8 @@ function openNotifications() {
 /**
  *Opens Profile Page 
  */
-function openProfile() {
+function openProfile(e) {
+	Titanium.App.Properties.setString('name', e.source.text);
     var profile = Alloy.createController('profileView').getView();
     profile.open();
 }
