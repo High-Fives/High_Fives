@@ -12,11 +12,11 @@ color: "#000"
 "#loginInfo":{
 height:"40%",
 width: Titanium.UI.FILL,
-top: "50%"
+top: "43%"
 },
 ".textFieldInfo":{
 width:"55%",
-height: "40dp",
+height: "35dp",
 backgroundColor:"White",
 borderStyle:"Titanium.UI.INPUT_BORDERSTYLE_ROUNDED",
 clearOnEdit:true,
@@ -30,5 +30,5 @@ top:"22dp"
 },
 "#password":{
 passwordMask:true,
-top:"88dp"
+top:"83dp"
 }
