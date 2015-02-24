@@ -212,6 +212,7 @@
 
 },
 ////////////////////////////////////////bottom buttons
+////////////////////////////////////////bottom buttons
 "#menuBar":{
 	bottom: "0%",
 	backgroundColor: "#44a755",
@@ -219,29 +220,49 @@
 	height: "9%",
 	layout: "horizontal",
 },
+".greenLine":{
+	backgroundColor: "#008000",
+	width: Ti.UI.FILL,
+	height: "15%",
+	width: "100%",
+	top:"0%"	
+},
+"#homeGreenLine":{
+	visible:false
+},
+"#exploreGreenLine":{
+	visible:true
+},
+"#notificationGreenLine":{
+	visible:false
+},
+"#roasterGreenLine":{
+	visible:false
+},
 ".tbButton":{
 	width: "25%",
-	height: "100%",
-	//top: "10%",
-	//bottom: "10%"
 },
 "#homeBtn":{
-	height:"100%",
+	top:"20%",
+	height: "80%",
 	image: "/001-Home_60@2x.png"
 },
 "#exploreBtn":{
-	//left: "25%",
-	height:"100%",
+	top:"20%",
+	height:"80%",
 	image: "/141-GlobeAS_60@2x.png"
 },
 "#notificationBtn":{
-	height:"100%",
+	top:"20%",
+	height:"80%",
 	image: "/127-Bell_60@2x.png"
 },
 "#myRosterBtn":{
-	height:"100%",
+	top:"20%",
+	height:"80%",
 	image: "/176-Clipboard_60@2x.png"
 },
+//////////////////////////////////////////
 //////////////////////////////////////////
 
 ///////////slide out menu////////////

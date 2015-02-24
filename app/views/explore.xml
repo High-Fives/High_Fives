@@ -202,17 +202,26 @@
 				</View>
 			</TableViewRow>
 		</TableView>
+			
 			<View id="menuBar">
+				
 				<View class="tbButton">
+					<View class="greenLine" id="homeGreenLine"></View>
 					<ImageView id="homeBtn" onClick="openHome"></ImageView>
 				</View>
+				
 				<View  class="tbButton">
-					<ImageView id="exploreBtn" onClick="openExplore"></ImageView>
+					<View class="greenLine" id="exploreGreenLine"></View>
+					<ImageView id="exploreBtn" onClick="openExplore" ></ImageView>
 				</View>
+				
 				<View  class="tbButton">
+					<View class="greenLine" id="notificationGreenLine"></View>
 					<ImageView id="notificationBtn" onClick="openNotifications"></ImageView>
 				</View>
+				
 				<View  class="tbButton">
+					<View class="greenLine" id="roasterGreenLine"></View>
 					<ImageView id="myRosterBtn" onClick="openMyRoster"></ImageView>
 				</View>
 			</View>
