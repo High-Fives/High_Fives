@@ -59,13 +59,13 @@
 	top: "2dp",
 	right: "5dp",
 	height: "76dp",
-	width: Ti.UI.FILL,
+	width: "16%",
 	backgroundColor: "#686868"
 	
 },
 "#slideMenuName":{
 	top: "20%",
-	right: "4%",
+	right: "5%",
 	color: "white",
 	font: {
 		fontSize : "28dp",

@@ -48,11 +48,7 @@
 	image: "/053-Search_60@2x.png"	
 },
 
-"#searchbar": {
-	right: "5%",
-	color: "#000"	
-	
-},
+
 //////////////////////////////////
 "#grayLine":{
 	backgroundColor: "#9b9d9f",

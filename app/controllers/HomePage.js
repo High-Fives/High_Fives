@@ -41,15 +41,12 @@ function showhidemenu(e){
 
 
 
-function searchBar(e){
-	
-	$.searchbtn.visible=false;
-	
-	
-	$.searchbar.visible = true;
-	
-	
-}
+
+
+
+
+
+
 
 
 /////////////////////////Begin Page Open Statements/////////////////////////
