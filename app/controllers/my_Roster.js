@@ -3,6 +3,22 @@ function testclick(e){
 	alert('Clicked ' + '\'' + e.source.id + '\'');
 }
 
+function searchDisplay(){
+	$.searchBar.visible = true;
+	$.cancel.visible = true;
+	$.menubtn.visible = false;
+	$.searchbtn.visible = false;
+	$.logobtn.visible = false;
+}
+
+function cancelSearch(){
+	$.searchBar.value="";
+	$.searchBar.visible = false;
+	$.cancel.visible = false;
+	$.menubtn.visible = true;
+	$.searchbtn.visible = true;
+	$.logobtn.visible = true;
+}
 // handles the "Like button"
 function likeunlike(e){
 	// change like/unlike image, based on the current image

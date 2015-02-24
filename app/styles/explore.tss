@@ -47,6 +47,21 @@
 	right: "5%",
 	image: "/053-Search_60@2x.png"	
 },
+"#searchBar":{
+	left:"4%",
+	height:"70%",
+	width:"65%",
+	backgroundColor:"White",
+	color:"#336699",
+    borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+    visible:false 
+},
+"#cancel":{
+	left:"71%",
+	width:"25%",
+	height:"70%",
+	visible:false	
+},
 
 
 /////Filter
