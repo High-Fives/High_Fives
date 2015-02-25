@@ -47,9 +47,9 @@
 			</View>
 			<ScrollView id = "filterList" showVerticalScrollIndicator="true" layout = "vertical">
 
-				<View class = "filterRow" onClick = "selectCheck1">
+				<View class = "filterRow" onClick = "selectCheck1" onTouchstart="selectCheck1">
 					<Label class = "filterLabel" id = "baseball" text = "Baseball"></Label>
-					<ImageView id = "checkMark1"></ImageView>
+					<ImageView id = "checkMark1" ></ImageView>
 				</View>
 				<View class = "filterRow" onClick = "selectCheck2"> 
 					<Label class = "filterLabel" id = "basketball" text = "Basketball"></Label>
