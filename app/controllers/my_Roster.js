@@ -103,4 +103,4 @@ Ti.Gesture.addEventListener('orientationchange', function(e) {
     $.main.width=Ti.Platform.displayCaps.platformWidth;
 });
 
-$.my_Roster.open();
+$.my_Roster.open({modal: true});

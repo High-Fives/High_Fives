@@ -83,7 +83,9 @@ function openHome() {
  */
 function openNotifications() {
     var notifications = Alloy.createController('notifications').getView();
-    notifications.open();
+    notifications.open({modal:true,
+    	 _parent: Titanium.UI.currentWindow,
+    	 });
 }
 
 function openExplore() {
@@ -116,4 +118,4 @@ Ti.Gesture.addEventListener('orientationchange', function(e) {
 });
 
 
-$.HomePage.open();
+$.HomePage.open({modal: true, exitOnClose: true});

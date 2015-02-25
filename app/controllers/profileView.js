@@ -129,4 +129,4 @@ Ti.Gesture.addEventListener('orientationchange', function(e) {
     $.main.width=Ti.Platform.displayCaps.platformWidth;
 });
 
-$.profileView.open();
+$.profileView.open({modal: true});

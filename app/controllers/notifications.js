@@ -113,5 +113,7 @@ Titanium.App.Properties.setString('profilePictureID', e.source.id);
 Ti.Gesture.addEventListener('orientationchange', function(e) {
     $.main.width=Ti.Platform.displayCaps.platformWidth;
 });
-
-$.notifications.open();
+$.notifications.addEventListener('android:back', function(){
+    this.close();
+});
+$.notifications.open({modal: true});
