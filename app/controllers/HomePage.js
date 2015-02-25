@@ -100,7 +100,6 @@ function openProfile(e) {
     Titanium.App.Properties.setString('profilePictureID', e.source.id);
     Titanium.App.Properties.setString('name', e.source.text);
     var profile = Alloy.createController('profileView').getView();
-    win.close();
     profile.open();
 }
 
