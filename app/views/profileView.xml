@@ -65,6 +65,7 @@
 					<Label id="charityName" onClick="testclick">SalvationArmy</Label>
 					<View id="charityPageContainerContent">
 						<ImageView id ="charityPageDonateBtn"></ImageView>
+						<Label id="charityDonateAmount">9,800,072</Label>
 					</View>
 					<View id="grayLine" bottom="0"></View>
 				</View>
@@ -75,6 +76,7 @@
 					<Label id="charityName" onClick="testclick">Feeding America</Label>
 					<View id="charityPageContainerContent">
 						<ImageView id ="charityPageDonateBtn"></ImageView>
+						<Label id="charityDonateAmount">678,400</Label>
 					</View>
 					<View id="grayLine" bottom="0"></View>
 				</View>
@@ -85,6 +87,7 @@
 					<Label id="charityName" onClick="testclick">United Way</Label>
 					<View id="charityPageContainerContent">
 						<ImageView id ="charityPageDonateBtn"></ImageView>
+						<Label id="charityDonateAmount">97,000</Label>
 					</View>
 					<View id="grayLine" bottom="0"></View>
 				</View>
@@ -95,6 +98,7 @@
 					<Label id="charityName" onClick="testclick">GiveDirectly</Label>
 					<View id="charityPageContainerContent">
 						<ImageView id ="charityPageDonateBtn"></ImageView>
+						<Label id="charityDonateAmount">315,080</Label>
 					</View>
 					<View id="grayLine" bottom="0"></View>
 				</View>

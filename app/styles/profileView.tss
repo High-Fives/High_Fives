@@ -282,7 +282,7 @@
 },
 "#charityPageDonateBtn":{
 	left: "0%",
-	height: "100%",
+	height: "60%",
 	image: "/330-Dollar_30.png"
 },
 "#charityDonateAmount":{
@@ -291,7 +291,7 @@
 	height: "100%",
 	display: "inline",
 	font: {
-		fontSize : "40dp"
+		fontSize : "20dp"
 	}
 },
 "#charityPageContainerContent":{
