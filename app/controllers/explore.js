@@ -185,5 +185,7 @@ function flashColorEnd(e) {
 Ti.Gesture.addEventListener('orientationchange', function(e) {
 	$.main.width = Ti.Platform.displayCaps.platformWidth;
 });
-
-$.explore.open({modal: true});
+$.explore.addEventListener('android:back', function(){
+    this.close();
+});
+$.explore.open({modal: true, exitOnClose:false});

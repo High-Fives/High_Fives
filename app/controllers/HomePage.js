@@ -85,6 +85,7 @@ function openNotifications() {
     var notifications = Alloy.createController('notifications').getView();
     notifications.open({modal:true,
     	 _parent: Titanium.UI.currentWindow,
+    	 exitOnClose:false
     	 });
 }
 

@@ -128,5 +128,7 @@ function openExplore(){
 Ti.Gesture.addEventListener('orientationchange', function(e) {
     $.main.width=Ti.Platform.displayCaps.platformWidth;
 });
-
-$.profileView.open({modal: true});
+$.profileView.addEventListener('android:back', function(){
+    this.close();
+});
+$.profileView.open({modal: true, exitOnClose:false});

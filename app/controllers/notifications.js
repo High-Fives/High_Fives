@@ -116,4 +116,4 @@ Ti.Gesture.addEventListener('orientationchange', function(e) {
 $.notifications.addEventListener('android:back', function(){
     this.close();
 });
-$.notifications.open({modal: true});
+$.notifications.open({modal: true, exitOnClose:false});
