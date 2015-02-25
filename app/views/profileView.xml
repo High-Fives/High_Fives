@@ -50,8 +50,8 @@
 			</TableViewRow>
 			<TableViewRow id="rowContainer">
 				<View>
-					<ImageView id="charityCube"></ImageView>
-					<Label id="charityName" onClick="testclick">Cincinnati Relief Center</Label>
+					<ImageView id="charityStJude"></ImageView>
+					<Label id="charityName" onClick="testclick">St. Jude's Children's Hospital</Label>
 					<View id="charityPageContainerContent">
 						<Label id="charityDonateAmount">22,000</Label>
 						<ImageView id ="charityPageDonateBtn"></ImageView>
@@ -61,8 +61,8 @@
 			</TableViewRow>
 			<TableViewRow id="rowContainer">
 				<View>
-					<ImageView id="charityCube"></ImageView>
-					<Label id="charityName" onClick="testclick">Cincinnati Relief Center</Label>
+					<ImageView id="charitySalvation"></ImageView>
+					<Label id="charityName" onClick="testclick">SalvationArmy</Label>
 					<View id="charityPageContainerContent">
 						<ImageView id ="charityPageDonateBtn"></ImageView>
 					</View>
@@ -71,8 +71,8 @@
 			</TableViewRow>
 			<TableViewRow id="rowContainer">
 				<View>
-					<ImageView id="charityCube"></ImageView>
-					<Label id="charityName" onClick="testclick">Cincinnati Relief Center</Label>
+					<ImageView id="charityFeeding"></ImageView>
+					<Label id="charityName" onClick="testclick">Feeding America</Label>
 					<View id="charityPageContainerContent">
 						<ImageView id ="charityPageDonateBtn"></ImageView>
 					</View>
@@ -81,8 +81,8 @@
 			</TableViewRow>
 			<TableViewRow id="rowContainer">
 				<View>
-					<ImageView id="charityCube"></ImageView>
-					<Label id="charityName" onClick="testclick">Cincinnati Relief Center</Label>
+					<ImageView id="charityUnited"></ImageView>
+					<Label id="charityName" onClick="testclick">United Way</Label>
 					<View id="charityPageContainerContent">
 						<ImageView id ="charityPageDonateBtn"></ImageView>
 					</View>
@@ -91,8 +91,8 @@
 			</TableViewRow>
 			<TableViewRow id="rowContainer">
 				<View>
-					<ImageView id="charityCube"></ImageView>
-					<Label id="charityName" onClick="testclick">Cincinnati Relief Center</Label>
+					<ImageView id="charityGive"></ImageView>
+					<Label id="charityName" onClick="testclick">GiveDirectly</Label>
 					<View id="charityPageContainerContent">
 						<ImageView id ="charityPageDonateBtn"></ImageView>
 					</View>
