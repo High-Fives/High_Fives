@@ -82,10 +82,10 @@
 	borderColor: "#cacdd8",
 	borderRadius: 3,
 	borderWidth: 1,
-	left: "0%",
-	right:"0%",
+	left: "1%",
+	right:"1%",
 	height: "90dp",  //keep this height hard coded, want same size on all devices
-	width: Ti.UI.FILL,
+	width: "98%",
 	backgroundColor: "#eff2f5"
 },
 

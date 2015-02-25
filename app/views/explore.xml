@@ -43,61 +43,48 @@
 				</View>
 			</View>
 			<View id="filterOptions">
-				<Label onClick="openFilter" text="Filter"></Label>
+				<Label onClick="openFilter" text="Filter" color="#ffffff"></Label>
 			</View>
 			<ScrollView id = "filterList" showVerticalScrollIndicator="true" layout = "vertical">
 
-				<View class = "filterRow" onClick = "selectCheck1" onTouchstart="selectCheck1">
+				<View class = "filterRow" onClick = "changeColor">
 					<Label class = "filterLabel" id = "baseball" text = "Baseball"></Label>
-					<ImageView id = "checkMark1" ></ImageView>
 				</View>
-				<View class = "filterRow" onClick = "selectCheck2"> 
+				<View class = "filterRow" onClick = "changeColor"> 
 					<Label class = "filterLabel" id = "basketball" text = "Basketball"></Label>
-					<ImageView id = "checkMark2"></ImageView>
 				</View>
-				<View class = "filterRow" onClick = "selectCheck3">
+				<View class = "filterRow" onClick = "changeColor">
 					<Label class = "filterLabel" id = "football" text = "Football"></Label>
-					<ImageView id = "checkMark3"></ImageView>
 				</View>
-				<View class = "filterRow" onClick = "selectCheck4">
+				<View class = "filterRow" onClick = "changeColor">
 					<Label class = "filterLabel" id = "golf" text = "Golf"></Label>
-					<ImageView id = "checkMark4"></ImageView>
 				</View>
-				<View class = "filterRow" onClick = "selectCheck5">
+				<View class = "filterRow" onClick = "changeColor">
 					<Label class = "filterLabel" id = "iceHockey" text = "Ice Hockey"></Label>
-					<ImageView id = "checkMark5"></ImageView>
 				</View>
-				<View class = "filterRow" onClick = "selectCheck6">
+				<View class = "filterRow" onClick = "changeColor">
 					<Label class = "filterLabel" id = "lacrosse" text = "Lacrosse"></Label>
-					<ImageView id = "checkMark6"></ImageView>
 				</View>
-				<View class = "filterRow" onClick = "selectCheck7">
+				<View class = "filterRow" onClick = "changeColor">
 					<Label class = "filterLabel" id = "nascar" text = "NASCAR"></Label>
-					<ImageView id = "checkMark7"></ImageView>
 				</View>
-				<View class = "filterRow" onClick = "selectCheck8">
+				<View class = "filterRow" onClick = "changeColor">
 					<Label class = "filterLabel" id = "rugby" text = "Rugby"></Label>
-					<ImageView id = "checkMark8"></ImageView>
 				</View>
-				<View class = "filterRow" onClick = "selectCheck9">
+				<View class = "filterRow" onClick = "changeColor">
 					<Label class = "filterLabel" id = "softball" text = "Softball"></Label>
-					<ImageView id = "checkMark9"></ImageView>
 				</View>
-				<View class = "filterRow" onClick = "selectCheck10">
+				<View class = "filterRow" onClick = "changeColor">
 					<Label class = "filterLabel" id = "tennis" text = "Tennis"></Label>
-					<ImageView id = "checkMark10"></ImageView>
 				</View>
-				<View class = "filterRow" onClick = "selectCheck11">
+				<View class = "filterRow" onClick = "changeColor">
 					<Label class = "filterLabel" id = "trackAndField" text = "Track and Field"></Label>
-					<ImageView id = "checkMark11"></ImageView>
 				</View>
-				<View class = "filterRow" onClick = "selectCheck12">
+				<View class = "filterRow" onClick = "changeColor">
 					<Label class = "filterLabel" id = "volleyball" text = "Volleyball"></Label>
-					<ImageView id = "checkMark12"></ImageView>
 				</View>
-				<View class = "filterRow" onClick = "selectCheck13">
+				<View class = "filterRow" onClick = "changeColor">
 					<Label class = "filterLabel" id = "wrestling" text = "Wrestling"></Label>
-					<ImageView id = "checkMark13"></ImageView>
 				</View>
 
 			</ScrollView>
