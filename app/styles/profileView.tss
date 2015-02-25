@@ -19,7 +19,7 @@
 "#menu":{
 	height: Ti.UI.FILL,
 	width: Ti.UI.FILL,
-	backgroundColor: "#66b266",
+	backgroundColor: "#686868",
 	left: 0	
 },
 ///////////////////////////////////// top bar
@@ -65,9 +65,8 @@
 //////////////////////////////////
 
 /////////////slide out menu//////////////
-
 "#menuProfPic":{
-	borderColor: "#66b266",
+	borderColor: "#686868",
 	borderRadius: 3,
 	borderWidth: 2,
 	left: "0dp",
@@ -75,13 +74,13 @@
 	top: "2dp",
 	right: "5dp",
 	height: "76dp",
-	width: Ti.UI.FILL,
-	backgroundColor: "#66b266"
+	width: "16%",
+	backgroundColor: "#686868"
 	
 },
 "#slideMenuName":{
 	top: "20%",
-	left: "4%",
+	right: "5%",
 	color: "white",
 	font: {
 		fontSize : "28dp",
@@ -98,8 +97,7 @@
 	
 },
 "#menuContainer":{
-	borderColor: "#66b266", //change to light green
-	borderRadius: 3,
+	borderColor: "#686868", //change to grey
 	borderWidth: 2,
 	left: "0dp",
 	right:"2dp",
@@ -107,7 +105,7 @@
 	right: "5dp",
 	height: "60",
 	width: Ti.UI.FILL,
-	backgroundColor: "#66b266" //change to lighter green
+	backgroundColor: "#686868" //change to grey
 	
 	
 },
@@ -142,8 +140,11 @@
 	color: "white",
 	//backgroundColor: "#eff2f5",
 	width: Ti.UI.FILL,
-	height: "1"		
+	height: "2"		
 },
+
+
+
 
 ///////////////slide out menu//////////////
 
@@ -198,12 +199,42 @@
 		fontSize : "15dp"
 	}
 },
-"#charityCube": {
+//////////////added charity pics/////////////////////////////////////////
+"#charityStJude": {
 	 height:"100%",
 	 top:"0%",
 	 left:"0%",
-	 image: "/231-Cube_60@2x.png"
+	 image: "/stjude.png"
 },
+"#charitySalvation": {
+	 height:"100%",
+	 top:"0%",
+	 left:"0%",
+	 image: "/SalvationArmy.png"
+},
+"#charityFeeding": {
+	 height:"100%",
+	 top:"0%",
+	 left:"0%",
+	 image: "/feedingAmerica.png"
+},
+"#charityUnited": {
+	 height:"100%",
+	 top:"0%",
+	 left:"0%",
+	 image: "/unitedWay.png"
+},
+"#charityGive": {
+	 height:"100%",
+	 top:"0%",
+	 left:"0%",
+	 image: "/givedirectly.png"
+},
+
+///////end of charity pics////////////////////////////////
+
+
+
 "#charityName":{
 	top: "1dp",
 	left: "120dp", //pic will come 100dp's over so this is 20dp's to the right of that
