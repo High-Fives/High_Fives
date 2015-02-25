@@ -130,6 +130,140 @@
 	width: "0%",
 }
 
+
+
+//////////////////////////////////////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+////////////This is the filter
+"#filterOptions":{
+	height: "4%",
+	backgroundColor: '#267431',
+},
+
+"#filterList":{
+	top: "0%",
+	height: "0%",
+	left: "6%",
+	width: "86%"
+}
+
+".filterRow":{
+	borderColor: "#cacdd8",
+	borderRadius: 3,
+	borderWidth: 1,
+	top: "0",
+	height: "45dp",
+	left: "1%",
+	right:"1%",
+	width: "98%",
+	backgroundColor: "#eff2f5"
+}
+
+".filterLabel":{
+	left: "15%",
+	font: {
+		size: "15dp",	
+	},
+	
+}
+
+".filterSwitch":{
+	right: "15%",
+	height: "90%",
+
+}
+//ALl of these check marks are hard-coded and need to be looked at and fixed for the database section
+
+"#checkMark1":{
+	image: "182-Check.png",
+	right: "15%",
+	height: "80%",
+	visible: false,
+	
+}
+"#checkMark2":{
+	image: "182-Check.png",
+	right: "15%",
+	height: "80%",
+	visible: false,
+	
+}
+"#checkMark3":{
+	image: "182-Check.png",
+	right: "15%",
+	height: "80%",
+	visible: false,
+	
+}
+"#checkMark4":{
+	image: "182-Check.png",
+	right: "15%",
+	height: "80%",
+	visible: false,
+	
+}
+"#checkMark5":{
+	image: "182-Check.png",
+	right: "15%",
+	height: "80%",
+	visible: false,
+	
+}
+"#checkMark6":{
+	image: "182-Check.png",
+	right: "15%",
+	height: "80%",
+	visible: false,
+	
+}
+"#checkMark7":{
+	image: "182-Check.png",
+	right: "15%",
+	height: "80%",
+	visible: false,
+	
+}
+"#checkMark8":{
+	image: "182-Check.png",
+	right: "15%",
+	height: "80%",
+	visible: false,
+	
+}
+"#checkMark9":{
+	image: "182-Check.png",
+	right: "15%",
+	height: "80%",
+	visible: false,
+	
+}
+"#checkMark10":{
+	image: "182-Check.png",
+	right: "15%",
+	height: "80%",
+	visible: false,
+}
+"#checkMark11":{
+	image: "182-Check.png",
+	right: "15%",
+	height: "80%",
+	visible: false,
+	
+}
+"#checkMark12":{
+	image: "182-Check.png",
+	right: "15%",
+	height: "80%",
+	visible: false,
+	
+}
+"#checkMark13":{
+	image: "182-Check.png",
+	right: "15%",
+	height: "80%",
+	visible: false,
+	
+}
+//////////////////////////////////
 //////////////////////////////////
 "#grayLine":{
 	backgroundColor: "#9b9d9f",

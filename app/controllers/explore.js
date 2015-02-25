@@ -1,3 +1,19 @@
+openFilter = 0;
+//HARD CODED CHECK STATEMENTS -- NEED TO BE FIXED ONCE DATABASE COMES IN TO PLAY
+checked1 = false;
+checked2 = false;
+checked3 = false;
+checked4 = false;
+checked5 = false;
+checked6 = false;
+checked7 = false;
+checked8 = false;
+checked9 = false;
+checked10 = false;
+checked11 = false;
+checked12 = false;
+checked13 = false;
+//END HARDCODED CHECK STATEMENTS
 popIsUp = 0;
 
 // dummy click event.  Add your own!
@@ -131,6 +147,170 @@ function sportsFilter(){
 	}
 };
 
+////////////////////////////////////////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+/**
+ *Operate the Sports Filter 
+ */
+
+function openFilter(){
+	if(openFilter == 0){
+		$.filterList.height = '80%';
+		$.exploreFeed.height = "0%";
+		openFilter = 1;
+		
+	}
+	else if(openFilter == 1){
+		$.filterList.height = '0%';
+		$.exploreFeed.height = "80%";
+		openFilter = 0;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+ 
+//hard coded checkmark statements. These will need ot be fixed for database usage. Should only keep one when switching over to dB
+function selectCheck1() {
+	if(checked1 == false) {
+		$.checkMark1.visible = true;
+		checked1 = true;
+	}
+	else {
+		$.checkMark1.visible = false;
+		checked1 = false;
+	}
+}
+function selectCheck2() {
+	if(checked2 == false) {
+		$.checkMark2.visible = true;
+		checked2 = true;
+	}
+	else {
+		$.checkMark2.visible = false;
+		checked2 = false;
+	}
+}
+function selectCheck3() {
+	if(checked3 == false) {
+		$.checkMark3.visible = true;
+		checked3 = true;
+	}
+	else {
+		$.checkMark3.visible = false;
+		checked3 = false;
+	}
+}
+function selectCheck4() {
+	if(checked4 == false) {
+		$.checkMark4.visible = true;
+		checked4 = true;
+	}
+	else {
+		$.checkMark4.visible = false;
+		checked4 = false;
+	}
+}
+function selectCheck5() {
+	if(checked5 == false) {
+		$.checkMark5.visible = true;
+		checked5 = true;
+	}
+	else {
+		$.checkMark5.visible = false;
+		checked5 = false;
+	}
+}
+function selectCheck6() {
+	if(checked6 == false) {
+		$.checkMark6.visible = true;
+		checked6 = true;
+	}
+	else {
+		$.checkMark6.visible = false;
+		checked6 = false;
+	}
+}
+function selectCheck7() {
+	if(checked7 == false) {
+		$.checkMark7.visible = true;
+		checked7 = true;
+	}
+	else {
+		$.checkMark7.visible = false;
+		checked7 = false;
+	}
+}
+function selectCheck8() {
+	if(checked8 == false) {
+		$.checkMark8.visible = true;
+		checked8 = true;
+	}
+	else {
+		$.checkMark8.visible = false;
+		checked8 = false;
+	}
+}
+function selectCheck9() {
+	if(checked9 == false) {
+		$.checkMark9.visible = true;
+		checked9 = true;
+	}
+	else {
+		$.checkMark9.visible = false;
+		checked9 = false;
+	}
+}
+function selectCheck10() {
+	if(checked10 == false) {
+		$.checkMark10.visible = true;
+		checked10 = true;
+	}
+	else {
+		$.checkMark10.visible = false;
+		checked10 = false;
+	}
+}
+function selectCheck11() {
+	if(checked11 == false) {
+		$.checkMark11.visible = true;
+		checked11 = true;
+	}
+	else {
+		$.checkMark11.visible = false;
+		checked11 = false;
+	}
+}
+function selectCheck12() {
+	if(checked12 == false) {
+		$.checkMark12.visible = true;
+		checked12 = true;
+	}
+	else {
+		$.checkMark12.visible = false;
+		checked12 = false;
+	}
+}
+function selectCheck13() {
+	if(checked13 == false) {
+		$.checkMark13.visible = true;
+		checked13 = true;
+	}
+	else {
+		$.checkMark13.visible = false;
+		checked13 = false;
+	}
+}
+
+
+///////////END HARD CODED METHODS////////////////////////////
 
 
 // This bit listens to the orientation change and re-establishes the width 
