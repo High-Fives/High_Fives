@@ -12,6 +12,10 @@
 	</View>
 	<Button id="SignUp" onClick="SignUpClicked" title="Sign Up" color="blue"
 	bottom="1%" width="30%" height="45dp" />
+	<Button id="SignUp_Athlete" title="I am an Athlete" color="blue"
+	bottom="1%" width="30%" height="45dp" right="50%" />
+	<Button id="SignUp_Fan" title="I am a Fan" color="blue"
+	bottom="1%" width="30%" height="45dp" left="50%"  />
 
 </Window>
 </Alloy>
