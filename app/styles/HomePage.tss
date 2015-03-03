@@ -145,7 +145,7 @@
 "#commentBtn":{
 	right: "32%",
 	height: "70%",
-	image: "/125-Megaphone_30.png"
+	image: "/125-Megaphone_30.png",
 },
 "#likeAmount":{
 	left: "9%", 			//will mess up on different screen, with of button hard coded(as it should be) but..

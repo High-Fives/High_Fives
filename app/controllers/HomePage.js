@@ -110,8 +110,8 @@ function openProfile(e) {
  *Open Donate Page 
  */
 function openDonatePage() {
-	var explore = Alloy.createController('explore').getView();
-	explore.open();
+	var donatePage = Alloy.createController('donatePage').getView();
+	donatePage.open();
 }
 
 /////////////////////////End Page Open Statements/////////////////////////

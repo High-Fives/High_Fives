@@ -45,6 +45,7 @@
 			
 			
 			<!--Bug in code: only the last bottomAction has clickability, don't know why, must fix -->
+			<!--Bug was fixed by removing itemActionButton class -->
 		<TableView id="newsFeed">
 			<TableViewRow id="rowContainer">
 				<View>
@@ -53,18 +54,12 @@
 					<Label id="timeAgo">10m</Label>
 					<Label id="status">Just volunteered at the local shelter!</Label>
 					<View id="bottomActions">
-						<View class="itemActionButton">
-							<ImageView id="likeBtn" onClick="testclick"></ImageView>
-							<Label id="likeAmount">3.2k</Label>
-						</View>
-						<View class="itemActionButton">
-							<ImageView id="donateBtn" onClick="testclick"></ImageView>
-							<Label id="donateAmount">10k</Label>
-						</View>
-						<View class="itemActionButton">
+							<ImageView id="likeBtn"onClick="testclick"></ImageView>
+							<Label id="likeAmount">22k</Label>
+							<ImageView id="donateBtn" onClick="openDonatePage"></ImageView>
+							<Label id="donateAmount">105k</Label>
 							<ImageView id="commentBtn" onClick="testclick"></ImageView>
-							<Label id="replyAmount">604</Label>
-						</View>
+							<Label id="replyAmount">8k</Label>
 					</View>
 					<View id="grayLine" bottom="0"></View>
 				</View>
@@ -76,18 +71,12 @@
 					<Label id="timeAgo">25m</Label>
 					<Label id="status">Just saw Nate Jones at the shelter!</Label>
 					<View id="bottomActions">
-						<View class="itemActionButton">
 							<ImageView id="likeBtn"onClick="testclick"></ImageView>
 							<Label id="likeAmount">22k</Label>
-						</View>
-						<View class="itemActionButton">
 							<ImageView id="donateBtn" onClick="testclick"></ImageView>
 							<Label id="donateAmount">105k</Label>
-						</View>
-						<View class="itemActionButton">
 							<ImageView id="commentBtn" onClick="testclick"></ImageView>
 							<Label id="replyAmount">8k</Label>
-						</View>
 					</View>
 					<View id="grayLine" bottom="0"></View>
 				</View>
@@ -99,18 +88,12 @@
 					<Label id="timeAgo">1h</Label>
 					<Label id="status">Got a new puppy!</Label>
 					<View id="bottomActions">
-						<View class="itemActionButton">
-							<ImageView id="likeBtn" onClick="testclick"></ImageView>
-							<Label id="likeAmount">5.2k</Label>
-						</View>
-						<View class="itemActionButton">
+							<ImageView id="likeBtn"onClick="testclick"></ImageView>
+							<Label id="likeAmount">22k</Label>
 							<ImageView id="donateBtn" onClick="testclick"></ImageView>
-							<Label id="donateAmount">0.4k</Label>
-						</View>
-						<View class="itemActionButton">
+							<Label id="donateAmount">105k</Label>
 							<ImageView id="commentBtn" onClick="testclick"></ImageView>
-							<Label id="replyAmount">74</Label>
-						</View>
+							<Label id="replyAmount">8k</Label>
 					</View>
 					<View id="grayLine" bottom="0"></View>
 				</View>
@@ -122,18 +105,12 @@
 					<Label id="timeAgo">5h</Label>
 					<Label id="status">I just learned how to make my first program!</Label>
 					<View id="bottomActions">
-						<View class="itemActionButton">
-							<ImageView id="likeBtn" onClick="testclick"></ImageView>
-							<Label id="likeAmount">336</Label>
-						</View>
-						<View class="itemActionButton">
+							<ImageView id="likeBtn"onClick="testclick"></ImageView>
+							<Label id="likeAmount">22k</Label>
 							<ImageView id="donateBtn" onClick="testclick"></ImageView>
-							<Label id="donateAmount">23k</Label>
-						</View>
-						<View class="itemActionButton">
+							<Label id="donateAmount">105k</Label>
 							<ImageView id="commentBtn" onClick="testclick"></ImageView>
-							<Label id="replyAmount">50</Label>
-						</View>
+							<Label id="replyAmount">8k</Label>
 					</View>
 					<View id="grayLine" bottom="0"></View>
 				</View>
@@ -145,18 +122,12 @@
 					<Label id="timeAgo">10h</Label>
 					<Label id="status">Make today the best day you can! I believe in you!</Label>
 					<View id="bottomActions">
-						<View class="itemActionButton">
-							<ImageView id="likeBtn" onClick="testclick"></ImageView>
-							<Label id="likeAmount">1.2k</Label>
-						</View>
-						<View class="itemActionButton">
+							<ImageView id="likeBtn"onClick="testclick"></ImageView>
+							<Label id="likeAmount">22k</Label>
 							<ImageView id="donateBtn" onClick="testclick"></ImageView>
-							<Label id="donateAmount">15k</Label>
-						</View>
-						<View class="itemActionButton">
+							<Label id="donateAmount">105k</Label>
 							<ImageView id="commentBtn" onClick="testclick"></ImageView>
-							<Label id="replyAmount">8</Label>
-						</View>
+							<Label id="replyAmount">8k</Label>
 					</View>
 					<View id="grayLine" bottom="0"></View>
 				</View>
@@ -164,22 +135,16 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="markPic"></ImageView>
-					<Label class="profileName" id = "MarkSullivan" onClick="openProfile" text="Mark Sullivan"></Label>
+					<Label class="profileName" id ="MarkSullivan" onClick="openProfile" text="Mark Sullivan"></Label>
 					<Label id="timeAgo">12h</Label>
 					<Label id="status">Making good progress on the development of High Fives.</Label>
 					<View id="bottomActions">
-						<View class="itemActionButton">
-							<ImageView id="likeBtn" onClick="testclick"></ImageView>
-							<Label id="likeAmount">2.5k</Label>
-						</View>
-						<View class="itemActionButton">
+							<ImageView id="likeBtn"onClick="testclick"></ImageView>
+							<Label id="likeAmount">22k</Label>
 							<ImageView id="donateBtn" onClick="testclick"></ImageView>
-							<Label id="donateAmount">1k</Label>
-						</View>
-						<View class="itemActionButton">
+							<Label id="donateAmount">105k</Label>
 							<ImageView id="commentBtn" onClick="testclick"></ImageView>
-							<Label id="replyAmount">96</Label>
-						</View>
+							<Label id="replyAmount">8k</Label>
 					</View>
 					<View id="grayLine" bottom="0"></View>
 				</View>
