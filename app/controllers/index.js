@@ -11,4 +11,4 @@ alert("Invalid email/password");
 function SignUpClicked(e){
 alert("SignUp clicked.");
 };
-$.index.open();
+$.index.open({modal: true});

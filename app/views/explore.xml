@@ -2,35 +2,33 @@
 	<Window class="container">
 		<View id="menu" onClick="showhidemenu">
 			<TableView id="slideOutMenu">
-			<TableViewRow id="menuProfPic">
-				<View>
-					<ImageView id="slideMenuPic"></ImageView>
-					<Label id="slideMenuName" onClick="openProfile">Tom Ryan</Label>	
-					<View id="whiteLine" bottom="0"></View>				
-				</View>				
-			</TableViewRow>
-			<TableViewRow id="menuContainer">
-				<View>
-					<Label id="accountSettings" onClick="testclick">Account Settings</Label>
-					<View id="whiteLine" bottom="0"></View>
-				</View>				
-			</TableViewRow>	
-			<TableViewRow id="menuContainer">
-				<View>
-					<Label id="signOut" onClick="signOut">Sign Out</Label>
-					<View id="whiteLine" bottom="0"></View>
-				</View>				
-			</TableViewRow>	
-			<TableViewRow id="menuContainer">
-				<View>
-					<Label id="Help" onClick="testclick">Help</Label>
-					<View id="whiteLine" bottom="0"></View>
-				</View>				
-			</TableViewRow>	
+				<TableViewRow id="menuProfPic">
+					<View>
+						<ImageView id="slideMenuPic"></ImageView>
+						<Label id="slideMenuName" onClick="openProfile">Tom Ryan</Label>
+						<View id="whiteLine" bottom="0"></View>
+					</View>
+				</TableViewRow>
+				<TableViewRow id="menuContainer">
+					<View>
+						<Label id="accountSettings" onClick="testclick">Account Settings</Label>
+						<View id="whiteLine" bottom="0"></View>
+					</View>
+				</TableViewRow>
+				<TableViewRow id="menuContainer">
+					<View>
+						<Label id="signOut" onClick="signOut">Sign Out</Label>
+						<View id="whiteLine" bottom="0"></View>
+					</View>
+				</TableViewRow>
+				<TableViewRow id="menuContainer">
+					<View>
+						<Label id="Help" onClick="testclick">Help</Label>
+						<View id="whiteLine" bottom="0"></View>
+					</View>
+				</TableViewRow>
 
-							
-		</TableView>
-			
+			</TableView>
 		</View>
 		<View id="main">
 			<View id="iconBar">
@@ -43,42 +41,51 @@
 				</View>
 			</View>
 			<View id="filterOptions">
-				<View id="filterBar">
-					<View id="sort" onClick="testclick">
-						<Label>High Fives</Label>
-					</View>
-					<View id="whiteLine" onClick="testclick"></View>
-					<View id="sortRight" onClick="testclick">
-						<Label>Donations</Label>
-					</View>
-				</View>
-				<View id="filterBar2" onClick="sportsFilter">
-					<Label>Sports</Label>
-				</View>
+				<Label onClick="openFilter" text="Filter" color="#ffffff"></Label>
 			</View>
-			<View id="popup">
-				<TableView>
-					<TableViewRow>
-						<Label>Baseball</Label>
-					</TableViewRow>
-					<TableViewRow>
-						<Label>Football</Label>
-					</TableViewRow>
-					<TableViewRow>
-						<Label>Basketball</Label>
-					</TableViewRow>
-					<TableViewRow>
-						<Label>Soccer</Label>
-					</TableViewRow>
-					<TableViewRow>
-						<Label>Golf</Label>
-					</TableViewRow>
-					<TableViewRow>
-						<Label>Tennis</Label>
-					</TableViewRow>
-				</TableView>
-			</View>
-			
+			<ScrollView id = "filterList" showVerticalScrollIndicator="true" layout = "vertical">
+
+				<View class = "filterRow" onClick = "changeColor">
+					<Label class = "filterLabel" id = "baseball" text = "Baseball"></Label>
+				</View>
+				<View class = "filterRow" onClick = "changeColor">
+					<Label class = "filterLabel" id = "basketball" text = "Basketball"></Label>
+				</View>
+				<View class = "filterRow" onClick = "changeColor">
+					<Label class = "filterLabel" id = "football" text = "Football"></Label>
+				</View>
+				<View class = "filterRow" onClick = "changeColor">
+					<Label class = "filterLabel" id = "golf" text = "Golf"></Label>
+				</View>
+				<View class = "filterRow" onClick = "changeColor">
+					<Label class = "filterLabel" id = "iceHockey" text = "Ice Hockey"></Label>
+				</View>
+				<View class = "filterRow" onClick = "changeColor">
+					<Label class = "filterLabel" id = "lacrosse" text = "Lacrosse"></Label>
+				</View>
+				<View class = "filterRow" onClick = "changeColor">
+					<Label class = "filterLabel" id = "nascar" text = "NASCAR"></Label>
+				</View>
+				<View class = "filterRow" onClick = "changeColor">
+					<Label class = "filterLabel" id = "rugby" text = "Rugby"></Label>
+				</View>
+				<View class = "filterRow" onClick = "changeColor">
+					<Label class = "filterLabel" id = "softball" text = "Softball"></Label>
+				</View>
+				<View class = "filterRow" onClick = "changeColor">
+					<Label class = "filterLabel" id = "tennis" text = "Tennis"></Label>
+				</View>
+				<View class = "filterRow" onClick = "changeColor">
+					<Label class = "filterLabel" id = "trackAndField" text = "Track and Field"></Label>
+				</View>
+				<View class = "filterRow" onClick = "changeColor">
+					<Label class = "filterLabel" id = "volleyball" text = "Volleyball"></Label>
+				</View>
+				<View class = "filterRow" onClick = "changeColor">
+					<Label class = "filterLabel" id = "wrestling" text = "Wrestling"></Label>
+				</View>
+
+			</ScrollView>
 			<TableView id="exploreFeed">
 			<TableViewRow id="rowContainer">
 				<View>
@@ -89,12 +96,15 @@
 					<View id="bottomActions">
 						<View class="itemActionButton">
 							<ImageView id="likeBtn" onClick="testclick"></ImageView>
+							<Label id="likeAmount">3.2k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="donateBtn" onClick="likeunlike"></ImageView>
+							<Label id="donateAmount">10k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							<Label id="replyAmount">604</Label>
 						</View>
 					</View>
 					<View id="grayLine" bottom="0"></View>
@@ -103,18 +113,21 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="mikePic"></ImageView>
-					<Label class="profileName" id = "MikeStahr" onClick="openProfile" text="Mike Stahr"></Label>
+					<Label class="profileName" id = "MikeStahr" onClick="openProfile"text="Mike Stahr"></Label>
 					<Label id="timeAgo">25m</Label>
 					<Label id="status">Just saw Nate Jones at the shelter!</Label>
 					<View id="bottomActions">
 						<View class="itemActionButton">
 							<ImageView id="likeBtn"onClick="testclick"></ImageView>
+							<Label id="likeAmount">22k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="donateBtn" onClick="testclick"></ImageView>
+							<Label id="donateAmount">105k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							<Label id="replyAmount">8k</Label>
 						</View>
 					</View>
 					<View id="grayLine" bottom="0"></View>
@@ -129,12 +142,15 @@
 					<View id="bottomActions">
 						<View class="itemActionButton">
 							<ImageView id="likeBtn" onClick="testclick"></ImageView>
+							<Label id="likeAmount">5.2k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="donateBtn" onClick="testclick"></ImageView>
+							<Label id="donateAmount">0.4k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							<Label id="replyAmount">74</Label>
 						</View>
 					</View>
 					<View id="grayLine" bottom="0"></View>
@@ -149,12 +165,15 @@
 					<View id="bottomActions">
 						<View class="itemActionButton">
 							<ImageView id="likeBtn" onClick="testclick"></ImageView>
+							<Label id="likeAmount">336</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="donateBtn" onClick="testclick"></ImageView>
+							<Label id="donateAmount">23k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							<Label id="replyAmount">50</Label>
 						</View>
 					</View>
 					<View id="grayLine" bottom="0"></View>
@@ -163,21 +182,21 @@
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="thomasPic"></ImageView>
-					<Label class="profileName" id = "ThomadKojs" onClick="openProfile" text="Thomas Kojs"></Label>
+					<Label class="profileName" id = "ThomasKojs" onClick="openProfile" text="Thomas Kojs"></Label>
 					<Label id="timeAgo">10h</Label>
 					<Label id="status">Make today the best day you can! I believe in you!</Label>
 					<View id="bottomActions">
 						<View class="itemActionButton">
 							<ImageView id="likeBtn" onClick="testclick"></ImageView>
-							<Label id="likeAmount">1000</Label>
+							<Label id="likeAmount">1.2k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="donateBtn" onClick="testclick"></ImageView>
-							<Label id="donateAmount">$15,000</Label>
+							<Label id="donateAmount">15k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="commentBtn" onClick="testclick"></ImageView>
-							<Label id="replyAmount">8 replies</Label>
+							<Label id="replyAmount">8</Label>
 						</View>
 					</View>
 					<View id="grayLine" bottom="0"></View>
@@ -192,36 +211,35 @@
 					<View id="bottomActions">
 						<View class="itemActionButton">
 							<ImageView id="likeBtn" onClick="testclick"></ImageView>
+							<Label id="likeAmount">2.5k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="donateBtn" onClick="testclick"></ImageView>
+							<Label id="donateAmount">1k</Label>
 						</View>
 						<View class="itemActionButton">
 							<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							<Label id="replyAmount">96</Label>
 						</View>
 					</View>
 					<View id="grayLine" bottom="0"></View>
 				</View>
 			</TableViewRow>
 		</TableView>
-			
 			<View id="menuBar">
-				
+
 				<View class="tbButton">
 					<View class="greenLine" id="homeGreenLine"></View>
 					<ImageView id="homeBtn" onClick="openHome"></ImageView>
 				</View>
-				
 				<View  class="tbButton">
 					<View class="greenLine" id="exploreGreenLine"></View>
 					<ImageView id="exploreBtn" onClick="openExplore" ></ImageView>
 				</View>
-				
 				<View  class="tbButton">
 					<View class="greenLine" id="notificationGreenLine"></View>
 					<ImageView id="notificationBtn" onClick="openNotifications"></ImageView>
 				</View>
-				
 				<View  class="tbButton">
 					<View class="greenLine" id="roasterGreenLine"></View>
 					<ImageView id="myRosterBtn" onClick="openMyRoster"></ImageView>

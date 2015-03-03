@@ -83,7 +83,10 @@ function openHome() {
  */
 function openNotifications() {
     var notifications = Alloy.createController('notifications').getView();
-    notifications.open();
+    notifications.open({modal:true,
+    	 _parent: Titanium.UI.currentWindow,
+    	 exitOnClose:false
+    	 });
 }
 
 function openExplore() {
@@ -100,6 +103,7 @@ function openProfile(e) {
     Titanium.App.Properties.setString('profilePictureID', e.source.id);
     Titanium.App.Properties.setString('name', e.source.text);
     var profile = Alloy.createController('profileView').getView();
+    win.close();
     profile.open();
 }
 
@@ -115,4 +119,4 @@ Ti.Gesture.addEventListener('orientationchange', function(e) {
 });
 
 
-$.HomePage.open();
+$.HomePage.open({modal: true, exitOnClose: true});

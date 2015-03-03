@@ -59,7 +59,7 @@
 "#cancel":{
 	left:"71%",
 	width:"25%",
-	height:"70%",
+	height:"100%",
 	visible:false	
 },
 
@@ -130,6 +130,49 @@
 	width: "0%",
 }
 
+
+
+//////////////////////////////////////////////@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+////////////This is the filter
+"#filterOptions":{
+	height: "4%",
+	backgroundColor: '#267431',
+},
+
+"#filterList":{
+	top: "0%",
+	height: "0%",
+	left: "6%",
+	width: "86%"
+}
+
+".filterRow":{
+	borderColor: "#cacdd8",
+	borderRadius: 3,
+	borderWidth: 1,
+	top: "0",
+	height: "45dp",
+	left: "1%",
+	right:"1%",
+	width: "98%",
+	//backgroundColor: "#eff2f5"
+	backgroundColor: "#ffffff"
+}
+
+".filterLabel":{
+	left: "15%",
+	font: {
+		size: "15dp",	
+	},
+	
+}
+
+".filterSwitch":{
+	right: "15%",
+	height: "90%",
+
+}
+
 //////////////////////////////////
 "#grayLine":{
 	backgroundColor: "#9b9d9f",
@@ -141,7 +184,7 @@
 	separatorStyle: "NONE"
 },
 "#exploreFeed":{
-	height: "76%",
+	height: "80%",
 },
 
 "#rowContainer":{ 
@@ -214,15 +257,29 @@
 },
 "#likeAmount":{
 	left: "9%", 			//will mess up on different screen, with of button hard coded(as it should be) but..
-							//position from the left is a percent(as it should be) making amounts farther right on larger screens...
+	color:"#999966",
+	font: {
+		fontSize : "12dp",
+		fontWeight: "normal"
+	}						//position from the left is a percent(as it should be) making amounts farther right on larger screens...
 							//left needs to equal 5% + 24dp(width of button). but can't do.
 },							//So far tests with just percent on tablet and web look good, verify for your phone
 "#donateAmount":{	
 	left: "39%",
+	color:"#999966",
+	font: {
+		fontSize : "12dp",
+		fontWeight: "normal"
+	}
 	//height: "80%",
 },
 "#replyAmount":{
-	left: "69%",			
+	left: "69%",	
+	color:"#999966",	
+	font: {
+		fontSize : "12dp",
+		fontWeight: "normal"
+	}	
 	//height: "80%",
 
 },
