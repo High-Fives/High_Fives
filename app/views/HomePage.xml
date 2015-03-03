@@ -56,7 +56,7 @@
 							<Label id="likeAmount">3.2k</Label>
 						</View>
 						<View class="itemActionButton">
-							<ImageView id="donateBtn" onClick="likeunlike"></ImageView>
+							<ImageView id="donateBtn" onClick="testclick"></ImageView>
 							<Label id="donateAmount">10k</Label>
 						</View>
 						<View class="itemActionButton">
