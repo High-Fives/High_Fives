@@ -168,7 +168,7 @@
 	borderWidth: 1,
 	left: "0%",
 	right:"0%",
-	height: "100dp",  //keep this height hard coded, want same size on all devices
+	height: "90dp",  //keep this height hard coded, want same size on all devices
 	width: Ti.UI.FILL,
 	backgroundColor: "#eff2f5"
 },
