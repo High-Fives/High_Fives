@@ -6,25 +6,25 @@
 				<View>
 					<ImageView id="slideMenuPic"></ImageView>
 					<Label id="slideMenuName" onClick="openProfile">Tom Ryan</Label>	
-					<View id="whiteLine" bottom="0"></View>				
+					<View id="whiteLine" bottom="1"></View>				
 				</View>				
 			</TableViewRow>
 			<TableViewRow id="menuContainer">
 				<View>
 					<Label id="accountSettings" onClick="testclick">Account Settings</Label>
-					<View id="whiteLine" bottom="0"></View>
+					<View id="whiteLine" bottom="1"></View>
 				</View>				
 			</TableViewRow>	
 			<TableViewRow id="menuContainer">
 				<View>
 					<Label id="signOut" onClick="signOut">Sign Out</Label>
-					<View id="whiteLine" bottom="0"></View>
+					<View id="whiteLine" bottom="1"></View>
 				</View>				
 			</TableViewRow>	
 			<TableViewRow id="menuContainer">
 				<View>
 					<Label id="Help" onClick="testclick">Help</Label>
-					<View id="whiteLine" bottom="0"></View>
+					<View id="whiteLine" bottom="1"></View>
 				</View>				
 			</TableViewRow>	
 
@@ -42,12 +42,73 @@
 					<Button class="topActionButton" id="cancel" onClick="cancelSearch" title="Cancel"/>
 				</View>
 			</View>
+		
+
 		<TableView id="profileTable">
-			<TableViewRow id="rowContainer">
+			<TableViewRow id="profilePicContainer">
 				<ImageView id="profilePic" onPostlayout="setPicture" ></ImageView>
 				<Label id="profileName" onPostlayout="setName" text=""></Label>
 				<Label id="profileDescription">U.S.A. Olympian</Label>
+				<Label id="profileHandle">@Who_NateJones</Label>
 			</TableViewRow>
+			
+			
+			<!---stats container ---------------->
+			<!--<ScrollView id = "statList" showVerticalScrollIndicator="true" layout = "vertical">-->
+			<TableViewRow id="statsContainer">
+				<View id="statsContainerHFG">
+					
+						<View id="statContent">
+						<Label id="stats">HFG (high fives given) : 2,200</Label>
+						<View id="grayDivider" right="0%"></View>
+					
+						<View id="grayLine" bottom="0"></View>
+							</View>
+					
+				</View>
+				<View id="statsContainerTotalCash">
+				
+						<View id="statContent">
+						<Label id="stats">Total $ Donated: 4.3 mil</Label>
+						<View id="grayDivider" right="0%"></View>
+					
+						<View id="grayLine" bottom="0"></View>
+							</View>
+					
+				</View>
+				<View id="statsContainerComments">
+					
+						<View id="statContent">
+						<Label id="stats">Comments: 2.3k</Label>
+						<View id="grayDivider" right="0%"></View>
+					
+						<View id="grayLine" bottom="0"></View>
+						</View>
+				
+				</View>
+				<View id="statsContainerEMPTY">
+					
+						<View id="statContent">
+						<Label id="stats"></Label>
+						<View id="grayDivider" right="0%"></View>
+					
+						<View id="grayLine" bottom="0"></View>
+							</View>
+				
+				</View>
+			</TableViewRow>
+			<!-----------------end stats containers ----------------------------------------------------->
+			
+			<TableViewRow id="recentContainer">
+				<View>
+					<View id="recentContent">
+						<Label id="recentDonations">Recent Donations:</Label>
+					
+					</View>
+				</View>				
+			</TableViewRow>
+							
+				
 			<TableViewRow id="rowContainer">
 				<View>
 					<ImageView id="charityStJude"></ImageView>
@@ -103,8 +164,11 @@
 					<View id="grayLine" bottom="0"></View>
 				</View>
 			</TableViewRow>
+			<!--</ScrollView>-->
 		</TableView>
-			
+	
+		
+		
 			<View id="menuBar">
 				
 				<View class="tbButton">
