@@ -12,7 +12,7 @@ top: "0%"
 "#firstName": {
 color: "white",
 text: "First Name:",
-top: "7%",
+top: "11%",
 width: "55%",
 left:"15%",
 height: "20dp"
@@ -20,7 +20,7 @@ height: "20dp"
 "#lastName": {
 color: "white",
 text: "Last Name:",
-top: "7%",
+top: "11%",
 width: "55%",
 left:"55%",
 height: "20dp"
@@ -39,12 +39,12 @@ fontSize : "12dp"
 },
 
 "#tf_firstName": {
-top: "10%",
+top: "15%",
 width: "30%",
 left:"15%",
 },
 "#tf_lastName": {
-top: "10%",
+top: "15%",
 width: "30%",
 left:"55%",	
 },
@@ -53,35 +53,35 @@ left:"55%",
 
 "#lbl_email": {
 	color: "white",
-	top: "17%",
+	top: "22%",
 	text: "Email:",
 	height: "20dp",
 	left:"15%"
 },
 "#lbl_password": {
 	color: "white",
-	top: "27%",
+	top: "34%",
 	text: "Password:",
 	height: "20dp",
 	left:"15%"
 },
 "#lbl_passwordConfirm": {
 	color: "white",
-	top: "37%",
+	top: "46%",
 	text: "Confirm Password:",
 	height: "20dp",
 	left:"15%"
 },
 "#lbl_birthDate": {
 	color: "white",
-	top: "47%",
+	top: "58%",
 	text: "Birth Date (MM/DD/YYYY):",
 	height: "20dp",
 	left:"15%"
 },
 "#lbl_gender": {
 	color: "white",
-	top: "57%",
+	top: "70%",
 	text: "Gender (M/F):",
 	height: "20dp",
 	left:"15%"
@@ -89,35 +89,35 @@ left:"55%",
 
 "#email":{
 left: "15%",
-top:"20%"
+top:"26%"
 },
 "#password":{
 	left: "15%",
 passwordMask:true,
-top:"30%"
+top:"38%"
 },
 "#passwordConfirm": {
 left: "15%",
 passwordMask:true,
-top:"40%"	
+top:"50%"	
 },
 "#birthMonth": {
-	top: "50%",
+	top: "62%",
 	left: "15%",
 	width: "10%"
 },
 "#birthDay": {
-	top: "50%",
+	top: "62%",
 	left: "26%",
 	width: "10%"
 },
 "#birthYear": {
-	top: "50%",
+	top: "62%",
 	left: "37%",
 	width: "10%"
 },
 "#gender": {
-	top: "60%",
+	top: "74%",
 	left: "15%",
-	width: "5%"
+	width: "10%"
 },
