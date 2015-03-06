@@ -1,6 +1,7 @@
 <Alloy>
 <Window id="SignUp_Fan" backgroundColor="#49b049">
 	<View id="userInfo">
+		<ImageView id="HighFivesWords" image="/HighFivesWords.png" top="2%" height="10%"/>
 		<Label id="firstName"/>
 		<Label id="lastName"/>
 		<TextField class = "textFieldInfo" id = "tf_firstName"/>
