@@ -19,7 +19,7 @@
 "#menu":{
 	height: Ti.UI.FILL,
 	width: Ti.UI.FILL,
-	backgroundColor: "#686868",
+	backgroundColor: "#72C680", //change background of slide out menu to light green
 	left: 0	
 },
 ///////////////////////////////////////////////////////
@@ -33,6 +33,7 @@
 "#topActions":{
 	height:"100%"
 },
+
 ".topActionButton":{
 	 height:"100%"
 },
@@ -65,7 +66,7 @@
 
 /////////////////////slide out menu//////////////////////
 "#menuProfPic":{
-	borderColor: "#686868",
+	borderColor: "#72C680", //change background of slide out menu to green
 	borderRadius: 3,
 	borderWidth: 2,
 	left: "0dp",
@@ -74,15 +75,15 @@
 	right: "5dp",
 	height: "76dp",
 	width: "16%",
-	backgroundColor: "#686868"
+	backgroundColor: "#72C680"
 	
 },
 "#slideMenuName":{
 	top: "20%",
-	right: "5%",
-	color: "white",
+	left: "25%",
+	color: "white", //change to white name and settings
 	font: {
-		fontSize : "28dp",
+		fontSize : "18dp",
 		fontWeight: "bold"
 	}
 	
@@ -96,7 +97,7 @@
 	
 },
 "#menuContainer":{
-	borderColor: "#686868", //change to grey
+	borderColor: "#72C680", //cchange background of slide out menu to green
 	borderWidth: 2,
 	left: "0dp",
 	right:"2dp",
@@ -104,7 +105,7 @@
 	right: "5dp",
 	height: "60",
 	width: Ti.UI.FILL,
-	backgroundColor: "#686868" //change to grey
+	backgroundColor: "#72C680" //change background of slide out menu to same white as row container
 	
 	
 },
@@ -113,7 +114,7 @@
 	left: "3%",
 	color: "white",
 	font: {
-		fontSize : "25dp",
+		fontSize : "15dp",
 		fontWeight: "normal"
 	}
 },
@@ -122,7 +123,7 @@
 	left: "3%",
 	color: "white",
 	font: {
-		fontSize : "25dp",
+		fontSize : "15dp",
 		fontWeight: "normal"
 	}
 },
@@ -131,15 +132,15 @@
 	left: "3%",
 	color: "white",
 	font: {
-		fontSize : "25dp",
+		fontSize : "15dp",
 		fontWeight: "normal"
 	}
 },
 "#whiteLine":{
-	color: "white",
+	color: "green",
 	//backgroundColor: "#eff2f5",
 	width: Ti.UI.FILL,
-	height: "2"		
+	height: "20%"		
 },
 
 

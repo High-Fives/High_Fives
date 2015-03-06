@@ -1,0 +1,19 @@
+!SESSION 2015-03-02 20:44:20.234 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 2 0 2015-03-02 20:44:37.641
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-03-02 20:44:37.641
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.run_on_device.android'
+!SUBENTRY 1 org.eclipse.ui 2 0 2015-03-02 20:44:37.641
+!MESSAGE Cannot bind to an undefined command: plug-in='com.appcelerator.titanium.android.ui', id='com.appcelerator.titanium.mobile.command.debug_on_device.android'
+
+!ENTRY org.eclipse.osgi 2 1 2015-03-02 20:44:39.459
+!MESSAGE NLS missing message: LaunchAppToolbarContribution_NoSelectedProjects in: com.appcelerator.titanium.ui.messages
+
+!ENTRY com.appcelerator.titanium.ui.ide 4 0 2015-03-02 20:44:42.913
+!MESSAGE (Build 3.3.0.201407100905) [ERROR] com.appcelerator.titanium.core/debug/dashboard Unknown SDK iphone
