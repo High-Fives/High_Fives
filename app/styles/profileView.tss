@@ -19,9 +19,17 @@
 "#menu":{
 	height: Ti.UI.FILL,
 	width: Ti.UI.FILL,
-	backgroundColor: "#686868",
+	backgroundColor: "#72C680",  //changing it back to light green 3-4-15
 	left: 0	
 },
+
+"#statList":{
+	top: "0%",
+	//height: Ti.UI.FILL,
+	left: "0%",
+	width: "86%",
+},
+
 ///////////////////////////////////// top bar
 "#iconBar":{ //top bar
 	width: "100%",
@@ -66,7 +74,7 @@
 
 /////////////slide out menu//////////////
 "#menuProfPic":{
-	borderColor: "#686868",
+	borderColor: "#72C680", //change to light green
 	borderRadius: 3,
 	borderWidth: 2,
 	left: "0dp",
@@ -75,15 +83,15 @@
 	right: "5dp",
 	height: "76dp",
 	width: "16%",
-	backgroundColor: "#686868"
+	backgroundColor: "#72C680" //change to light green
 	
 },
 "#slideMenuName":{
 	top: "20%",
-	right: "5%",
+	left: "25%",  //fixed name 
 	color: "white",
 	font: {
-		fontSize : "28dp",
+		fontSize : "18dp",
 		fontWeight: "bold"
 	}
 	
@@ -97,7 +105,7 @@
 	
 },
 "#menuContainer":{
-	borderColor: "#686868", //change to grey
+	borderColor: "#72C680", //change back to light green
 	borderWidth: 2,
 	left: "0dp",
 	right:"2dp",
@@ -105,7 +113,7 @@
 	right: "5dp",
 	height: "60",
 	width: Ti.UI.FILL,
-	backgroundColor: "#686868" //change to grey
+	backgroundColor: "#72C680" //change back to light green
 	
 	
 },
@@ -114,7 +122,7 @@
 	left: "3%",
 	color: "white",
 	font: {
-		fontSize : "25dp",
+		fontSize : "15dp",
 		fontWeight: "normal"
 	}
 },
@@ -123,7 +131,7 @@
 	left: "3%",
 	color: "white",
 	font: {
-		fontSize : "25dp",
+		fontSize : "15dp",
 		fontWeight: "normal"
 	}
 },
@@ -132,7 +140,7 @@
 	left: "3%",
 	color: "white",
 	font: {
-		fontSize : "25dp",
+		fontSize : "15dp",
 		fontWeight: "normal"
 	}
 },
@@ -140,13 +148,13 @@
 	color: "white",
 	//backgroundColor: "#eff2f5",
 	width: Ti.UI.FILL,
-	height: "2"		
+	height: "20%"		
 },
 
 
 
 
-///////////////slide out menu//////////////
+///////////////end slide out menu//////////////
 
 
 
@@ -174,16 +182,31 @@
 	width: Ti.UI.FILL,
 	backgroundColor: "#eff2f5"
 },
+
+//////////made changes to profileView profile pic (placement)//////////
+"#profilePicContainer":{ 
+	borderColor: "#cacdd8",
+	borderRadius: 3,
+	borderWidth: 1,
+	left: "0%",
+	right:"0%",
+	height: "200dp",  //increasing size of container
+	width: Ti.UI.FILL,
+	backgroundColor: "#eff2f5"
+},
+
+
+
 "#profilePic":{
-	 height:"90%",
+	 height:"55%",
 	 image: "/104-BusinessPerson_60@2x.png", 
-	 top:"5%",
-	 left:"1%"
+	 top:"10%",
+	 left:"7%"  //puts the profile pic almost in the middle
 },
 
 "#profileName":{
-	top: "1dp",
-	left: "120dp", //pic will come 100dp's over so this is 20dp's to the right of that
+	top: "10%",
+	left: "70%", //pic will come 100dp's over so this is 20dp's to the right of that  <--- not necessary anymore
 	color: "black",
 	font: {
 		fontSize : "15dp",
@@ -191,14 +214,161 @@
 	},
 },
 "#profileDescription": {
-	left: "120dp", //pic will come 100dp's over so this is 20dp's to the right of that
-	right: "5%",
-	top: "20dp",
+	left: "70%", //pic will come 100dp's over so this is 20dp's to the right of that <--- not necessary anymore
+	
+	top: "20%",
 	display: "inline",
 	font: {
-		fontSize : "15dp"
+		fontSize : "12dp"
 	}
 },
+"#profileHandle":{
+	left:"70%",
+	top: "30%",
+	display: "inline",
+	font: {
+		fontSize : "12dp"
+	}
+		
+	
+},
+
+/////////////////////profile stats///////////////////////////////////////
+"#statsContainer":{
+	bottom: "0%",
+	backgroundColor: "#c4cde0",
+	width: Ti.UI.FILL,
+	height: "9%",
+	layout: "horizontal",
+},
+
+
+"#statsContainerHFG":{  //using rowContainer as basis
+	borderColor: "#cacdd8",
+	borderRadius:3,	
+	borderWidth: 1,
+	//left: "0%",
+	
+	top: "0%", 
+	bottom: "16%",
+	height:"100%",
+	width:"25%",
+	backgroundColor: "eff2f5",
+	
+},
+
+"#statsContainerTotalCash":{  //using rowContainer as basis
+	borderColor: "#cacdd8",
+	borderRadius:3,	
+	borderWidth: 1,
+	//left: "25%",
+	right: "0%",
+	top: "0%", 
+	bottom: "16%",
+	height:"100%",
+	width:"25%",
+	backgroundColor: "eff2f5",
+	
+},
+
+"#statsContainerComments":{  //using rowContainer as basis
+	borderColor: "#cacdd8",
+	borderRadius:3,	
+	borderWidth: 1,
+	//left: "50%",
+	top: "0%", 
+	bottom: "16%",
+	height:"100%",
+	width:"25%",
+	backgroundColor: "eff2f5",
+	
+},
+
+"#statsContainerEMPTY":{  //using rowContainer as basis
+	borderColor: "#c4cde0",
+	borderRadius:3,	
+	borderWidth: 1,
+	//left: "75%",
+	
+	top: "0%", 
+	bottom: "16%",
+	height:"100%",
+	width:"25%",
+	backgroundColor: "c4cde0",
+	
+},
+"#grayDivider":{
+	
+	backgroundColor: "#9b9d9f",
+	height: Ti.UI.FILL,
+	width: "1",	
+	
+},
+
+"#stats":{
+	top: "50%",
+	left: "4%", 
+	color: "black",
+	font: {
+		fontSize : "15dp",
+		fontWeight: "bold",
+	},	
+	
+},
+
+
+"#statContent":{
+	left:"0%",
+	
+	height: "100%",
+	width: Ti.UI.FILL,
+	backgroundColor: "#eff2f5"
+	
+	
+},
+
+//////////////////end profile stats/////////////////////////////////
+
+/////////////////Recent Donations: ////////////////////////////////
+
+"#recentContainer":{  //using rowContainer as basis
+	borderColor: "#cacdd8",
+	borderRadius:3,	
+	borderWidth: 1,
+	left: "0%",
+	right: "0%",
+	//top: "2%", 
+	height:"30dp",
+	width:Ti.UI.FILL,
+	backgroundColor: "eff2f5",
+	
+},
+
+
+"#recentDonations":{
+	top: "25%",
+	left: "4%", 
+	color: "black",
+	font: {
+		fontSize : "15dp",
+		fontWeight: "bold",
+	},	
+	
+},
+
+
+"#recentContent":{
+	left:"0%",
+	
+	height: "100%",
+	width: Ti.UI.FILL,
+	backgroundColor: "#eff2f5"
+	
+	
+},
+
+
+
 //////////////added charity pics/////////////////////////////////////////
 "#charityStJude": {
 	 height:"100%",

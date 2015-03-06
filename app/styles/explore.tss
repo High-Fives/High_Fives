@@ -19,7 +19,7 @@
 "#menu":{
 	height: Ti.UI.FILL,
 	width: Ti.UI.FILL,
-	backgroundColor: "#686868", //changes background to grey
+	backgroundColor: "#72C680", //changes background to grey
 	left: 0	
 },
 ///////////////////////////////////// top bar
@@ -339,7 +339,7 @@
 
 ///////////slide out menu////////////
 "#menuProfPic":{
-	borderColor: "#686868", //changes the rest of the menu grey
+	borderColor: "#72C680", //changes the rest of the menu grey
 	borderRadius: 3,
 	borderWidth: 2,
 	left: "0dp",
@@ -348,15 +348,15 @@
 	right: "5dp",
 	height: "76dp",
 	width: "16%",
-	backgroundColor: "#686868"
+	backgroundColor: "#72C680"
 	
 },
 "#slideMenuName":{
 	top: "20%",
-	right: "5%",
+	left: "25%",
 	color: "white",
 	font: {
-		fontSize : "28dp",
+		fontSize : "18dp",
 		fontWeight: "bold"
 	}
 	
@@ -370,7 +370,7 @@
 	
 },
 "#menuContainer":{
-	borderColor: "#686868", //change to grey
+	borderColor: "#72C680", //change to grey
 	borderRadius: 3,
 	borderWidth: 2,
 	left: "0dp",
@@ -379,7 +379,7 @@
 	right: "5dp",
 	height: "60",
 	width: Ti.UI.FILL,
-	backgroundColor: "#686868" //change to grey
+	backgroundColor: "#72C680" //change to grey
 	
 	
 },
@@ -388,7 +388,7 @@
 	left: "3%",
 	color: "white",
 	font: {
-		fontSize : "25dp",
+		fontSize : "15dp",
 		fontWeight: "normal"
 	}
 },
@@ -397,7 +397,7 @@
 	left: "3%",
 	color: "white",
 	font: {
-		fontSize : "25dp",
+		fontSize : "15dp",
 		fontWeight: "normal"
 	}
 },
@@ -406,7 +406,7 @@
 	left: "3%",
 	color: "white",
 	font: {
-		fontSize : "25dp",
+		fontSize : "15dp",
 		fontWeight: "normal"
 	}
 },
@@ -414,7 +414,7 @@
 	color: "white",
 	//backgroundColor: "#eff2f5",
 	width: Ti.UI.FILL,
-	height: "2"		
+	height: "2%"		
 },
 
 
