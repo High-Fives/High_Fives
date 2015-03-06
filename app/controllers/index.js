@@ -8,11 +8,22 @@ function LoginClicked(e) {
 	}
 };
 function SignUpClicked(e) {
-	$.SignUp_Athlete.visible = true;
-	$.SignUp_Fan.visible = true;
+	$.SignUpButton_Athlete.visible = true;
+	$.SignUpButton_Fan.visible = true;
 	$.SignUp.visible = false;
 };
 
+function SignUpAthlete(e) {
+	var SignUp_Athlete = Alloy.createController('SignUp_Athlete').getView();
+	SignUp_Athlete.open();
+	$.index.close();
+};
+
+function SignUpFan(e) {
+	var SignUp_Fan = Alloy.createController('SignUp_Fan').getView();
+	SignUp_Fan.open();
+	$.index.close();
+};
 
 
 $.index.open({
