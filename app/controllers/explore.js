@@ -41,6 +41,7 @@ function cancelSearch() {
 function signOut() {
 	var index = Alloy.createController('index').getView();
 	index.open();
+	$.explore.close();
 }
 
 // handles the "Like button"
@@ -81,6 +82,7 @@ function showhidemenu(e) {
 function openMyRoster() {
 	var my_Roster = Alloy.createController('my_Roster').getView();
 	my_Roster.open();
+	$.explore.close();
 }
 
 /**
@@ -89,6 +91,7 @@ function openMyRoster() {
 function openHome() {
 	var index = Alloy.createController('HomePage').getView();
 	index.open();
+	$.explore.close();
 }
 
 /**
@@ -98,6 +101,7 @@ function openHome() {
 function openNotifications() {
 	var notifications = Alloy.createController('notifications').getView();
 	notifications.open();
+	$.explore.close();
 }
 
 /**
@@ -108,11 +112,13 @@ function openProfile(e) {
 	Titanium.App.Properties.setString('profilePictureID', e.source.id);
 	var profile = Alloy.createController('profileView').getView();
 	profile.open();
+	$.explore.close();
 }
 
 function openExplore() {
 	var explore = Alloy.createController('explore').getView();
 	explore.open();
+	$.explore.close();
 }
 
 /////////////////////////End Page Open Statements/////////////////////////

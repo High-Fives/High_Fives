@@ -31,4 +31,10 @@ top:"22dp"
 "#password":{
 passwordMask:true,
 top:"83dp"
+},
+"#SignUpButton_Athlete":{
+	visible:false
+},
+"#SignUpButton_Fan":{
+	visible:false
 }

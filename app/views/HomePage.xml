@@ -1,5 +1,5 @@
 <Alloy>
-	<Window class="container">
+	<Window id="HomePage" class="container">
 		<View id="menu" onClick="showhidemenu">
 			<TableView id="slideOutMenu">
 			<TableViewRow id="menuProfPic">
@@ -58,6 +58,15 @@
 							<Label id="likeAmount">22k</Label>
 							<ImageView id="donateBtn" onClick="openDonatePage"></ImageView>
 							<Label id="donateAmount">105k</Label>
+						<View class="itemActionButton">
+							<ImageView id="likeBtn" onClick="testclick"></ImageView>
+							<Label id="likeAmount">3.2k</Label>
+						</View>
+						<View class="itemActionButton">
+							<ImageView id="donateBtn" onClick="testclick"></ImageView>
+							<Label id="donateAmount">10k</Label>
+						</View>
+						<View class="itemActionButton">
 							<ImageView id="commentBtn" onClick="testclick"></ImageView>
 							<Label id="replyAmount">8k</Label>
 					</View>

@@ -1,4 +1,4 @@
-
+var closeTime = 2000;
 // dummy click event.  Add your own!
 function testclick(e){
 	alert('Clicked ' + '\'' + e.source.id + '\'');
@@ -24,6 +24,8 @@ function cancelSearch(){
 function signOut() {
     var index = Alloy.createController('index').getView();
     index.open();
+    //setTimeout(function(){},closeTime); //hopefully makes this wait for half a second before closing the old window so it doesnt look so bad
+    $.HomePage.close();
 }
 // handles the "Like button"
 function likeunlike(e){
@@ -67,6 +69,8 @@ function showhidemenu(e){
 function openMyRoster(){
 	var my_Roster = Alloy.createController('my_Roster').getView();
 	my_Roster.open();
+	//setTimeout(function(){},closeTime); //hopefully makes this wait for half a second before closing the old window so it doesnt look so bad
+	$.HomePage.close();
 }
 
 /**
@@ -75,6 +79,8 @@ function openMyRoster(){
 function openHome() {
     var HomePage = Alloy.createController('HomePage').getView();
     HomePage.open();
+    //setTimeout(function(){},closeTime); //hopefully makes this wait for half a second before closing the old window so it doesnt look so bad
+    $.HomePage.close();
 }
 
 /**
@@ -87,11 +93,15 @@ function openNotifications() {
     	 _parent: Titanium.UI.currentWindow,
     	 exitOnClose:false
     	 });
+    	 //setTimeout(function(){},closeTime); //hopefully makes this wait for half a second before closing the old window so it doesnt look so bad
+    	 $.HomePage.close();
 }
 
 function openExplore() {
 	var explore = Alloy.createController('explore').getView();
 	explore.open();
+	//setTimeout(function(){},closeTime); //hopefully makes this wait for half a second before closing the old window so it doesnt look so bad
+	$.HomePage.close();
 }
 
 /**
@@ -104,6 +114,8 @@ function openProfile(e) {
     Titanium.App.Properties.setString('name', e.source.text);
     var profile = Alloy.createController('profileView').getView();
     profile.open();
+    //setTimeout(function(){},closeTime); //hopefully makes this wait for half a second before closing the old window so it doesnt look so bad
+    $.HomePage.close();
 }
 
 /**

@@ -23,6 +23,7 @@ function cancelSearch(){
 function signOut() {
     var index = Alloy.createController('index').getView();
     index.open();
+     $.notifications.close();
 }
 // handles the "Like button"
 function likeunlike(e){
@@ -64,11 +65,13 @@ function showhidemenu(e){
 function openMyRoster(){
 	var my_Roster = Alloy.createController('my_Roster').getView();
 	my_Roster.open();
+	 $.notifications.close();
 }
 
 function openExplore() {
     var explore = Alloy.createController('explore').getView();
     explore.open();
+    $.notifications.close();
 }
 
 
@@ -78,6 +81,7 @@ function openExplore() {
 function openHome() {
     var HomePage = Alloy.createController('HomePage').getView();
     HomePage.open();
+    $.notifications.close();
 }
 
 /**
@@ -87,6 +91,7 @@ function openHome() {
 function openNotifications() {
     var notifications = Alloy.createController('notifications').getView();
     notifications.open();
+     $.notifications.close();
 }
 
 /**
@@ -97,6 +102,7 @@ function openProfile(e) {
 Titanium.App.Properties.setString('profilePictureID', e.source.id);
     var profile = Alloy.createController('profileView').getView();
     profile.open();
+     $.notifications.close();
 }
 
 /**

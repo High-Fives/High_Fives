@@ -1,0 +1,26 @@
+<Alloy>
+<Window id="SignUp_Athlete" backgroundColor="#49b049">
+	<View id="userInfo">
+		<ImageView id="HighFivesWords" image="/HighFivesWords.png" top="2%" height="10%"/>
+		<Label id="firstName"/>
+		<Label id="lastName"/>
+		<TextField class = "textFieldInfo" id = "tf_firstName"/>
+		<TextField class = "textFieldInfo" id = "tf_lastName"/>
+		<TextField class="textFieldInfo" id="email"/>
+		<TextField class="textFieldInfo" id="password"/>
+		<TextField class="textFieldInfo" id="passwordConfirm"/>
+		<TextField class="textFieldInfo" id="birthMonth"/>
+		<TextField class="textFieldInfo" id="birthDay"/>
+		<TextField class="textFieldInfo" id="birthYear"/>
+		<TextField class="textFieldInfo" id="gender"/>
+		<Label id="lbl_gender"/>
+		<Label id="lbl_birthDate"/>
+		<Label id="lbl_email"/>
+		<Label id="lbl_password"/>
+		<Label id="lbl_passwordConfirm"/>
+	</View>
+	<Button id="SignUp" onClick="signUp_Clicked" title="Sign Up" color="blue"
+	bottom="1%" width="30%" height="45dp" />
+
+</Window>
+</Alloy>

@@ -1,5 +1,5 @@
 <Alloy>
-	<Window class="container" id = "notifications">
+	<Window  class="container" id = "notifications">
 		<View id="menu" onClick="showhidemenu">
 			<TableView id="slideOutMenu">
 			<TableViewRow id="menuProfPic">
