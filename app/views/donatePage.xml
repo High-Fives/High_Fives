@@ -1,0 +1,64 @@
+<Alloy>
+	<Window class="container" id = "donatePage">
+		<View id="menu" onClick="showhidemenu">
+			<TableView id="slideOutMenu">
+				<TableViewRow id="menuProfPic">
+					<View>
+						<ImageView id="slideMenuPic"></ImageView>
+						<Label id="slideMenuName" onClick="openProfile">Tom Ryan</Label>
+						<View id="whiteLine" bottom="0"></View>
+					</View>
+				</TableViewRow>
+				<TableViewRow id="menuContainer">
+					<View>
+						<Label id="accountSettings" onClick="testclick">Account Settings</Label>
+						<View id="whiteLine" bottom="0"></View>
+					</View>
+				</TableViewRow>
+				<TableViewRow id="menuContainer">
+					<View>
+						<Label id="signOut" onClick="signOut">Sign Out</Label>
+						<View id="whiteLine" bottom="0"></View>
+					</View>
+				</TableViewRow>
+				<TableViewRow id="menuContainer">
+					<View>
+						<Label id="Help" onClick="testclick">Help</Label>
+						<View id="whiteLine" bottom="0"></View>
+					</View>
+				</TableViewRow>
+			</TableView>
+		</View>
+		<View id="main">
+			<View id="iconBar">
+				<View id="topActions">
+					<ImageView class="topActionButton" id="logobtn" onClick="testclick"></ImageView>
+					<ImageView class="topActionButton" id="searchbtn" onClick="searchDisplay"></ImageView>
+					<ImageView class="topActionButton" id="menubtn" onClick="showhidemenu"></ImageView>
+					<TextField class="topActionButton" id="searchBar"/>
+					<Button class="topActionButton" id="cancel" onClick="cancelSearch" title="Cancel"/>
+				</View>
+			</View>
+			<TableView id="newsFeed"></TableView>
+			<View id="menuBar">
+				<View class="tbButton">
+					<View class="greenLine" id="homeGreenLine"></View>
+					<ImageView id="homeBtn" onClick="openHome"></ImageView>
+				</View>
+				<View  class="tbButton">
+					<View class="greenLine" id="exploreGreenLine"></View>
+					<ImageView id="exploreBtn" onClick="openExplore" ></ImageView>
+				</View>
+				<View  class="tbButton">
+					<View class="greenLine" id="notificationGreenLine"></View>
+					<ImageView id="notificationBtn" onClick="openNotifications"></ImageView>
+				</View>
+				<View  class="tbButton">
+					<View class="greenLine" id="roasterGreenLine"></View>
+					<ImageView id="myRosterBtn" onClick="openMyRoster"></ImageView>
+				</View>
+			</View>
+			<View id="grayLine"></View>
+		</View>
+	</Window>
+</Alloy>

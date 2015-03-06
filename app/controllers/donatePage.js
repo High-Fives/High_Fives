@@ -25,15 +25,6 @@ function signOut() {
     var index = Alloy.createController('index').getView();
     index.open();
 }
-// handles the "Like button"
-function likeunlike(e){
-	// change like/unlike image, based on the current image
-	if (e.source.image==="/330-Dollar_30.png"){
-		e.source.image="/Green-Dollar-Sign.png";
-	}else{
-		e.source.image="/330-Dollar_30.png";
-	}
-}
 
 // shows or hide the menu
 var menuOpen = false;
@@ -106,14 +97,6 @@ function openProfile(e) {
     profile.open();
 }
 
-/**
- *Open Donate Page 
- */
-function openDonatePage() {
-	var donatePage = Alloy.createController('donatePage').getView();
-	donatePage.open();
-}
-
 /////////////////////////End Page Open Statements/////////////////////////
 
 
@@ -126,4 +109,4 @@ Ti.Gesture.addEventListener('orientationchange', function(e) {
 });
 
 
-$.HomePage.open({modal: true, exitOnClose: true});
+$.donatePage.open({modal: true, exitOnClose: true});
