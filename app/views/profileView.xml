@@ -42,15 +42,15 @@
 					<Button class="topActionButton" id="cancel" onClick="cancelSearch" title="Cancel"/>
 				</View>
 			</View>
-			<TableViewRow id="profilePicContainer">
+			<View id="profilePicContainer">
 				<ImageView id="profilePic" onPostlayout="setPicture" ></ImageView>
 				<Label id="profileName" onPostlayout="setName" text=""></Label>
 				<Label id="profileDescription">U.S.A. Olympian</Label>
 				<Label id="profileHandle">@Who_NateJones</Label>
-			</TableViewRow>
+			</View>
 			<!---stats container ---------------->
 			<!--<ScrollView id = "statList" showVerticalScrollIndicator="true" layout = "vertical">-->
-			<TableViewRow id="statsContainer">
+			<View id="statsContainer">
 				<View id="statsContainerHFR">
 					
 						<View id="statContent">
@@ -81,17 +81,8 @@
 						</View>
 				
 				</View>
-				<View id="statsContainerEMPTY">
-					
-						<View id="statContent">
-						<Label id="stats"></Label>
-						<View id="grayDivider" right="0%"></View>
-					
-						<View id="grayLine" bottom="0"></View>
-							</View>
 				
-				</View>
-			</TableViewRow>
+			</View>
 			<!-----------------end stats containers ----------------------------------------------------->
 			
 		
