@@ -190,7 +190,7 @@
 	borderWidth: 1,
 	left: "0%",
 	right:"0%",
-	height: "200dp",  //increasing size of container
+	height: "20%",  //increasing size of container
 	width: Ti.UI.FILL,
 	backgroundColor: "#eff2f5"
 },
@@ -238,7 +238,7 @@
 	bottom: "0%",
 	backgroundColor: "#c4cde0",
 	width: Ti.UI.FILL,
-	height: "9%",
+	height: "6%",
 	layout: "horizontal",
 },
 
@@ -525,5 +525,5 @@
 //////////////////////////////////////////
 //////////////////////////////////////////
 "#profileTable":{
-	height: "84%",
+	height: "58%",
 },

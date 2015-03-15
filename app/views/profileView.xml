@@ -43,19 +43,14 @@
 				</View>
 			</View>
 		
-
-		<TableView id="profileTable">
-			<TableViewRow id="profilePicContainer">
+			<View id="profilePicContainer">
 				<ImageView id="profilePic" onPostlayout="setPicture" ></ImageView>
 				<Label id="profileName" onPostlayout="setName" text=""></Label>
 				<Label id="profileDescription">U.S.A. Olympian</Label>
 				<Label id="profileHandle">@Who_NateJones</Label>
-			</TableViewRow>
+			</View>
 			
-			
-			<!---stats container ---------------->
-			<!--<ScrollView id = "statList" showVerticalScrollIndicator="true" layout = "vertical">-->
-			<TableViewRow id="statsContainer">
+			<View id="statsContainer">
 				<View id="statsContainerHFG">
 					
 						<View id="statContent">
@@ -96,7 +91,12 @@
 							</View>
 				
 				</View>
-			</TableViewRow>
+			</View>
+		<TableView id="profileTable">
+			
+			<!---stats container ---------------->
+			<!--<ScrollView id = "statList" showVerticalScrollIndicator="true" layout = "vertical">-->
+			
 			<!-----------------end stats containers ----------------------------------------------------->
 			
 			<TableViewRow id="recentContainer">
