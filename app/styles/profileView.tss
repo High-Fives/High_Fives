@@ -190,7 +190,7 @@
 	borderWidth: 1,
 	left: "0%",
 	right:"0%",
-	height: "200dp",  //increasing size of container
+	height: "20%",  //increasing size of container
 	width: Ti.UI.FILL,
 	backgroundColor: "#eff2f5"
 },
@@ -201,12 +201,12 @@
 	 height:"55%",
 	 image: "/104-BusinessPerson_60@2x.png", 
 	 top:"10%",
-	 left:"7%"  //puts the profile pic almost in the middle
+	 right:"53%%"  //puts the profile pic almost in the middle
 },
 
 "#profileName":{
 	top: "10%",
-	left: "70%", //pic will come 100dp's over so this is 20dp's to the right of that  <--- not necessary anymore
+	left: "53%", //pic will come 100dp's over so this is 20dp's to the right of that  <--- not necessary anymore
 	color: "black",
 	font: {
 		fontSize : "15dp",
@@ -214,7 +214,7 @@
 	},
 },
 "#profileDescription": {
-	left: "70%", //pic will come 100dp's over so this is 20dp's to the right of that <--- not necessary anymore
+	left: "53%", //pic will come 100dp's over so this is 20dp's to the right of that <--- not necessary anymore
 	
 	top: "20%",
 	display: "inline",
@@ -223,7 +223,7 @@
 	}
 },
 "#profileHandle":{
-	left:"70%",
+	left:"53%",
 	top: "30%",
 	display: "inline",
 	font: {
@@ -238,12 +238,12 @@
 	bottom: "0%",
 	backgroundColor: "#c4cde0",
 	width: Ti.UI.FILL,
-	height: "9%",
+	height: "6%",
 	layout: "horizontal",
 },
 
 
-"#statsContainerHFG":{  //using rowContainer as basis
+"#statsContainerHFR":{  //using rowContainer as basis
 	borderColor: "#cacdd8",
 	borderRadius:3,	
 	borderWidth: 1,
@@ -306,8 +306,7 @@
 },
 
 "#stats":{
-	top: "50%",
-	left: "4%", 
+	
 	color: "black",
 	font: {
 		fontSize : "15dp",
@@ -345,8 +344,8 @@
 },
 
 
-"#recentDonations":{
-	top: "25%",
+"#moneyRaised":{
+	
 	left: "4%", 
 	color: "black",
 	font: {
@@ -525,5 +524,5 @@
 //////////////////////////////////////////
 //////////////////////////////////////////
 "#profileTable":{
-	height: "84%",
+	height: "58%",
 },
