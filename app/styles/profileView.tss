@@ -201,11 +201,7 @@
 	 height:"55%",
 	 image: "/104-BusinessPerson_60@2x.png", 
 	 top:"10%",
-<<<<<<< HEAD
-	 right:"53%"  //puts the profile pic almost in the middle
-=======
 	 right:"53%%"  //puts the profile pic almost in the middle
->>>>>>> 87360dac147c422ce2594ac8d925f797883d7b4c
 },
 
 "#profileName":{
