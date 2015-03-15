@@ -19,10 +19,9 @@
 "#menu":{
 	height: Ti.UI.FILL,
 	width: Ti.UI.FILL,
-	backgroundColor: "#2c323f",
+	backgroundColor: "#686868",
 	left: 0	
 },
-///////////////////////////////////// top bar
 "#iconBar":{ //top bar
 	width: "100%",
 	height: "7%",
@@ -47,57 +46,108 @@
 	right: "5%",
 	image: "/053-Search_60@2x.png"	
 },
-
-
-/////Filter
-"#filterOptions":{
-	height: "8%",
-	backgroundColor: '#267431',
+"#searchBar":{
+	left:"4%",
+	height:"70%",
+	width:"65%",
+	backgroundColor:"White",
+	color:"#336699",
+    borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+    visible:false 
+},
+"#cancel":{
+	left:"71%",
+	width:"25%",
+	height:"100%",
+	visible:false	
 },
 
 
-"#sort":{
-	height: "100%",
-	width: "50%",
-	left: "0%",
+//////////////slide out menu///////////////////
+"#menuProfPic":{
+	borderColor: "#686868",
+	borderRadius: 3,
+	borderWidth: 2,
+	left: "0dp",
+	right:"2dp",
+	top: "2dp",
+	right: "5dp",
+	height: "76dp",
+	width: "16%",
+	backgroundColor: "#686868"
+	
 },
-"#sortRight":{
-	top: 0,
-	height: "100%",
-	width: "50%",
-	left: "51%",
+"#slideMenuName":{
+	top: "20%",
+	right: "5%",
+	color: "white",
+	font: {
+		fontSize : "28dp",
+		fontWeight: "bold"
+	}
+	
 },
-
+"#slideMenuPic":{
+	 width:"66dp",
+	 height:"66dp",
+	 image: "/104-BusinessPerson_60@2x.png", 
+	 top:"10dp",
+	 left:"10dp"
+	
+},
+"#menuContainer":{
+	borderColor: "#686868", //change to grey
+	borderWidth: 2,
+	left: "0dp",
+	right:"2dp",
+	top: "2dp",
+	right: "5dp",
+	height: "60",
+	width: Ti.UI.FILL,
+	backgroundColor: "#686868" //change to grey
+	
+	
+},
+"#accountSettings":{
+	top: "20%",
+	left: "3%",
+	color: "white",
+	font: {
+		fontSize : "25dp",
+		fontWeight: "normal"
+	}
+},
+"#signOut":{
+	top: "20%",
+	left: "3%",
+	color: "white",
+	font: {
+		fontSize : "25dp",
+		fontWeight: "normal"
+	}
+},
+"#Help":{
+	top: "20%",
+	left: "3%",
+	color: "white",
+	font: {
+		fontSize : "25dp",
+		fontWeight: "normal"
+	}
+},
 "#whiteLine":{
-	top: 0,
-	height: Titanium.UI.FILL,
-	width: "1dp",
-	left: "50%",
-	backgroundColor: 'white'
+	color: "white",
+	//backgroundColor: "#eff2f5",
+	width: Ti.UI.FILL,
+	height: "2"		
 },
 
-"#filterBar":{
-	top: 0,
-	backgroundColor: '#267431',
-	height: '50%',
-	left: "0%",
-	width: "100%"
-},
 
-"#filterBar2":{
-	top: "50%",
-	backgroundColor: '#267431',
-	height: '50%',
-	left: "0%",
-	width: "100%"
-},
 
-"#sportsSelector":{
-	backgroundColor: "#44a755",
-	display: "none",
-},
 
-//////////////////////////////////
+//////////////////////////////////////////////////
+
+
 "#grayLine":{
 	backgroundColor: "#9b9d9f",
 	width: Ti.UI.FILL,
@@ -107,8 +157,10 @@
 	backgroundColor: "#c4cde0",
 	separatorStyle: "NONE"
 },
-"#exploreFeed":{
-	height: "76%",
+"#listRow":{
+	height: "200dp",
+	selectionStyle: "NONE",
+	className:"listRow"
 },
 
 "#rowContainer":{ 
@@ -128,12 +180,12 @@
 	 top:"0%",
 	 left:"0%"
 },
-"#profileName":{
+".profileName":{
 	top: "1dp",
 	left: "120dp", //pic will come 100dp's over so this is 20dp's to the right of that
 	color: "black",
 	font: {
-		fontSize : "15dp",
+		fontSize : "14dp",
 		fontWeight: "bold"
 	}
 },
@@ -142,7 +194,7 @@
 	right:"5%",
 	color:"#bbbbbb",
 	font:{
-		fontsize:"15dp"
+		fontsize:"12dp"
 	}
 }
 "#status":{
@@ -151,7 +203,7 @@
 	top: "20dp",
 	display: "inline",
 	font: {
-		fontSize : "15dp"
+		fontSize : "12dp"
 	}
 },
 "#bottomActions":{
@@ -165,34 +217,35 @@
 	height: "100%"
 },
 "#likeBtn":{
-	right: "92%",
+	left: "5%",
 	height: "70%",
 	image: "/292-HighFive_30.png"
 },
 "#donateBtn":{
-	right: "62%",
+	left: "35%",
 	height: "80%",
 	image: "/330-Dollar_30.png"
 },
 "#commentBtn":{
-	right: "32%",
+	left: "65%",
 	height: "70%",
 	image: "/125-Megaphone_30.png"
 },
 "#likeAmount":{
-	left: "9%", 			//will mess up on different screen, with of button hard coded(as it should be) but..
+	left: "12%", 			//will mess up on different screen, with of button hard coded(as it should be) but..
 							//position from the left is a percent(as it should be) making amounts farther right on larger screens...
 							//left needs to equal 5% + 24dp(width of button). but can't do.
 },							//So far tests with just percent on tablet and web look good, verify for your phone
 "#donateAmount":{	
-	left: "39%",
+	left: "42%",
 	//height: "80%",
 },
 "#replyAmount":{
-	left: "69%",			
+	left: "72%",			
 	//height: "80%",
 
 },
+
 ////////////////////////////////////////bottom buttons
 "#menuBar":{
 	bottom: "0%",
@@ -201,27 +254,51 @@
 	height: "9%",
 	layout: "horizontal",
 },
+".greenLine":{
+	backgroundColor: "#008000",
+	width: Ti.UI.FILL,
+	height: "15%",
+	width: "100%",
+	top:"0%"	
+},
+"#homeGreenLine":{
+	visible:false
+},
+"#exploreGreenLine":{
+	visible:false
+},
+"#notificationGreenLine":{
+	visible:false
+},
+"#roasterGreenLine":{
+	visible:false
+},
 ".tbButton":{
 	width: "25%",
-	height: "100%",
-	//top: "10%",
-	//bottom: "10%"
 },
 "#homeBtn":{
-	height:"100%",
+	top:"20%",
+	height: "80%",
 	image: "/001-Home_60@2x.png"
 },
 "#exploreBtn":{
-	//left: "25%",
-	height:"100%",
+	top:"20%",
+	height:"80%",
 	image: "/141-GlobeAS_60@2x.png"
 },
 "#notificationBtn":{
-	height:"100%",
+	top:"20%",
+	height:"80%",
 	image: "/127-Bell_60@2x.png"
 },
 "#myRosterBtn":{
-	height:"100%",
+	top:"20%",
+	height:"80%",
 	image: "/176-Clipboard_60@2x.png"
 },
 //////////////////////////////////////////
+
+"#newsFeed":{
+	height: "84%",
+},
+

@@ -201,7 +201,11 @@
 	 height:"55%",
 	 image: "/104-BusinessPerson_60@2x.png", 
 	 top:"10%",
+<<<<<<< HEAD
 	 right:"53%"  //puts the profile pic almost in the middle
+=======
+	 right:"53%%"  //puts the profile pic almost in the middle
+>>>>>>> 87360dac147c422ce2594ac8d925f797883d7b4c
 },
 
 "#profileName":{
@@ -243,7 +247,7 @@
 },
 
 
-"#statsContainerHFG":{  //using rowContainer as basis
+"#statsContainerHFR":{  //using rowContainer as basis
 	borderColor: "#cacdd8",
 	borderRadius:3,	
 	borderWidth: 1,
@@ -306,8 +310,7 @@
 },
 
 "#stats":{
-	top: "50%",
-	left: "4%", 
+	
 	color: "black",
 	font: {
 		fontSize : "15dp",
@@ -345,8 +348,8 @@
 },
 
 
-"#recentDonations":{
-	top: "25%",
+"#moneyRaised":{
+	
 	left: "4%", 
 	color: "black",
 	font: {
