@@ -42,10 +42,8 @@
 					<Button class="topActionButton" id="cancel" onClick="cancelSearch" title="Cancel"/>
 				</View>
 			</View>
-		
-
-		<TableView id="profileTable">
-			<TableViewRow id="profilePicContainer">
+	<!------------------------------------------->
+		<TableViewRow id="profilePicContainer">
 				<ImageView id="profilePic" onPostlayout="setPicture" ></ImageView>
 				<Label id="profileName" onPostlayout="setName" text=""></Label>
 				<Label id="profileDescription">U.S.A. Olympian</Label>
@@ -97,6 +95,9 @@
 				
 				</View>
 			</TableViewRow>
+<!-------------------------------------------------------------------->
+		<TableView id="profileTable">
+			
 			<!-----------------end stats containers ----------------------------------------------------->
 			
 			<TableViewRow id="recentContainer">
