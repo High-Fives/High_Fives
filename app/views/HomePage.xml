@@ -60,7 +60,7 @@
 							<Label id="donateAmount">10k</Label>
 						</View>
 						<View class="itemActionButton">
-							<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							<ImageView id="commentBtn" onClick="openCommentPage"></ImageView>
 							<Label id="replyAmount">604</Label>
 						</View>
 					</View>

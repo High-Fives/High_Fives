@@ -126,6 +126,13 @@ function openDonatePage() {
 	donatePage.open();
 }
 
+function openCommentPage(e) {
+	var commentPage = Alloy.createController('commentPage').getView();
+	Titanium.App.Properties.setString('profilePictureID', e.source.id);
+	Titanium.App.Properties.setString('name', e.source.text);
+	commentPage.open();
+}
+
 /////////////////////////End Page Open Statements/////////////////////////
 
 

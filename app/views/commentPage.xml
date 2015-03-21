@@ -46,8 +46,7 @@
 			<View id="profilePicContainer">
 				<ImageView id="profilePic" onPostlayout="setPicture" ></ImageView>
 				<Label id="profileName" onPostlayout="setName" text=""></Label>
-				<Label id="profileDescription">U.S.A. Olympian</Label>
-				<Label id="profileHandle">@Who_NateJones</Label>
+				<Label id="userStatus"></Label>
 			</View>
 			
 			<View id="statsContainer">
@@ -92,81 +91,11 @@
 				
 				</View>
 			</View>
-		<TableView id="profileTable">
+		<View id="commentView">
+			<TextArea id = "tfComment"/>
 			
-			<!---stats container ---------------->
-			<!--<ScrollView id = "statList" showVerticalScrollIndicator="true" layout = "vertical">-->
 			
-			<!-----------------end stats containers ----------------------------------------------------->
-			
-			<TableViewRow id="recentContainer">
-				<View>
-					<View id="recentContent">
-						<Label id="recentDonations">Recent Donations:</Label>
-					
-					</View>
-				</View>				
-			</TableViewRow>
-							
-				
-			<TableViewRow id="rowContainer">
-				<View>
-					<ImageView id="charityStJude"></ImageView>
-					<Label id="charityName" onClick="testclick">St. Jude's Children's Hospital</Label>
-					<View id="charityPageContainerContent">
-						<Label id="charityDonateAmount">22,000</Label>
-						<ImageView id ="charityPageDonateBtn"></ImageView>
-					</View>
-					<View id="grayLine" bottom="0"></View>
-				</View>
-			</TableViewRow>
-			<TableViewRow id="rowContainer">
-				<View>
-					<ImageView id="charitySalvation"></ImageView>
-					<Label id="charityName" onClick="testclick">SalvationArmy</Label>
-					<View id="charityPageContainerContent">
-						<ImageView id ="charityPageDonateBtn"></ImageView>
-						<Label id="charityDonateAmount">9,800,072</Label>
-					</View>
-					<View id="grayLine" bottom="0"></View>
-				</View>
-			</TableViewRow>
-			<TableViewRow id="rowContainer">
-				<View>
-					<ImageView id="charityFeeding"></ImageView>
-					<Label id="charityName" onClick="testclick">Feeding America</Label>
-					<View id="charityPageContainerContent">
-						<ImageView id ="charityPageDonateBtn"></ImageView>
-						<Label id="charityDonateAmount">678,400</Label>
-					</View>
-					<View id="grayLine" bottom="0"></View>
-				</View>
-			</TableViewRow>
-			<TableViewRow id="rowContainer">
-				<View>
-					<ImageView id="charityUnited"></ImageView>
-					<Label id="charityName" onClick="testclick">United Way</Label>
-					<View id="charityPageContainerContent">
-						<ImageView id ="charityPageDonateBtn"></ImageView>
-						<Label id="charityDonateAmount">97,000</Label>
-					</View>
-					<View id="grayLine" bottom="0"></View>
-				</View>
-			</TableViewRow>
-			<TableViewRow id="rowContainer">
-				<View>
-					<ImageView id="charityGive"></ImageView>
-					<Label id="charityName" onClick="testclick">GiveDirectly</Label>
-					<View id="charityPageContainerContent">
-						<ImageView id ="charityPageDonateBtn"></ImageView>
-						<Label id="charityDonateAmount">315,080</Label>
-					</View>
-					<View id="grayLine" bottom="0"></View>
-				</View>
-			</TableViewRow>
-			<!--</ScrollView>-->
-		</TableView>
-	
+		</View>
 		
 		
 			<View id="menuBar">
