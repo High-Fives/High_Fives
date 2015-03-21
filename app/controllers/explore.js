@@ -186,6 +186,13 @@ function flashColorEnd(e) {
 	e.source.backgroundColor = "#ffffff";
 }
 
+function openCommentPage(e) {
+	var commentPage = Alloy.createController('commentPage').getView();
+	Titanium.App.Properties.setString('profilePictureID', e.source.id);
+	Titanium.App.Properties.setString('name', e.source.text);
+	commentPage.open();
+}
+
 // This bit listens to the orientation change and re-establishes the width
 // of the "main" view, allowing the layout to survive after orientation changes
 Ti.Gesture.addEventListener('orientationchange', function(e) {

@@ -103,7 +103,7 @@
 							<Label id="donateAmount">10k</Label>
 						</View>
 						<View class="itemActionButton">
-							<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							<ImageView id="commentBtn" onClick="openCommentPage"></ImageView>
 							<Label id="replyAmount">604</Label>
 						</View>
 					</View>
@@ -126,7 +126,7 @@
 							<Label id="donateAmount">105k</Label>
 						</View>
 						<View class="itemActionButton">
-							<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							<ImageView id="commentBtn" onClick="openCommentPage"></ImageView>
 							<Label id="replyAmount">8k</Label>
 						</View>
 					</View>
@@ -149,7 +149,7 @@
 							<Label id="donateAmount">0.4k</Label>
 						</View>
 						<View class="itemActionButton">
-							<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							<ImageView id="commentBtn" onClick="openCommentPage"></ImageView>
 							<Label id="replyAmount">74</Label>
 						</View>
 					</View>
@@ -172,7 +172,7 @@
 							<Label id="donateAmount">23k</Label>
 						</View>
 						<View class="itemActionButton">
-							<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							<ImageView id="commentBtn" onClick="openCommentPage"></ImageView>
 							<Label id="replyAmount">50</Label>
 						</View>
 					</View>
@@ -195,7 +195,7 @@
 							<Label id="donateAmount">15k</Label>
 						</View>
 						<View class="itemActionButton">
-							<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							<ImageView id="commentBtn" onClick="openCommentPage"></ImageView>
 							<Label id="replyAmount">8</Label>
 						</View>
 					</View>
@@ -218,7 +218,7 @@
 							<Label id="donateAmount">1k</Label>
 						</View>
 						<View class="itemActionButton">
-							<ImageView id="commentBtn" onClick="testclick"></ImageView>
+							<ImageView id="commentBtn" onClick="openCommentPage"></ImageView>
 							<Label id="replyAmount">96</Label>
 						</View>
 					</View>
