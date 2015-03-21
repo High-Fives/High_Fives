@@ -42,19 +42,19 @@
 					<Button class="topActionButton" id="cancel" onClick="cancelSearch" title="Cancel"/>
 				</View>
 			</View>
-		
 			<View id="profilePicContainer">
 				<ImageView id="profilePic" onPostlayout="setPicture" ></ImageView>
 				<Label id="profileName" onPostlayout="setName" text=""></Label>
 				<Label id="profileDescription">U.S.A. Olympian</Label>
 				<Label id="profileHandle">@Who_NateJones</Label>
 			</View>
-			
+			<!---stats container ---------------->
+			<!--<ScrollView id = "statList" showVerticalScrollIndicator="true" layout = "vertical">-->
 			<View id="statsContainer">
-				<View id="statsContainerHFG">
+				<View id="statsContainerHFR">
 					
 						<View id="statContent">
-						<Label id="stats">HFG (high fives given) : 2,200</Label>
+						<Label id="stats">High Fives Recieved : 2,200</Label>
 						<View id="grayDivider" right="0%"></View>
 					
 						<View id="grayLine" bottom="0"></View>
@@ -64,7 +64,7 @@
 				<View id="statsContainerTotalCash">
 				
 						<View id="statContent">
-						<Label id="stats">Total $ Donated: 4.3 mil</Label>
+						<Label id="stats">Total Raised: $4.3 million </Label>
 						<View id="grayDivider" right="0%"></View>
 					
 						<View id="grayLine" bottom="0"></View>
@@ -81,28 +81,21 @@
 						</View>
 				
 				</View>
-				<View id="statsContainerEMPTY">
-					
-						<View id="statContent">
-						<Label id="stats"></Label>
-						<View id="grayDivider" right="0%"></View>
-					
-						<View id="grayLine" bottom="0"></View>
-							</View>
 				
-				</View>
 			</View>
+			<!-----------------end stats containers ----------------------------------------------------->
+			
+		
+
 		<TableView id="profileTable">
 			
-			<!---stats container ---------------->
-			<!--<ScrollView id = "statList" showVerticalScrollIndicator="true" layout = "vertical">-->
 			
-			<!-----------------end stats containers ----------------------------------------------------->
+			
 			
 			<TableViewRow id="recentContainer">
 				<View>
 					<View id="recentContent">
-						<Label id="recentDonations">Recent Donations:</Label>
+						<Label id="moneyRaised">Money Raised:</Label>
 					
 					</View>
 				</View>				
