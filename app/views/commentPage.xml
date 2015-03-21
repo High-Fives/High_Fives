@@ -1,5 +1,5 @@
 <Alloy>
-	<Window id="profileView" class="container">
+	<Window id="commentPage" class="container">
 		<View id="menu" onClick="showhidemenu">
 			<TableView id="slideOutMenu">
 			<TableViewRow id="menuProfPic">
@@ -50,10 +50,10 @@
 			</View>
 			
 			<View id="buttonContainer">
-				<View id="commentView">
+				<View id="commentView" onClick="returnToPage">
 					<Label class="buttonLabel" text="Comment"/>
 				</View>
-				<View id="cancelView">
+				<View id="cancelView" onClick="returnToPage">
 				<Label class="buttonLabel" text="Cancel"/>	
 				</View>
 			</View>

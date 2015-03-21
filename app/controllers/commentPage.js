@@ -138,12 +138,15 @@ function openExplore(){
 }
 /////////////////////////End Page Open Statements/////////////////////////
 
+function returnToPage() {
+	 $.commentPage.close();
+}
 // This bit listens to the orientation change and re-establishes the width 
 // of the "main" view, allowing the layout to survive after orientation changes
 Ti.Gesture.addEventListener('orientationchange', function(e) {
     $.main.width=Ti.Platform.displayCaps.platformWidth;
 });
-$.profileView.addEventListener('android:back', function(){
+$.commentPage.addEventListener('android:back', function(){
     this.close();
 });
-$.profileView.open({modal: true, exitOnClose:false});
+$.commentPage.open({modal: true, exitOnClose:false});
