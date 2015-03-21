@@ -237,41 +237,48 @@
 },
 
 /////////////////////profile stats///////////////////////////////////////
-"#statsContainer":{
+"#buttonContainer":{
 	bottom: "0%",
 	backgroundColor: "#c4cde0",
 	width: Ti.UI.FILL,
 	height: "6%",
-	layout: "horizontal"
 },
 
 
-"#statsContainerHFG":{//using rowContainer as basis
+"#commentView":{
 	borderColor: "#cacdd8",
-	borderRadius: 3,
-	borderWidth: 1,
+	//borderRadius: 3,
+	//borderWidth: 1,
 	//left: "0%",
 
-	top: "0%",
-	bottom: "16%",
-	height: "100%",
-	width: "25%",
-	backgroundColor: "eff2f5"
+	top: "10%",
+	//bottom: "16%",
+	height: "90%",
+	width: "40%",
+	left: "5%",
+	backgroundColor: "#eff2f5"
 },
 
-"#statsContainerTotalCash":{//using rowContainer as basis
+"#cancelView":{
 	borderColor: "#cacdd8",
-	borderRadius: 3,
-	borderWidth: 1,
+	//borderRadius: 3,
+	//borderWidth: 1,
 	//left: "25%",
-	right: "0%",
-	top: "0%",
-	bottom: "16%",
-	height: "100%",
-	width: "25%",
-	backgroundColor: "eff2f5"
+	top: "10%",
+	//bottom: "16%",
+	height: "90%",
+	width: "40%",
+	right: "5%",
+	backgroundColor: "#eff2f5"
 },
-
+".buttonLabel":{
+	width: Ti.UI.SIZE,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	//display: "inline",
+	font: {
+		fontSize: "14dp"
+	}
+}
 "#statsContainerComments":{//using rowContainer as basis
 	borderColor: "#cacdd8",
 	borderRadius: 3,
@@ -318,7 +325,7 @@
 	left: "0%",
 
 	height: "100%",
-	width: Ti.UI.FILL,
+	width: "100%",
 	backgroundColor: "#eff2f5"
 },
 
@@ -520,14 +527,14 @@
 "#profileTable":{
 	height: "58%"
 },
-"#commentView":{
+"#commentFieldView":{
 	height: "58%"
 },
 "#tfComment":{
 	width: "90%",
-	height: "90%",
+	height: "98%",
 	left: "5%",
-	top: "5%",
+	top: "1%",
 	backgroundColor: "White",
 	borderStyle: "Titanium.UI.INPUT_BORDERSTYLE_ROUNDED",
 	clearOnEdit: true,

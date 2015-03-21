@@ -49,49 +49,15 @@
 				<Label id="userStatus"></Label>
 			</View>
 			
-			<View id="statsContainer">
-				<View id="statsContainerHFG">
-					
-						<View id="statContent">
-						<Label id="stats">HFG (high fives given) : 2,200</Label>
-						<View id="grayDivider" right="0%"></View>
-					
-						<View id="grayLine" bottom="0"></View>
-							</View>
-					
+			<View id="buttonContainer">
+				<View id="commentView">
+					<Label class="buttonLabel" text="Comment"/>
 				</View>
-				<View id="statsContainerTotalCash">
-				
-						<View id="statContent">
-						<Label id="stats">Total $ Donated: 4.3 mil</Label>
-						<View id="grayDivider" right="0%"></View>
-					
-						<View id="grayLine" bottom="0"></View>
-							</View>
-					
-				</View>
-				<View id="statsContainerComments">
-					
-						<View id="statContent">
-						<Label id="stats">Comments: 2.3k</Label>
-						<View id="grayDivider" right="0%"></View>
-					
-						<View id="grayLine" bottom="0"></View>
-						</View>
-				
-				</View>
-				<View id="statsContainerEMPTY">
-					
-						<View id="statContent">
-						<Label id="stats"></Label>
-						<View id="grayDivider" right="0%"></View>
-					
-						<View id="grayLine" bottom="0"></View>
-							</View>
-				
+				<View id="cancelView">
+				<Label class="buttonLabel" text="Cancel"/>	
 				</View>
 			</View>
-		<View id="commentView">
+		<View id="commentFieldView">
 			<TextArea id = "tfComment"/>
 			
 			
