@@ -488,7 +488,7 @@
 	top: "0%"
 },
 "#homeGreenLine":{
-	visible: true
+	visible: false
 },
 "#exploreGreenLine":{
 	visible: false

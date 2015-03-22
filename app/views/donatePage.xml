@@ -51,10 +51,10 @@
 						<Label id="charityName" onClick="testclick">St. Jude's Children's Hospital</Label>
 						<View id="charityPageContainerContent">
 
-							<Button id="charityButton" title="Donate" onClick="charityButtonClick"/>
-							<Button id="submitDonate" title="Donate" onClick="donateSubmitted"/>
-							<Button id="cancelDonate" title="Cancel" onClick="cancelDonate"/>
-							<TextField id="donateField" />
+							<Button id="charityButton1" title="Donate" onClick="charityButtonClick1"/>
+							<Button id="submitDonate1" title="Donate" onClick="donateSubmitted"/>
+							<Button id="cancelDonate1" title="Cancel" onClick="cancelDonate1"/>
+							<TextField id="donateField1" />
 
 						</View>
 						<View id="grayLine" bottom="0"></View>
@@ -65,8 +65,10 @@
 						<ImageView id="charitySalvation"></ImageView>
 						<Label id="charityName" onClick="testclick">SalvationArmy</Label>
 						<View id="charityPageContainerContent">
-							<ImageView id ="charityPageDonateBtn"></ImageView>
-							<Label id="charityDonateAmount">9,800,072</Label>
+							<Button id="charityButton2" title="Donate" onClick="charityButtonClick2"/>
+							<Button id="submitDonate2" title="Donate" onClick="donateSubmitted"/>
+							<Button id="cancelDonate2" title="Cancel" onClick="cancelDonate2"/>
+							<TextField id="donateField2" />
 						</View>
 						<View id="grayLine" bottom="0"></View>
 					</View>
@@ -76,8 +78,10 @@
 						<ImageView id="charityFeeding"></ImageView>
 						<Label id="charityName" onClick="testclick">Feeding America</Label>
 						<View id="charityPageContainerContent">
-							<ImageView id ="charityPageDonateBtn"></ImageView>
-							<Label id="charityDonateAmount">678,400</Label>
+							<Button id="charityButton3" title="Donate" onClick="charityButtonClick3"/>
+							<Button id="submitDonate3" title="Donate" onClick="donateSubmitted"/>
+							<Button id="cancelDonate3" title="Cancel" onClick="cancelDonate3"/>
+							<TextField id="donateField3" />
 						</View>
 						<View id="grayLine" bottom="0"></View>
 					</View>
@@ -87,8 +91,10 @@
 						<ImageView id="charityUnited"></ImageView>
 						<Label id="charityName" onClick="testclick">United Way</Label>
 						<View id="charityPageContainerContent">
-							<ImageView id ="charityPageDonateBtn"></ImageView>
-							<Label id="charityDonateAmount">97,000</Label>
+							<Button id="charityButton4" title="Donate" onClick="charityButtonClick4"/>
+							<Button id="submitDonate4" title="Donate" onClick="donateSubmitted"/>
+							<Button id="cancelDonate4" title="Cancel" onClick="cancelDonate4"/>
+							<TextField id="donateField4" />
 						</View>
 						<View id="grayLine" bottom="0"></View>
 					</View>
@@ -98,8 +104,10 @@
 						<ImageView id="charityGive"></ImageView>
 						<Label id="charityName" onClick="testclick">GiveDirectly</Label>
 						<View id="charityPageContainerContent">
-							<ImageView id ="charityPageDonateBtn"></ImageView>
-							<Label id="charityDonateAmount">315,080</Label>
+							<Button id="charityButton5" title="Donate" onClick="charityButtonClick5"/>
+							<Button id="submitDonate5" title="Donate" onClick="donateSubmitted"/>
+							<Button id="cancelDonate5" title="Cancel" onClick="cancelDonate5"/>
+							<TextField id="donateField5" />
 						</View>
 						<View id="grayLine" bottom="0"></View>
 					</View>

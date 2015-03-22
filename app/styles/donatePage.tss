@@ -488,7 +488,7 @@
 	top: "0%"
 },
 "#homeGreenLine":{
-	visible: true
+	visible: false
 },
 "#exploreGreenLine":{
 	visible: false
@@ -541,28 +541,165 @@
 		fontSize: "12dp"
 	}
 },
-"#charityButton":{
+
+
+
+
+///////////////////////THESE ARE HARDCODED TSS VALUES. ONLY ONE SET WILL BE KEPT WHEN THE DATABASE IS IMPLEMETNED
+"#charityButton1":{
 	bottom: "10%",
 	left: "15%",
 	width: "100dp",
 	height: "50dp",
 	visible: true
 },
-"#submitDonate":{
+"#submitDonate1":{
 	left: "60%",
 	top: "0%",
 	width: "80dp",
 	height: "32dp",
 	visible: false
 },
-"#cancelDonate":{
+"#cancelDonate1":{
 	left: "60%",
 	bottom: "0%",
 	width: "80dp",
 	height: "32dp",
 	visible: false
 },
-"#donateField":{
+"#donateField1":{
+	left: "2%",
+	height: "40dp",
+	width: "58%",
+	backgroundColor: "White",
+	color: "#336699",
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	visible: false
+},
+
+//SET2
+
+"#charityButton2":{
+	bottom: "10%",
+	left: "15%",
+	width: "100dp",
+	height: "50dp",
+	visible: true
+},
+"#submitDonate2":{
+	left: "60%",
+	top: "0%",
+	width: "80dp",
+	height: "32dp",
+	visible: false
+},
+"#cancelDonate2":{
+	left: "60%",
+	bottom: "0%",
+	width: "80dp",
+	height: "32dp",
+	visible: false
+},
+"#donateField2":{
+	left: "2%",
+	height: "40dp",
+	width: "58%",
+	backgroundColor: "White",
+	color: "#336699",
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	visible: false
+},
+
+//SET3
+
+"#charityButton3":{
+	bottom: "10%",
+	left: "15%",
+	width: "100dp",
+	height: "50dp",
+	visible: true
+},
+"#submitDonate3":{
+	left: "60%",
+	top: "0%",
+	width: "80dp",
+	height: "32dp",
+	visible: false
+},
+"#cancelDonate3":{
+	left: "60%",
+	bottom: "0%",
+	width: "80dp",
+	height: "32dp",
+	visible: false
+},
+"#donateField3":{
+	left: "2%",
+	height: "40dp",
+	width: "58%",
+	backgroundColor: "White",
+	color: "#336699",
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	visible: false
+},
+
+//SET4
+
+"#charityButton4":{
+	bottom: "10%",
+	left: "15%",
+	width: "100dp",
+	height: "50dp",
+	visible: true
+},
+"#submitDonate4":{
+	left: "60%",
+	top: "0%",
+	width: "80dp",
+	height: "32dp",
+	visible: false
+},
+"#cancelDonate4":{
+	left: "60%",
+	bottom: "0%",
+	width: "80dp",
+	height: "32dp",
+	visible: false
+},
+"#donateField4":{
+	left: "2%",
+	height: "40dp",
+	width: "58%",
+	backgroundColor: "White",
+	color: "#336699",
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	visible: false
+},
+
+//SET5
+
+"#charityButton5":{
+	bottom: "10%",
+	left: "15%",
+	width: "100dp",
+	height: "50dp",
+	visible: true
+},
+"#submitDonate5":{
+	left: "60%",
+	top: "0%",
+	width: "80dp",
+	height: "32dp",
+	visible: false
+},
+"#cancelDonate5":{
+	left: "60%",
+	bottom: "0%",
+	width: "80dp",
+	height: "32dp",
+	visible: false
+},
+"#donateField5":{
 	left: "2%",
 	height: "40dp",
 	width: "58%",

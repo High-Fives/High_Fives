@@ -143,23 +143,91 @@ function returnToPage() {
 }
 
 
-function charityButtonClick() {
-	$.charityButton.visible = false;
+function charityButtonClick(e) {
+	e.source.visible = false;
 	$.submitDonate.visible = true;
 	$.cancelDonate.visible = true;
 	$.donateField.visible = true;
 }
 
 function donateSubmitted() {
-	alert("A third party window will appear so that credit information will not be held by High Fives");
+	alert("A third party window will appear so that credit card information will not be held by High Fives.");
+}
+///////////////////THESE ARE HARDCODED METHODS. ONLY ONE WILL BE KEPT WHEN DATABASE IS IMPLEMETNED/////////////
+
+function charityButtonClick1(e) {
+	e.source.visible = false;
+	$.submitDonate1.visible = true;
+	$.cancelDonate1.visible = true;
+	$.donateField1.visible = true;
+}
+function cancelDonate1() {
+	$.charityButton1.visible = true;
+	$.submitDonate1.visible = false;
+	$.cancelDonate1.visible = false;
+	$.donateField1.visible = false;
 }
 
-function cancelDonate() {
-	$.charityButton.visible = true;
-	$.submitDonate.visible = false;
-	$.cancelDonate.visible = false;
-	$.donateField.visible = false;
+function charityButtonClick2(e) {
+	e.source.visible = false;
+	$.submitDonate2.visible = true;
+	$.cancelDonate2.visible = true;
+	$.donateField2.visible = true;
 }
+function cancelDonate2() {
+	$.charityButton2.visible = true;
+	$.submitDonate2.visible = false;
+	$.cancelDonate2.visible = false;
+	$.donateField2.visible = false;
+}
+
+function charityButtonClick3(e) {
+	e.source.visible = false;
+	$.submitDonate3.visible = true;
+	$.cancelDonate3.visible = true;
+	$.donateField3.visible = true;
+}
+function cancelDonate3() {
+	$.charityButton3.visible = true;
+	$.submitDonate3.visible = false;
+	$.cancelDonate3.visible = false;
+	$.donateField3.visible = false;
+}
+
+function charityButtonClick4(e) {
+	e.source.visible = false;
+	$.submitDonate4.visible = true;
+	$.cancelDonate4.visible = true;
+	$.donateField4.visible = true;
+}
+function cancelDonate4() {
+	$.charityButton4.visible = true;
+	$.submitDonate4.visible = false;
+	$.cancelDonate4.visible = false;
+	$.donateField4.visible = false;
+}
+
+function charityButtonClick5(e) {
+	e.source.visible = false;
+	$.submitDonate5.visible = true;
+	$.cancelDonate5.visible = true;
+	$.donateField5.visible = true;
+}
+function cancelDonate5() {
+	$.charityButton5.visible = true;
+	$.submitDonate5.visible = false;
+	$.cancelDonate5.visible = false;
+	$.donateField5.visible = false;
+}
+
+////////////////////////////END HARDCODED METHODS
+
+
+
+
+
+
+
 // This bit listens to the orientation change and re-establishes the width 
 // of the "main" view, allowing the layout to survive after orientation changes
 Ti.Gesture.addEventListener('orientationchange', function(e) {
