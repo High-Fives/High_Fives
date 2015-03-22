@@ -144,7 +144,10 @@ function returnToPage() {
 
 
 function charityButtonClick() {
-	
+	$.charityButton.visible = false;
+	$.submitDonate.visible = true;
+	$.cancelDonate.visible = true;
+	$.donateField.visible = true;
 }
 
 

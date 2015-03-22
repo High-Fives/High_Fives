@@ -173,7 +173,7 @@
 	borderWidth: 1,
 	left: "0%",
 	right: "0%",
-	height: "90dp",  //keep this height hard coded, want same size on all devices
+	height: "120dp",  //keep this height hard coded, want same size on all devices
 	width: Ti.UI.FILL,
 	backgroundColor: "#eff2f5"
 },
@@ -541,29 +541,31 @@
 		fontSize: "12dp"
 	}
 },
-".charityButton":{
+"#charityButton":{
 	bottom: "10%",
 	left: "15%",
 	width: "100dp",
-	height: "80%",
+	height: "50dp",
 	visible: true
 },
 "#submitDonate":{
-	left: "71%",
-	width: "25%",
-	height: "100%",
+	left: "60%",
+	top: "0%",
+	width: "80dp",
+	height: "32dp",
 	visible: false
 },
 "#cancelDonate":{
-	left: "71%",
-	width: "50dp",
-	height: "100%",
+	left: "60%",
+	bottom: "0%",
+	width: "80dp",
+	height: "32dp",
 	visible: false
 },
 "#donateField":{
-	left: "4%",
-	height: "70%",
-	width: "65%",
+	left: "2%",
+	height: "40dp",
+	width: "58%",
 	backgroundColor: "White",
 	color: "#336699",
 	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,

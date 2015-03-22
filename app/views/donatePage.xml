@@ -51,7 +51,7 @@
 						<Label id="charityName" onClick="testclick">St. Jude's Children's Hospital</Label>
 						<View id="charityPageContainerContent">
 
-							<Button class="charityButton" title="Donate" onClick="charityButtonClick"/>
+							<Button id="charityButton" title="Donate" onClick="charityButtonClick"/>
 							<Button id="submitDonate" title="Donate" />
 							<Button id="cancelDonate" title="Cancel" />
 							<TextField id="donateField" />
