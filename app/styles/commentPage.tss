@@ -201,7 +201,7 @@
 
 "#profileName":{
 	top: "10%",
-	left: "11%", //pic will come 100dp's over so this is 20dp's to the right of that  <--- not necessary anymore
+	left: "25%", //pic will come 100dp's over so this is 20dp's to the right of that  <--- not necessary anymore
 	color: "black",
 	font: {
 		fontSize: "15dp",
@@ -210,8 +210,8 @@
 },
 "#userStatus":{
 	width: Ti.UI.SIZE,
-	left: "11%",
-	top: "20%",
+	left: "25%",
+	top: "22%",
 	display: "inline",
 	text: "Sample status text. Databse implementation will be needed in order to install actual status",
 	font: {

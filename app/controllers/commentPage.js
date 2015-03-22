@@ -26,15 +26,15 @@ function cancelSearch(){
 }
 
 function setName() {
-	$.profileName.text = "Sample Name"
+	$.profileName.text = "Sample Name";
 	//This will be in need of revision once the database is implemented
 	//$.profileName.text = Titanium.App.Properties.getString('name');
 }
 
 function setPicture() {
 	
-	$.profilePic.image = "104-BusinessPerson_60@2x.png";
-	$.profilePic.height = "90%";
+	$.profilePic.image = "/104-BusinessPerson_60@2x.png";
+	$.profilePic.height = "80%";
 	$.profilePic.top = "5%";
 	$.profilePic.left = "1%";
 	//This will be in need of revision once the database is implemented
