@@ -150,7 +150,16 @@ function charityButtonClick() {
 	$.donateField.visible = true;
 }
 
+function donateSubmitted() {
+	alert("A third party window will appear so that credit information will not be held by High Fives");
+}
 
+function cancelDonate() {
+	$.charityButton.visible = true;
+	$.submitDonate.visible = false;
+	$.cancelDonate.visible = false;
+	$.donateField.visible = false;
+}
 // This bit listens to the orientation change and re-establishes the width 
 // of the "main" view, allowing the layout to survive after orientation changes
 Ti.Gesture.addEventListener('orientationchange', function(e) {

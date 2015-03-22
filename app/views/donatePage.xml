@@ -52,8 +52,8 @@
 						<View id="charityPageContainerContent">
 
 							<Button id="charityButton" title="Donate" onClick="charityButtonClick"/>
-							<Button id="submitDonate" title="Donate" />
-							<Button id="cancelDonate" title="Cancel" />
+							<Button id="submitDonate" title="Donate" onClick="donateSubmitted"/>
+							<Button id="cancelDonate" title="Cancel" onClick="cancelDonate"/>
 							<TextField id="donateField" />
 
 						</View>
